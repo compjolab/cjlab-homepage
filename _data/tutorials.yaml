@@ -1,0 +1,14 @@
+- title: "Data Exploration with OpenRefine"
+  url: http://www.padjo.org/tutorials/open-refine/introduction-to-open-refine/
+  description: |
+    OpenRefine is a power tool for cleaning data. In this tutorial, we learn basic operations for exploring the data in Refine.
+
+
+- title: "Clustering text facets in OpenRefine"
+  url: http://www.padjo.org/tutorials/open-refine/clustering/
+  description: OpenRefine gives point-and-click access to a variety of powerful text clustering algorithms.
+
+
+- title: Getting Started with SQLite and Sequel Pro
+  description: An introduction to using SQL with a GUI client
+  url: http://www.padjo.org/tutorials/databases/getting-around-sqlite-and-sequel-pro/
