@@ -32,10 +32,10 @@
   <meta property="og:title" content="{{ meta_title }}" />
   <meta property="og:url" content="{{ meta_url }}" />
   <meta property="og:description" content="{{ meta_description }}" />
-  {% assign meta_thumbnail_url = "/assets/images/favicon.png" | prepend: site.baseurl %}
+  {% assign meta_thumbnail_url = "/assets/images/favicon.png" | prepend: site.baseurl | prepend: site.url %}
   <meta property="og:image" content="{{ meta_thumbnail_url}} " />
 
-  <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon" />
+  <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | prepend: site.baseurl | prepend: site.url }}" type="image/x-icon" />
   {% include social/twitter-card.html %}
 
 
