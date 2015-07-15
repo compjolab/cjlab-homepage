@@ -3,11 +3,14 @@ title: Stanford Computational Journalism Lab
 email: your-emailTKTK@domain.com
 description: |
   Data-driven curriculum for the journalist of tomorrow
-  
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://compjolab.github.io" # the base hostname & protocol for your site
 twitter_username: stanfordjourn
 github_username:  stanfordjourn
+
+github_repo: compjolab/compjolab.github.io
+
 
 # Build settings
 markdown: kramdown

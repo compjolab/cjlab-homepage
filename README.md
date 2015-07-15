@@ -1,14 +1,12 @@
 ## CompJoLab
 
 
-### Useful references
+Testing out Jekyll. Check out the live deploy at [http://compjolab.github.io](http://compjolab.github.io)
 
-- [Using Jekyll with Pages - User Documentation (help.github.com)](https://help.github.com/articles/using-jekyll-with-pages/) 
-- [My Jekyll Blog Setup with Bootstrap, SASS and Pygments (kvurd.com)](http://kvurd.com/blog/my-jekyll-blog-setup-bootstrap-sass-pygments/) 
-
+__Here's a [list of resources for developing with Jekyll and Github pages](http://compjolab.github.io/dev-resources)__. You can view its Github file page here: [dev-resources.md](dev-resources.md).
 
 
-
+The rest of this pertains to how to get Jekyll running on your own system:
 
 ## Developer startup
 
@@ -19,10 +17,6 @@
 ~~~sh
 git clone git@github.com:compjolab/compjolab.github.io.git
 ~~~
-
-
-
-
 
 ### 1. Have Ruby installed
 
