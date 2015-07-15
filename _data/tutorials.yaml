@@ -8,7 +8,11 @@
   url: http://www.padjo.org/tutorials/open-refine/clustering/
   description: OpenRefine gives point-and-click access to a variety of powerful text clustering algorithms.
 
+- title: A little Tableau tutorial
+  url: https://www.dropbox.com/s/5qh0ilvpbdi1aut/Basic_Tableau_Viz.pdf?dl=0
+  description: A quick tutorial of Tableau and visualizing Washington state lobbying expenditures.
 
 - title: Getting Started with SQLite and Sequel Pro
   description: An introduction to using SQL with a GUI client
   url: http://www.padjo.org/tutorials/databases/getting-around-sqlite-and-sequel-pro/
+
