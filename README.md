@@ -1,7 +1,12 @@
 ## CompJoLab
 
 
-### Getting started
+### Useful references
+
+- [Using Jekyll with Pages - User Documentation (help.github.com)](https://help.github.com/articles/using-jekyll-with-pages/) 
+- [My Jekyll Blog Setup with Bootstrap, SASS and Pygments (kvurd.com)](http://kvurd.com/blog/my-jekyll-blog-setup-bootstrap-sass-pygments/) 
+
+
 
 
 
