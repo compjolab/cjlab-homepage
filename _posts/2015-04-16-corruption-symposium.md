@@ -14,4 +14,6 @@ See the [event's homepage here](http://events.stanford.edu/events/501/50185/).
 
 Featuring [Zephyr Teachout](https://twitter.com/zephyrteachout){:target='_blank'} of Fordham Law School.
 
-<a href="https://twitter.com/zephyrteachout" target="_blank"><img src="https://pbs.twimg.com/profile_images/501002957974822913/0EI-HRxE_400x400.jpeg"></a>
+<a href="https://twitter.com/zephyrteachout" target="_blank"><img src="/files/images/zephyr.jpg"></a>
+
+
