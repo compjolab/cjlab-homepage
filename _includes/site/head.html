@@ -16,7 +16,7 @@
   {% if page.description %}
     {% assign meta_description = page.description %}
   {% elsif page.excerpt %}
-    {% assign mega_description = page.excerpt | strip_html | strip_newlines | truncate: 160 %}
+    {% assign meta_description = page.excerpt | strip_html | strip_newlines | truncate: 160 %}
   {% else %}
     {% assign meta_description = site.description %}
   {% endif %}
@@ -32,8 +32,9 @@
   <meta property="og:title" content="{{ meta_title }}" />
   <meta property="og:url" content="{{ meta_url }}" />
   <meta property="og:description" content="{{ meta_description }}" />
-<!--   <meta property="og:image" content="{{site.meta_thumbnail_url}}" />
- -->
+  {% assign meta_thumbnail_url = "/assets/images/favicon.png" | prepend: site.baseurl %}
+  <meta property="og:image" content="{{ meta_thumbnail_url}} " />
+
   <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon" />
 
   <link rel="stylesheet" href="{{ "/assets/stylesheets/main.css" | prepend: site.baseurl }}">
