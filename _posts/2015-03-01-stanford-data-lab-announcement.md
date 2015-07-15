@@ -1,5 +1,6 @@
 ---
 title: Stanford Data Lab Announcement
+author: Bill Berhman and Cheryl Phillips
 ---
 
 Reposted from [here](https://docs.google.com/document/d/1e-6ryXGf1PGb6K__FLK6i-siGv_bKjJ8UJZUuf1wbW8/edit).
