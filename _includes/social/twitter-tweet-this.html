@@ -1,0 +1,11 @@
+{% assign tweet_text = include.tweet_text | truncate: 95 | append: ' via @' | append: site.twitter_username | append: ':' | replace: ' ', "%20" %}
+
+{% if include.tweet_url %}
+  {% assign tweet_url = include.tweet_url %}
+{% else %}
+  {% assign tweet_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+{% endif %}
+<span class="twitter-tweet-this-button"><a target="_blank" title="Tweet this link" class="twitter-share-button"
+  href="https://twitter.com/intent/tweet?text={{tweet_text}}&url={{tweet_url}}" data-count="horizontal">
+  Tweet
+</a></span>

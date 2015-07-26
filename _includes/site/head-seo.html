@@ -1,0 +1,32 @@
+<!-- Standard meta -->
+{% if page.title %}
+    {% assign meta_title = page.title %}
+  {% else %}
+    {% assign meta_title = site.title %}
+{% endif %}
+
+{% if page.description %}
+  {% assign meta_description = page.description %}
+{% elsif page.excerpt %}
+  {% assign meta_description = page.excerpt | strip_html | strip_newlines | truncate: 160 %}
+{% else %}
+  {% assign meta_description = site.description %}
+{% endif %}
+
+{% assign meta_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+
+
+<title>{{meta_title}}</title>
+<meta name="description" content="{{ meta_description }}">
+<link rel="canonical" href="{{ meta_url }}">
+<!-- Facebook OpenGraph stuff  https://developers.facebook.com/docs/sharing/best-practices  -->
+<meta property="og:site_name" content="{{ site.title }}"/>
+<meta property="og:title" content="{{ meta_title }}" />
+<meta property="og:url" content="{{ meta_url }}" />
+<meta property="og:description" content="{{ meta_description }}" />
+{% if page.image_url %}
+  {% assign meta_image_url = page.image_url %}
+{% else %}
+  {% assign meta_image_url = "/assets/images/favicon.png" | prepend: site.baseurl | prepend: site.url %}
+{% endif %}
+<meta property="og:image" content="{{ meta_image_url }}" />
