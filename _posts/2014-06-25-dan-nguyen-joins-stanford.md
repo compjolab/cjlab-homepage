@@ -1,5 +1,5 @@
 ---
-title: Dan Nguyen joining Stanford
+title: Leading Data Journalist Dan Nguyen joining Stanford
 ---
 
 Reposted from [Stanford Journalism Program website](http://journalism.stanford.edu/news-dan-nguyen/).
