@@ -2,7 +2,7 @@
 title: Stanford's computational journalism offers distinct tools for better storytelling
 ---
 
-via Clifton B. Parker of the Stanford Report:
+Via Clifton B. Parker of the Stanford Report - MARCH 13, 2015:
 
 > Stanford's data-driven journalism program gives students powerful new ways to explore complex stories of public and social significance. The program blends computers and storytelling while upholding the journalistic values of accuracy and relevance.
 
