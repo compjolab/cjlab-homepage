@@ -3,10 +3,11 @@ title: About
 permalink: /about/
 ---
 
-## What we do
+## About the lab
 
+The Stanford Computational Journalism Lab ________________.
 
-## Who we are
+## Meet the team
 
 #### JAMES T. HAMILTON
 ##### Director, Stanford Journalism Program and Hearst Professor of Communication
