@@ -7,11 +7,10 @@
 
   {% for post in site.posts limit: post_limit %}
     <li>
-      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-
-      <div class="post-title">
+      <span class="post-title">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </div>
+      </span>
+      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
     </li>
   {% endfor %}
 </ul>

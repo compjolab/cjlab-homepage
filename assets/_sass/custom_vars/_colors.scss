@@ -9,7 +9,8 @@ $gray-light:             lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter:           lighten($gray-base, 85.5%) !default; // #eee
 
 
-$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+
+$brand-primary:         #8C1515; // cardinal red
 // Probably should leave these alone for the most part
 $brand-success:         #5cb85c !default;
 $brand-info:            #5bc0de !default;
@@ -17,8 +18,15 @@ $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
 
 
+.branded{
+  color: $brand-primary;
+}
+
+
+
 //** Background color for `<body>`.
-$body-bg:               #fff !default;
+$body-bg:               #fffcfc !default;
+$body-accent:           #f4eded !default;
 //** Global text color on `<body>`.
 $text-color:            $gray-dark !default;
 

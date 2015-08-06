@@ -1,13 +1,41 @@
 <!-- footer -->
 <footer class="site-footer">
     <div class="container">
-		<div>{{site.title}}</div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="row">
+              <div class="col-sm-4">
+                <div class="footer-logo">
+                   <img src="/assets/images/footer-logo.png" alt="Stanford Logo">
+                </div>
+              </div>
+              <div class="col-sm-8">
+                <div><strong>{{site.title}}</strong></div>
+                <div>Contact Us</div>
 
-		<h4><a href="http://journalism.stanford.edu">Stanford Journalism</a>
-</h4>
+                <ul class="list-unstyled">
+                  <li>Twitter</li>
+                  <li>Facebook</li>
+                  <li>Github</li>
+                  <li>Etc</li>
+                </ul>
 
-        <div><a href="/about">About us</a></div>
-        <div><a href="/tutorials">Tutorials</a></div>
 
-    </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est tempore beatae quaerat consectetur nulla ea, sint nostrum, nihil veritatis, ipsum non commodi qui ipsam doloribus praesentium aut deleniti veniam fuga.</p>
+
+          <ul class="list-inline">
+            {% include nav-list-items.html %}
+          </ul>
+
+        </div>
+      </div>
+
+  </div>
+
+
 </footer>

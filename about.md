@@ -1,6 +1,5 @@
 ---
 title: About
-permalink: /about/
 ---
 
 ## About the lab
@@ -9,11 +8,11 @@ The Stanford Computational Journalism Lab ________________.
 
 ## Meet the team
 
-#### JAMES T. HAMILTON
-##### Director, Stanford Journalism Program and Hearst Professor of Communication
 
-#### CHERYL PHILLIPS
-##### Hearst Professional In Residence
 
-#### DAN NGUYEN
-##### Hearst Professional In Residence
+{% include person.html person=site.data.people.hamilton_jay %}
+
+{% include person.html person=site.data.people.phillips_cheryl %}
+
+{% include person.html person=site.data.people.nguyen_dan %}
+

@@ -1,6 +1,5 @@
 .site-header{
   border-bottom: thin solid #ddd;
-  padding-bottom: 0.3em;
   padding-top: 0.3em;
   background-color: inherit;
   margin-bottom: 0;
@@ -8,6 +7,17 @@
   &.navbar, &.navbar-fixed{
     min-height: 10px;
   }
+
+  .nav-items{
+    font-size: 13px;
+    padding: 0.2em 0;
+    background: $body-accent;
+    text-transform: uppercase;
+    ul{
+      margin-bottom: 0;
+    }
+  }
+
 }
 
 /* headroom stuff */

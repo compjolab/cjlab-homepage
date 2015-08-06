@@ -1,0 +1,17 @@
+{% assign person=include.person %}
+{% capture person_name %}{{person.first_name}} {{person.last_name}} {% endcapture %}
+<div class="person">
+  <div class="name">
+    {{ person_name }}
+  </div>
+  <div class="photo">
+    <img src="{{person.photo}}" alt="Photo of {{ person_name }}">
+  </div>
+
+  <div class="title">
+    {{ person.title }}
+  </div>
+  <div class="bio">
+    {{ person.bio | markdownify }}
+  </div>
+</div>

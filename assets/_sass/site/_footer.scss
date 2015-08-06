@@ -1,6 +1,11 @@
 .site-footer{
-  background: $gray-lighter;
+  background: $body-accent;
   padding-bottom: 5.0em;
   padding-top: 3.0em;
   margin-top: 2.0em;
+
+
+  .footer-logo img{
+    max-width: 100%;
+  }
 }

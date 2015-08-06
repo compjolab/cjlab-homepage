@@ -1,9 +1,12 @@
 <header class="site-header navbar-fixed-top navbar" id="header-headroom">
   <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      </div>
+      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  </div>
+  <div class="nav-items TK">
+    <div class="container">
+      <ul class="list-inline">
+          {% include nav-list-items.html %}
+      </ul>
     </div>
   </div>
 </header>
