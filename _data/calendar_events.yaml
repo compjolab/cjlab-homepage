@@ -1,0 +1,28 @@
+# based off of hCalendar format
+# http://microformats.org/wiki/hcalendar
+#
+# required:
+#   summary, date_start
+#
+# notes:
+#   `description` field can contain markdown
+
+- summary: Deadline for Knight Foundation Prototype Fund grants
+  date_start: 2015-08-17
+  more_info_url: http://www.knightfoundation.org/blogs/knightblog/2015/4/30/20-projects-explore-new-uses-data-media-and-tech-support-knight-prototype-fund/
+  image_url: https://upload.wikimedia.org/wikipedia/commons/1/15/Worldskin-01.jpg
+  image_caption: World Skin - Maurice Benayoun (Virtual Reality Installation - 1997) by Wikipedia user MoBen
+  image_source_url: https://commons.wikimedia.org/wiki/File:Worldskin-01.jpg
+  description: |
+    Every quarter, the Knight Foundation's Prototype Fund offers $35,000 in grant money to help innovative media projects get off the ground.
+
+    - The application process starts [with this simple online form](https://knight.submittable.com/submit/).
+    - See the [22 projects that were funded in the most recent round](http://www.knightfoundation.org/blogs/knightblog/2015/8/4/22-ideas-win-knight-prototype-fund-support/).
+
+- summary: Stanford Fall 2015 quarter begins
+  date_start: 2015-09-21
+  more_info_url: https://studentaffairs.stanford.edu/registrar/academic-calendar-1516
+
+- summary: Stanford Winter 2016 quarter begins
+  date_start: 2016-01-04
+  more_info_url: https://studentaffairs.stanford.edu/registrar/academic-calendar-1516
