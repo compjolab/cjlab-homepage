@@ -1,0 +1,32 @@
+  .banner{
+    background-color: #fff;
+    background: url(/assets/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-y: hidden ! important;
+    overflow-x: hidden ! important;
+    min-height: 400px;
+    padding-top: 250px;
+
+    .banner-text{
+      background: rgba(0,0,0,0.5);
+      color: white;
+      border: thin solid rgba(255,255,255,0.16);
+      width: 60%;
+      margin: 0 auto;
+    }
+
+    .banner-title{
+      color: white;
+      text-align: center;
+      font-size: 4.0em;
+    }
+
+    .banner-deck{
+      text-align: center;
+      font-size: 1.8em;
+      line-height: 1.6em;
+    }
+  }

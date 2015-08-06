@@ -1,5 +1,8 @@
 ---
 title: Some tutorials
+banner:
+  image_url: /files/images/photos/bluelagoon.jpg
+  deck: Lots of things to learn from including stuff.
 ---
 
 

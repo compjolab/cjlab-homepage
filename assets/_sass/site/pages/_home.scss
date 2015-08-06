@@ -1,32 +1,19 @@
 .layout-homepage{
-
   section{
     margin-bottom: 2.5em;
   }
 
-  .banner{
-    background-color: #fff;
-    background: url(/assets/images/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    overflow-y: hidden ! important;
-    overflow-x: hidden ! important;
-
-
-    .site-title{
+  #homepage-banner{
+    .nav{
       text-align: center;
-      margin-top: 1.0em;
-      font-size: 4.0em;
-    }
+      padding: 10px 0px;
+      background: $body-accent;
 
-    .site-text{
-      text-align: center;
-      font-size: 1.8em;
-      line-height: 1.6em;
+      li{
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 0 1.5em;
+      }
     }
-
   }
 }
