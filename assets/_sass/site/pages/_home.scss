@@ -1,0 +1,32 @@
+.layout-homepage{
+
+  section{
+    margin-bottom: 2.5em;
+  }
+
+  .banner{
+    background-color: #fff;
+    background: url(/assets/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    overflow-y: hidden ! important;
+    overflow-x: hidden ! important;
+
+
+    .site-title{
+      text-align: center;
+      margin-top: 1.0em;
+      font-size: 4.0em;
+    }
+
+    .site-text{
+      text-align: center;
+      font-size: 1.8em;
+      line-height: 1.6em;
+    }
+
+  }
+}

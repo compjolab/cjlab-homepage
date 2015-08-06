@@ -14,10 +14,11 @@
         "site/header",
         "site/syntax",
         "site/code",
-        "site/pages/post"
+        "site/pages/post",
+        "site/pages/home"
 ;
 
 
-body{
+body.with-header{
   padding-top: 2.0em;
 }
