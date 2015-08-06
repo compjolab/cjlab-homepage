@@ -1,10 +1,11 @@
 ---
 title: Leading Data Journalist Dan Nguyen joining Stanford
+date: 2014-06-25
 ---
 
 Reposted from [Stanford Journalism Program website](http://journalism.stanford.edu/news-dan-nguyen/).
 
-JUNE 25, 2014 - Dan Nguyen, a leading developer in the field of data journalism, will join the Stanford Journalism Program as a Lecturer in the Department of Communication. He will start teaching in fall 2014 and will help develop the opening of the Stanford Computational Journalism Lab.
+Dan Nguyen, a leading developer in the field of data journalism, will join the Stanford Journalism Program as a Lecturer in the Department of Communication. He will start teaching in fall 2014 and will help develop the opening of the Stanford Computational Journalism Lab.
 
 “Dan Nguyen’s passion for accountability reporting has made millions of records easily searchable on the Internet, through his innovative work at ProPublica,” said Jay Hamilton, Hearst Professor of Communication and Director of the Stanford Journalism Program. “He has a true gift in envisioning how to use data and coding to discover stories, and we’re fortunate that he’ll be teaching our students how to turn unstructured records into the structured data that gives investigative work greater impact.”
 

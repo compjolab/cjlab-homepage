@@ -1,0 +1,17 @@
+<ul class="post-list list-unstyled">
+  {% if include.limit %}
+    {% assign post_limit = include.limit %}
+  {% else %}
+    {% assign post_limit = 10000 %}
+  {% endif %}
+
+  {% for post in site.posts limit: post_limit %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+
+      <div class="post-title">
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

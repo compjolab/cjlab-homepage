@@ -1,10 +1,11 @@
 ---
 title: The Seattle Times’ Data Innovation Editor Cheryl Phillips joining Stanford
+date: 2014-04-22
 ---
 
 Reposted from [Stanford Journalism Program website](http://journalism.stanford.edu/news-cheryl-phillips/).
 
-APRIL 22, 2014 – Cheryl Phillips, an award-winning journalist with The Seattle Times, will join the Stanford Journalism Program as a Lecturer in the Department of Communication. She will start teaching in fall 2014 and will help develop the opening of the Stanford Computational Journalism Lab.
+Cheryl Phillips, an award-winning journalist with The Seattle Times, will join the Stanford Journalism Program as a Lecturer in the Department of Communication. She will start teaching in fall 2014 and will help develop the opening of the Stanford Computational Journalism Lab.
 
 “Cheryl Phillips brings an outstanding mix of experience in data journalism and investigative work to our program. Students and faculty here are eager to start working with her to push forward the evolving field of computational journalism,” said Jay Hamilton, Hearst Professor of Communication and Director of the Stanford Journalism Program. “Her emphasis on accountability reporting and interest in using data to lower the costs of discovering stories will help our journalism students learn how to uncover stories that currently go untold in public affairs reporting.”
 
