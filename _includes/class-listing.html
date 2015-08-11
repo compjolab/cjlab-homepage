@@ -1,0 +1,36 @@
+<!-- to limit events, use "include" with a `limit` variable -->
+{% if include.limit %}
+  {% assign item_limit = include.limit %}
+{% else %}
+  {% assign item_limit = 10000 %}
+{% endif %}
+
+<ul class="calendar-events list-unstyled">
+  {% for ev in site.data.class_desc limit: item_limit %}
+    <li>
+      <h3 class="summary">{{ ev.summary }}</h3>
+        <div class="date dtstart">
+          <span class="value" title="{{ ev.date_start | date: '%Y-%m-%d'}}">
+            {{ ev.date_start | date: '%A, %B %d, %Y'}}
+           </span>
+        </div>
+      {% if ev.date_end %}
+        <div class="date dtend">
+          <span class="value" title="{{ ev.date_end | date: '%Y-%m-%d'}}">
+            {{ ev.date_end | date: '%A, %B %d, %Y'}}
+           </span>
+        </div>
+      {% endif %}
+      {% if ev.description %}
+        <div class="description">
+          {{ev.description | markdownify }}
+        </div>
+      {% endif %}
+      {% if ev.more_info_url %}
+        <div class="more-info-url">
+            <a href="{{ev.more_info_url}}">More info...</a>
+        </div>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
