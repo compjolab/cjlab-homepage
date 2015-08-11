@@ -32,9 +32,12 @@
         </div>
       {% endif %}
 
-      <div class="add-event small" style="background: #aaa;">
+      <div class="add-event small">
         <a href="http://www.google.com/calendar/render?action=TEMPLATE&dates={{ ev.date_start | date: '%Y%m%dT%H%MZ'}}/{{ ev.date_start | date: '%Y%m%dT%H%MZ'}}&text={{ev.summary | uri_escape }}">
+          <span style="background: #aaa;">
+            <i class="fa fa-calendar fa-sm"></i>
             Add to Google Calendar (doesn't work yet)
+            </span>
         </a>
       </div>
     </li>
