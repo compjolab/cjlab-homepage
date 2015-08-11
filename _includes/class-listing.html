@@ -1,10 +1,8 @@
-<!-- to limit events, use "include" with a `limit` variable -->
 {% if include.limit %}
   {% assign item_limit = include.limit %}
 {% else %}
   {% assign item_limit = 10000 %}
 {% endif %}
-
 <ul class="calendar-events list-unstyled">
   {% for ev in site.data.class_desc limit: item_limit %}
     <li>
