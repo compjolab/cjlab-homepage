@@ -14,6 +14,9 @@
       <div class="title">
         {{ person.title }}
       </div>
+      <div class="email">
+       <a href="mailto:{{ person.email_actual }}?subject=Referred by CJ Lab site">{{ person.email_spelled }}</a>
+      </div>
       <div class="bio">
         {{ person.bio | markdownify }}
       </div>
