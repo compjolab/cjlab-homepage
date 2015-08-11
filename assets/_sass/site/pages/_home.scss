@@ -1,4 +1,14 @@
 .layout-homepage{
+  .home-cal{
+    padding: 20px;
+    background: #fde;
+    .summary{
+      font-size: 12px;
+      color: green;
+      margin-bottom: 0;
+    }
+  }
+
   section{
     margin-bottom: 2.5em;
   }
