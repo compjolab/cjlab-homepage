@@ -20,6 +20,10 @@ sass:
     sass_dir: assets/_sass
 
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 defaults:
   - scope:
@@ -30,4 +34,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-
+  - scope:
+      type: "projects"
+    values:
+      layout: "page"
