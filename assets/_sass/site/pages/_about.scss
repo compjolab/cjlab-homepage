@@ -1,15 +1,18 @@
 .person{
-  border: thin solid red;
-  background: #ddf;
+  background: $gray-lighter;
   margin-bottom: 20px;
   padding: 20px;
 
   .name{
     color: $brand-primary;
+    font-size: 24px;
+    font-weight: bold;
   }
 
   .title{
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: bold;
+    color: $brand-primary;
   }
 }
 
