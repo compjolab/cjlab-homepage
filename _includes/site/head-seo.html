@@ -2,21 +2,19 @@
 {% if page.title %}
   {% if page.title != site.title %}
     {% capture meta_title %}{{page.title}} | {{site.title}}{% endcapture %}
-  }
   {% else %}
     {% assign meta_title = site.title %}
   {% endif %}
   {% else %}
     {% assign meta_title = site.title %}
-{% endif %}
-
+  {% endif %}
 
 {% if page.description %}
   {% assign meta_description = page.description %}
 {% elsif page.excerpt %}
   {% assign meta_description = page.excerpt | strip_html | strip_newlines | truncate: 160 %}
 {% else %}
-  {% assign meta_description = site.description %}
+  {% assign meta_description = site.description | strip_newlines %}
 {% endif %}
 
 {% assign meta_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
