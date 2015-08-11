@@ -17,7 +17,26 @@ layout: default
       </header>
 
       <article class="post-content">
+
+        {% if page.via %}
+          <div class="via">
+            Via
+            {% if page.via_url %}<a href="{{page.via_url}}">{%endif%}
+              {{page.via}}:
+            {% if page.via_url %}</a>{%endif%}
+
+          </div>
+        {%endif%}
+
         {{ content }}
+
+        {% if page.via_url %}
+          <div class="via read-more">
+            Read more: <a href="{{page.via_url}}">{{page.via_url | truncate: 72}}</a>
+          </div>
+        {%endif%}
+
+
       </article>
     </div>
   </div>

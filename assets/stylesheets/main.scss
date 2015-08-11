@@ -19,11 +19,16 @@
         "site/pages/home",
         "site/pages/page",
         "site/pages/banner",
-        "site/pages/about"
+        "site/pages/about",
+        "site/pages/news"
 
 ;
 
 
 body.with-header{
   padding-top: 2.0em;
+}
+
+section.sec{
+    margin-bottom: 2.5em;
 }

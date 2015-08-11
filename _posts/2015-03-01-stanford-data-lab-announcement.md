@@ -1,9 +1,13 @@
 ---
 title: Stanford Data Lab Announcement
-author: Bill Berhman and Cheryl Phillips
+date: 2015-03-01
+description: The Stanford Data Lab is a new initiative to teach the practical skills of data science by engaging students in the solution of real problems.
+authors: 
+  - Bill Berhman
+  - Cheryl Phillips
 ---
 
-Reposted from [here](https://docs.google.com/document/d/1e-6ryXGf1PGb6K__FLK6i-siGv_bKjJ8UJZUuf1wbW8/edit).
+Reposted from [Bill Behrman's announcement](https://docs.google.com/document/d/1e-6ryXGf1PGb6K__FLK6i-siGv_bKjJ8UJZUuf1wbW8/edit).
 
 
 ### Data Impact Lab

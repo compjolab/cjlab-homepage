@@ -1,9 +1,15 @@
 <!-- Standard meta -->
 {% if page.title %}
-    {% assign meta_title = page.title %}
+  {% if page.title != site.title %}
+    {% capture meta_title %}{{page.title}} | {{site.title}}{% endcapture %}
+  }
+  {% else %}
+    {% assign meta_title = site.title %}
+  {% endif %}
   {% else %}
     {% assign meta_title = site.title %}
 {% endif %}
+
 
 {% if page.description %}
   {% assign meta_description = page.description %}

@@ -1,6 +1,7 @@
 ---
 title: The Seattle Times’ Data Innovation Editor Cheryl Phillips joining Stanford
 date: 2014-04-22
+description: Cheryl Phillips, an award-winning journalist with The Seattle Times, will join the Stanford Journalism Program as a Lecturer in the Department of Communication.
 ---
 
 Reposted from [Stanford Journalism Program website](http://journalism.stanford.edu/news-cheryl-phillips/).

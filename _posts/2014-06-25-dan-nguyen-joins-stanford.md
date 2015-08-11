@@ -1,6 +1,7 @@
 ---
 title: Leading Data Journalist Dan Nguyen joining Stanford
 date: 2014-06-25
+description: Dan Nguyen will join the Stanford Journalism Program as a Lecturer in the Department of Communication in Fall 2014.
 ---
 
 Reposted from [Stanford Journalism Program website](http://journalism.stanford.edu/news-dan-nguyen/).

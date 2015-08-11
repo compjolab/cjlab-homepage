@@ -1,12 +1,26 @@
 ---
 title: News
+description: The latest announcements and news for Stanford Computational Journalism
 ---
 
-The latest announcements and news for Stanford Computational Journalism.
+<div class="news-page">
+
+  <section class="sec">
+    <p>
+      The latest announcements and news for Stanford Computational Journalism.
+    </p>
+     <p>
+      <strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong>
+    </p>
+  </section>
+
+  <section class="sec">
+    {% include news-list.html %}
+  </section>
+
+  <p class="rss-subscribe">Subscribe
+    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+  </p>
 
 
-{% include post-list.html %}
-
-<p class="rss-subscribe">subscribe 
-  <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-</p>
+</div>

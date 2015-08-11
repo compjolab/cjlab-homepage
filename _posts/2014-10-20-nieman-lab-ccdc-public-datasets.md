@@ -1,8 +1,10 @@
 ---
-title: NIEMAN LAB - The California Civic Data Coalition wants to make public datasets easier to crunch
+title: Nieman Lab article about The California Civic Data Coalition
+description: An alliance of journalists wants to make public datasets easier to crunch
+date: 2015-02-02
 ---
 
-Via Joseph Lichterman of Nieman Lab - FEBRUARY 2, 2015:
+Via [Joseph Lichterman of Nieman Lab](http://www.niemanlab.org/2014/10/light-everywhere-the-california-civic-data-coalition-wants-to-make-public-datasets-easier-to-crunch/):
 
 > When Meg Whitman ran for governor of California in 2010, she donated $144 million of her own money to her campaign. Whitman, the Republican nominee, ultimately lost to Democrat Jerry Brown, but her spending ensured that the race was the most expensive non-presidential campaign in American history.
 > 

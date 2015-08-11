@@ -1,10 +1,13 @@
 ---
 title: California Civic Data Coalition named Knight News Challenge winner
+date: 2015-07-22
+description: |
+  The project aims to make it easier to obtain and analyze money in California state politics.
 ---
 
 Reposted from [Stanford Journalism Program website](http://journalism.stanford.edu/news-california-civic-data-coalition-knight-news-challenge-winner/).
 
-JULY 22, 2015 – The Knight Foundation announced Wednesday that the California Civic Data Coalition is among the winners of the 2015 Knight News Challenge: Elections.
+The Knight Foundation announced Wednesday that the California Civic Data Coalition is among the winners of the 2015 Knight News Challenge: Elections.
 
 The <a href="http://www.californiacivicdata.org/">California Civic Data Coalition</a> is building a toolkit for analysts of all stripes – from apprentice data journalists to advanced data scientists – which will make California’s arcane database tracking money in politics easy to mine. Its proposal to make it easier to obtain and analyze all the money in California state politics was one of more than a thousand applications. Twenty-two winners were named Wednesday. The coalition includes Ben Welsh of the Los Angeles Times, Jennifer LaFleur of The Center for Investigative Reporting and Aaron Williams of the San Francisco Chronicle. Stanford Journalism Program Hearst Professional-In-Residence <a href="https://comm.stanford.edu/faculty-phillips/" target="_blank">Cheryl Phillips</a> is also part of the coalition, as a founding leader of the journalism program’s new Stanford Computational Journalism Lab.
 

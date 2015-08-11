@@ -1,6 +1,7 @@
 ---
-title: TOW CENTER - Think about data from the beginning of the story, says Cheryl Phillips
+title: Think about data from the beginning of the story, says Cheryl Phillips
 date: 2014-05-20
+description: Cheryl Phillips talks to the Tow Center for Digital Journalism about telling stories with data.
 ---
 
 Via Alexander Howard of the Tow Center for Digital Journalism at Columbia Journalism School - MAY 20, 2014:
