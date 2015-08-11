@@ -18,11 +18,11 @@ $font-size-large:         ceil(($font-size-base * 1.25)) !default;
 $font-size-small:         ceil(($font-size-base * 0.85)) !default;
 
 $font-size-h1:            floor(($font-size-base * 2.6)) !default;
-$font-size-h2:            floor(($font-size-base * 2.1)) !default; 
-$font-size-h3:            ceil(($font-size-base * 1.7)) !default; 
-$font-size-h4:            ceil(($font-size-base * 1.25)) !default; 
+$font-size-h2:            floor(($font-size-base * 2.1)) !default;
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default;
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default;
 $font-size-h5:            $font-size-base !default;
-$font-size-h6:            ceil(($font-size-base * 0.85)) !default; 
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default;
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.488571429 !default; // 20/14
