@@ -1,0 +1,17 @@
+.person{
+  border: thin solid red;
+  background: #ddf;
+  margin-bottom: 20px;
+  padding: 20px;
+
+  .name{
+    color: $brand-primary;
+  }
+
+  .title{
+    font-size: 24px;
+  }
+}
+
+
+
