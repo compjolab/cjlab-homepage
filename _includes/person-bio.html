@@ -18,10 +18,8 @@
         {{ person.bio | markdownify }}
       </div>
 
-    {% if person.twitter %}
-      <a class="twitter-follow-button" href="https://twitter.com/{{ person.twitter }}" data-size="large">Follow @{{ person.twitter }}</a>
-        {% else %}
-        {% endif %}
+      {% if person.twitter %}
+        <a class="twitter-follow-button" href="https://twitter.com/{{ person.twitter }}" data-size="large">Follow @{{ person.twitter }}</a>
 
     </div>
   </div>
