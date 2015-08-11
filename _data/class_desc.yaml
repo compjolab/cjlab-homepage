@@ -1,0 +1,45 @@
+# based off of hCalendar format
+# http://microformats.org/wiki/hcalendar
+#
+# required:
+#   summary, date_start
+#
+# notes:
+#   `description` field can contain markdown
+
+- summary: Public Affairs Data Journalism I (COMM 273D)
+  date_start: Fall 2015
+  more_info_url: http://www.padjo.org/
+  description: |
+    ##### Taught by Dan Nguyen
+    Even before the ubiquity of Internet access and high-powered computers, public accountability reporting relied on the concerted collection of observations and analytical problem-solving. We study the methods, and the data, used to discover leads and conduct in-depth reporting on public affairs, including election finance and safety regulations. Students gain practical experience with the digital tools and techniques of computer-assisted reporting.
+
+
+- summary: Public Affairs Data Journalism II (COMM 274D)
+  date_start: Winter 2016
+  more_info_url: http://storybytes.org/
+  description: |
+    ##### Taught by Cheryl Phillips
+    Learn how to find, create and analyze data to tell news stories with public service impact. Uses relational databases, advanced queries, basic statistics, and mapping to analyze data for storytelling. Assignments may include stories, blog posts, and data visualizations, with at least one in-depth project based on data analysis.
+
+
+- summary: Computational Methods in the Civic Sphere (COMM 113/213)
+  date_start: Winter 2016
+  more_info_url: http://www.compciv.org/
+  description: |
+    ##### Taught by Dan Nguyen
+    The widespread availability of public data provides a rich opportunity for those who can efficiently filter, interpret, and visualize information. Course develops necessary technical skills for data collection, analysis, and publication, including data mining and web visualization, with a focus on civic affairs and government accountability. Open to all majors and a range of technical skill levels. Involves tackling new tools and technical concepts in the pursuit of engaging, public-facing projects.
+
+- summary: Computational Journalism (COMM 177A/277A)
+  date_start: Spring 2016
+  more_info_url: http://www.compjour.org/
+  description: |
+    ##### Taught by Dan Nguyen
+    Focuses on using data and algorithms to lower the cost of discovering stories or telling stories in more engaging and personalized ways. Project based assignments based on real-world challenges faced in newsrooms. Prior experience in journalism or computational thinking helpful.
+
+- summary: Becoming a Watchdog: Investigative Reporting Techniques (COMM 117I/277I)
+  date_start: Spring 2016
+  more_info_url: https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=COMM+277I&collapse=
+  description: |
+    ##### Taught by Cheryl Phillips and Stanford Data Lab's Bill Behrman
+    Learn how to apply an investigative and data mindset to journalism, from understanding how to background an individual or entity using online databases to compiling or combining disparate sets of information in ways that unveil wrongdoing or mismanagement. Focuses on mining texts, tracking associations, and using visualizations. Stories produced apply investigative techniques to beat reporting, breaking news, and long form journalism. 
