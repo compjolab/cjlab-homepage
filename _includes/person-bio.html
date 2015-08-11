@@ -1,17 +1,15 @@
 {% assign person=include.person %}
-{% capture person_name %}{{person.first_name}} {{person.last_name}} {% endcapture %}
 <div class="person">
   <div class="row">
-
     <div class="col-sm-4">
         <div class="photo">
-          <img src="{{person.photo}}" alt="Photo of {{ person_name }}">
+          <img src="{{person.photo}}" alt="Photo of {{ person.full_name }}">
         </div>
     </div>
 
     <div class="col-sm-8">
         <div class="name">
-          {{ person_name }}
+          {{ person.full_name }}
         </div>
       <div class="title">
         {{ person.title }}
@@ -19,8 +17,12 @@
       <div class="bio">
         {{ person.bio | markdownify }}
       </div>
-    </div>
 
+
+      <a class="twitter-follow-button" href="https://twitter.com/{{ person.twitter }}" data-size="large">Follow @{{ person.twitter }}</a>
+
+
+    </div>
   </div>
 </div>
 
