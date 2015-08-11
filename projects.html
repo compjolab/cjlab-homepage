@@ -1,9 +1,19 @@
 ---
 title: Projects
+image_url: /files/images/photos/19030898356_2a8759f882_k.jpg
 banner:
-  image_url: /files/images/photos/19030898356_2a8759f882_k.jpg
   deck: Lorem natus quod quaerat. Voluptate officia incidunt
 ---
 
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eligendi vero, incidunt aliquam magni provident nostrum consequuntur, in natus quod quaerat. Voluptate officia incidunt aut debitis voluptas, rem nisi sint?</p>
+
+
+{% for project in site.projects %}
+
+  <div class="project">
+    <h3><a href="{{project.url}}">{{project.title}}</a></h3>
+    <p>{{project.description}}</p>
+  </div>
+
+{% endfor %}

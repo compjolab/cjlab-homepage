@@ -2,26 +2,14 @@
 layout: default
 ---
 
-{% if page.banner.image_url %}
+{% if page.banner %}
   {% assign has_banner = true %}
 {% endif %}
 
 
 <div class="layout-page">
   {% if has_banner %}
-  <div class="banner" style="background: url({{page.banner.image_url}});">
-    <div class="container">
-
-      <div class="banner-text">
-        <h1 class="banner-title">
-          {{ page.title }}
-        </h1>
-        <p class="banner-deck">
-          {{ page.banner.deck }}
-        </p>
-      </div>
-    </div>
-  </div>
+    {% include site/page-banner.html title=page.title image_url=page.image_url deck=page.banner.deck %}
   {% endif %}
 
 
