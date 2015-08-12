@@ -57,9 +57,8 @@ $grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
 // Small screen / tablet
 $custom-container-width: 820px;
 
-// $container-tablet:             (720px + $grid-gutter-width) !default;
-
-$container-tablet: $custom-container-width !default;
+$container-tablet:             (720px + $grid-gutter-width) !default;
+// $container-tablet: $custom-container-width !default;
 //** For `$screen-sm-min` and up.
 $container-sm:                 $container-tablet !default;
 
@@ -71,7 +70,7 @@ $container-md:                 $container-desktop !default;
 
 // Large screen / wide desktop
 $container-large-desktop: $custom-container-width !default;
-// $container-large-desktop:      (1140px + $grid-gutter-width) !default;
+$container-large-desktop:      (1140px + $grid-gutter-width) !default;
 //** For `$screen-lg-min` and up.
 $container-lg:                 $container-large-desktop !default;
 
