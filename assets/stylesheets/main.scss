@@ -32,3 +32,9 @@ body.with-header{
 section.sec{
     margin-bottom: 2.5em;
 }
+
+.container{
+    img{
+        @extend .img-responsive;
+    }
+}

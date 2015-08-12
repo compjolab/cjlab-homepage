@@ -1,20 +1,25 @@
 <ul class="class-lists list-unstyled">
   {% for ev in site.data.class_desc %}
     <li>
-      <h3 class="summary">{{ ev.summary }}</h3>
-        <div class="date dtstart">
-            {{ ev.date_start }}
+      <h3 class="title">
+        <a href="{{ev.url}}">
+          {{ ev.title }}
+          (<span class="listing">{{ev.listing}}</span>)
+        </a>
+      </h3>
+        <div class="quarter">
+            {{ ev.quarter }}
         </div>
       {% if ev.description %}
+        <div class="teacher">
+          Taught by: {{ ev.teacher }}
+        </div>
         <div class="description">
           {{ev.description | markdownify }}
         </div>
       {% endif %}
-      {% if ev.more_info_url %}
-        <div class="more-info-url">
-            <a href="{{ev.more_info_url}}">More info...</a>
-        </div>
-      {% endif %}
+
+      <a href="{{ev.url}}">More info...</a>
     </li>
   {% endfor %}
 </ul>
