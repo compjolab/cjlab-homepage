@@ -9,16 +9,22 @@
     }
   }
 
+
+  .news-list{
+    .post-title{
+      font-size:  $font-size-h4;
+      margin: 1px 0;
+    }
+  }
   #homepage-banner{
     .nav{
       text-align: center;
-      padding: 10px 0px;
+      padding: 5px 0px;
       background: $body-accent;
 
       li{
-        font-size: 1.3em;
-        font-weight: bold;
-        padding: 0 1.5em;
+        font-size: 1.1em;
+        padding: 0 1.2em;
       }
     }
   }
