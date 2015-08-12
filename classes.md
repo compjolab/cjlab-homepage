@@ -1,15 +1,15 @@
 ---
 title: Classes
-image_url:
+image_url: http://compjolab.github.io/files/images/photos/WatchdogClass2015_group.jpg
 ---
-
-![img](http://compjolab.github.io/files/images/photos/WatchdogClass2015_group.jpg)
 
 ## About our classes
 
 Students across Stanford can enroll in five data-focused classes that lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores cum, sequi sed, fugiat reiciendis in, impedit dolorum rem veniam dolorem ipsum, voluptas. Quidem eligendi eius libero voluptatibus, doloribus dolores iure.
 
 {% include class-listing.html %}
+
+![img](http://compjolab.github.io/files/images/photos/WatchdogClass2015_cheryl.jpg)
 
 ---
 
