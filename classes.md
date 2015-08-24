@@ -16,4 +16,5 @@ Students across Stanford can enroll in five data-focused journalism classes that
 <h2>Interested in a complete master's program?</h2>
 
 The Stanford Journalism Program's nine-month MA degree incorporates data-driven reporting with multimedia storytelling. Learn more at <a href="http://journalism.stanford.edu">http://journalism.stanford.edu</a>
+![img](http://compjolab.github.io/files/images/photos/StanfordJournalism_longlogo.png)
 </div>
