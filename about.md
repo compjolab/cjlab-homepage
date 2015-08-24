@@ -1,5 +1,6 @@
 ---
 title: About
+banner: true
 ---
 
 ## About the lab
@@ -32,4 +33,4 @@ McClatchy Hall (Building 120)
 
 Stanford, CA 94305
 
-Phone: 650.xxx.TKTK
+Phone: 650.723.1941
