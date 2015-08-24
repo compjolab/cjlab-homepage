@@ -7,7 +7,7 @@ Students across Stanford can enroll in five data-focused journalism classes that
 
 {% include class-listing.html %}
 
-![img](http://compjolab.github.io/files/images/photos/WatchdogClass2015_cheryl.jpg)
+![img](http://compjolab.github.io/files/images/photos/WatchdogClass2015_cheryl2.jpg)
 
 ---
 
