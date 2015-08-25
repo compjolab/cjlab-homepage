@@ -1,6 +1,6 @@
 ---
 title: Tutorials
-image_url: /files/images/photos/bluelagoon.jpg
+image_url: /files/images/photos/19030898356_2a8759f882_k.jpg
 banner: true
 ---
 

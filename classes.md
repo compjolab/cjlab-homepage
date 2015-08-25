@@ -1,10 +1,12 @@
 ---
 title: Classes
-image_url: http://compjolab.github.io/files/images/photos/WatchdogClass2015_group.jpg
+image_url: /files/images/photos/19030898356_2a8759f882_k.jpg
 banner: true
 ---
 
 <h3>Students across Stanford can enroll in five data-focused journalism classes that explore storytelling with data, investigative reporting and technical tools to gather, analyze and present data for news audiences.</h3>
+
+![img](http://compjolab.github.io/files/images/photos/WatchdogClass2015_group.jpg)
 
 {% include class-listing.html %}
 
