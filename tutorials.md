@@ -1,12 +1,11 @@
 ---
-title: Some tutorials
+title: Tutorials
 image_url: /files/images/photos/bluelagoon.jpg
-banner:
-  deck: Lots of things to learn from including stuff.
+banner: true
 ---
 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eaque odit voluptatibus dolorem, blanditiis quaerat voluptatem nisi harum aliquid, alias dolore nihil consectetur, doloribus vel eius optio sunt vitae illum!
+<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eaque odit voluptatibus dolorem, blanditiis quaerat voluptatem nisi harum aliquid, alias dolore nihil consectetur, doloribus vel eius optio sunt vitae illum.</h3>
 
 
 
