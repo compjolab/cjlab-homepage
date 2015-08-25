@@ -1,6 +1,6 @@
 ---
 title: Tutorials
-image_url: /files/images/photos/19030898356_2a8759f882_k.jpg
+image_url: /files/images/photos/BackgroundPattern_CircleDataViz.png
 banner: true
 ---
 
