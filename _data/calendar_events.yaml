@@ -7,19 +7,6 @@
 # notes:
 #   `description` field can contain markdown
 
-- summary: Dan's event 3
-  date_start: 2015-08-25
-  description: This is fun.
-
-
-- summary: Dan's event 2
-  date_start: 2015-08-22
-  description: This is fun.
-
-- summary: Dan's event
-  date_start: 2015-08-20
-  description: This is fun.
-
 - summary: Deadline for Knight Foundation Prototype Fund grants
   date_start: 2015-08-17
   more_info_url: http://www.knightfoundation.org/blogs/knightblog/2015/4/30/20-projects-explore-new-uses-data-media-and-tech-support-knight-prototype-fund/
@@ -35,6 +22,10 @@
 - summary: Stanford Fall 2015 quarter begins
   date_start: 2015-09-21
   more_info_url: https://studentaffairs.stanford.edu/registrar/academic-calendar-1516
+
+- summary: Dan's event 3
+  date_start: 2015-08-25
+  description: This is fun.
 
 - summary: Stanford Winter 2016 quarter begins
   date_start: 2016-01-04
