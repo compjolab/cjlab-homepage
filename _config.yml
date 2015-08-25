@@ -1,7 +1,7 @@
 # Site settings
 title: Stanford Computational Journalism Lab
-email: your-emailTKTK@domain.com
-description: Data-driven curriculum for the journalist of tomorrow
+email: journalism@commu.stanford.edu
+description: Data-driven storytelling from Silicon Valley
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://compjolab.github.io" # the base hostname & protocol for your site
