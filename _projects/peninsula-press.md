@@ -1,7 +1,7 @@
 ---
 title: Peninsula Press news website
 description: | 
-  Peninsula Press is the Stanford Journalism Program's data-driven multimedia wesbite where student reporters report on the communities across Silicon Valley and the greater Bay Area.
+  Peninsula Press is the Stanford Journalism Program's data-driven, multimedia wesbite where student reporters report on the communities across Silicon Valley and the greater Bay Area.
 image_url: http://peninsulapress.com/wp-content/uploads/2014/10/PP-Logo-Nov-2014.png
 ---
 
