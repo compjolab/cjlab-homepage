@@ -2,6 +2,8 @@
 
   h2{
     text-align: center;
+    font-size: floor(($font-size-h2 * 1.4));
+
   }
 
 
@@ -27,7 +29,7 @@
       text-align: center;
       padding: 5px 0px;
       background: $body-accent;
-
+      margin-bottom: 2.5em;
       li{
         font-size: 1.1em;
         padding: 0 1.2em;
