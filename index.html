@@ -3,46 +3,16 @@ layout: homepage
 title: Stanford Computational Journalism Lab
 ---
 
-<section id="homepage-banner">
-  {% include homepage/banner.html %}
-  <div class="nav">
-    <div class="container">
-       <ul class="list-inline">
-          {% include nav-list-items.html %}
-        </ul>
-      </div>
-  </div>
-</section>
+{% include homepage/home-banner.html %}
 
-<section class="sec" id="home-about">
-    <div class="container">
-       <h2>What we do</h2>
-        <p>Aspernatur consectetur soluta, harum totam minima quae repellendus itaque. Earum recusandae dolorem aliquam. Quidem autem, ab. Saepe molestias ullam vel officiis, quas tempora iure eos ea, beatae corporis suscipit pariatur.</p>
-    </div>
-</section>
-<section class="sec" id="home-latest-news">
-    <div class="container">
-      <h2>Latest News</h2>
+{% include homepage/home-about.html %}
 
-      {% include news-list.html limit=5 %}
+{% include homepage/home-latest-news.html %}
 
-      <p>See the <a href="/news">latest news</a>.</p>
-
-    </div>
-</section>
+{% include homepage/home-upcoming-events.html %}
 
 
-<section class="sec" id="home-upcoming-events">
-    <div class="container">
-      <h2>Upcoming events</h2>
-      <div class="home-cal">
-        {% include events-listing.html limit=3 %}
-      <p>
-        <a href="/events">See all events</a>
-      </p>
-      </div>
-    </div>
-</section>
+
 
 <section class="sec" id="home-mailing-list">
     <div class="container">
