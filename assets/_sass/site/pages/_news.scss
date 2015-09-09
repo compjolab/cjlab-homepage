@@ -1,5 +1,11 @@
-.news-page{
+.news-list{
+  .card.post{
+    margin-bottom: 1.0em;
+  }
+}
 
+
+.news-page{
   .news-list{
     .post{
       @extend .row;
@@ -18,8 +24,6 @@
         margin-bottom: 2px;
         margin-top: 0;
       }
-
-
     }
   }
 

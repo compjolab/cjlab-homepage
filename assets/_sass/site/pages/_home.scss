@@ -33,3 +33,29 @@
     }
   }
 }
+
+
+#home-nav{
+
+}
+
+#home-about{
+  background: #ffffff;
+}
+
+.home-latest-news{
+  background: $gray-lighter;
+}
+
+#home-mailing-list{
+  background: $brand-primary;
+  min-height: 400px;
+  h2{
+    color: white;
+    text-align: center;
+  }
+}
+
+#home-upcoming-events{
+  background: $gray-lighter;
+}
