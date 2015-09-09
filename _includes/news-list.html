@@ -1,4 +1,5 @@
-<ul class="news-list list-unstyled">
+
+<div class="news-list card-columns">
   {% if include.limit %}
     {% assign post_limit = include.limit %}
   {% else %}
@@ -6,21 +7,18 @@
   {% endif %}
 
   {% for post in site.posts limit: post_limit %}
-    <li class="post">
-      <div class="post-meta">
-        <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
-      </div>
-
-      <div class="post-content">
-        <h3 class="post-title">
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-        <div class="post-description">
+    <div class="card">
+      <div class="card-block">
+        <div class="post-meta">
+          <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+        </div>
+        <div class="card-title">
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </div>
+        <div class="card-text">
             <p>{{post.description}}</p>
         </div>
       </div>
-    </li>
-
-    </li>
+    </div>
   {% endfor %}
-</ul>
+</div>

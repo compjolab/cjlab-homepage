@@ -2,10 +2,18 @@
 // Base styles
 //
 
+$card-spacer-x:            1.25rem;
+$card-spacer-y:            .75rem;
+$card-border-width:        .0625rem;
+$card-border-radius:       .25rem;
+$card-border-color:        #e5e5e5;
+$card-border-radius-inner: ($card-border-radius - $card-border-width);
+
+$card-cap-bg: #f5f5f5;
+
 .card {
   position: relative;
   margin-bottom: $card-spacer-y;
-  background-color: #fff;
   border: $card-border-width solid $card-border-color;
   @include border-radius($card-border-radius);
 }
@@ -15,6 +23,7 @@
 }
 
 .card-title {
+  margin-top: 0;
   margin-bottom: $card-spacer-y;
 }
 
@@ -181,37 +190,33 @@
 //
 
 @if $enable-flex {
-  @include media-breakpoint-up(sm) {
-    .card-deck {
-      display: flex;
-      flex-flow: row wrap;
-      margin-right: -.625rem;
-      margin-left: -.625rem;
+  .card-deck {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: -.625rem;
+    margin-left: -.625rem;
 
-      .card {
-        flex: 1 0 0;
-        margin-right: .625rem;
-        margin-left: .625rem;
-      }
+    .card {
+      flex: 1 0 0;
+      margin-right: .625rem;
+      margin-left: .625rem;
     }
   }
 } @else {
-  @include media-breakpoint-up(sm) {
-    .card-deck {
-      display: table;
-      table-layout: fixed;
-      border-spacing: 1.25rem 0;
+  .card-deck {
+    display: table;
+    table-layout: fixed;
+    border-spacing: 1.25rem 0;
 
-      .card {
-        display: table-cell;
-        width: 1%;
-        vertical-align: top;
-      }
+    .card {
+      display: table-cell;
+      width: 1%;
+      vertical-align: top;
     }
-    .card-deck-wrapper {
-      margin-right: -1.25rem;
-      margin-left: -1.25rem;
-    }
+  }
+  .card-deck-wrapper {
+    margin-right: -1.25rem;
+    margin-left: -1.25rem;
   }
 }
 
@@ -219,56 +224,54 @@
 // Card groups
 //
 
-@include media-breakpoint-up(sm) {
-  .card-group {
+.card-group {
+  @if $enable-flex {
+    display: flex;
+    flex-flow: row wrap;
+  } @else {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  .card {
     @if $enable-flex {
-      display: flex;
-      flex-flow: row wrap;
+      flex: 1 0 0;
     } @else {
-      display: table;
-      width: 100%;
-      table-layout: fixed;
+      display: table-cell;
+      vertical-align: top;
     }
 
-    .card {
-      @if $enable-flex {
-        flex: 1 0 0;
-      } @else {
-        display: table-cell;
-        vertical-align: top;
+    + .card {
+      margin-left: 0;
+      border-left: 0;
+    }
+
+    // Handle rounded corners
+    @if $enable-rounded {
+      &:first-child {
+        .card-img-top {
+          border-top-right-radius: 0;
+        }
+        .card-img-bottom {
+          border-bottom-right-radius: 0;
+        }
+      }
+      &:last-child {
+        .card-img-top {
+          border-top-left-radius: 0;
+        }
+        .card-img-bottom {
+          border-bottom-left-radius: 0;
+        }
       }
 
-      + .card {
-        margin-left: 0;
-        border-left: 0;
-      }
+      &:not(:first-child):not(:last-child) {
+        border-radius: 0;
 
-      // Handle rounded corners
-      @if $enable-rounded {
-        &:first-child {
-          .card-img-top {
-            border-top-right-radius: 0;
-          }
-          .card-img-bottom {
-            border-bottom-right-radius: 0;
-          }
-        }
-        &:last-child {
-          .card-img-top {
-            border-top-left-radius: 0;
-          }
-          .card-img-bottom {
-            border-bottom-left-radius: 0;
-          }
-        }
-
-        &:not(:first-child):not(:last-child) {
+        .card-img-top,
+        .card-img-bottom {
           border-radius: 0;
-
-          .card-img-top,
-          .card-img-bottom {
-            border-radius: 0;
-          }
         }
       }
     }
@@ -280,14 +283,12 @@
 // Card
 //
 
-@include media-breakpoint-up(sm) {
-  .card-columns {
-    column-count: 3;
-    column-gap: 1.25rem;
+.card-columns {
+  column-count: 3;
+  column-gap: 1.25rem;
 
-    .card {
-      display: inline-block;
-      width: 100%; // Don't let them exceed the column width
-    }
+  .card {
+    display: inline-block;
+    width: 100%; // Don't let them exceed the column width
   }
 }

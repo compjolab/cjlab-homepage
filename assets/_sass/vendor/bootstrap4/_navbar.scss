@@ -19,8 +19,8 @@
 // Display the navbar across the entirety of the page or fixed it to the top or
 // bottom of the page.
 
-// A static, full width modifier with no rounded corners.
-.navbar-full {
+// Static top (unfixed, but 100% wide) navbar
+.navbar-static-top {
   z-index: $zindex-navbar;
 
   @include media-breakpoint-up(sm) {
@@ -35,6 +35,7 @@
   right: 0;
   left: 0;
   z-index: $zindex-navbar-fixed;
+  margin-bottom: 0; // override .navbar defaults
 
   // Undo the rounded corners
   @include media-breakpoint-up(sm) {
@@ -69,9 +70,9 @@
 
 .navbar-brand {
   float: left;
+  margin-right: 1rem;
   padding-top:    .25rem;
   padding-bottom: .25rem;
-  margin-right: 1rem;
   font-size: $font-size-lg;
 
   @include hover-focus {
@@ -89,12 +90,12 @@
   width: 1px;
   padding-top: .425rem;
   padding-bottom: .425rem;
-  margin-right: $navbar-padding-horizontal;
-  margin-left:  $navbar-padding-horizontal;
   overflow: hidden;
+  margin-left:  $navbar-padding-horizontal;
+  margin-right: $navbar-padding-horizontal;
 
-  &::before {
-    content: "\00a0";
+  &:before {
+    content: '\00a0';
   }
 }
 
@@ -126,11 +127,6 @@
   }
   &-sm {
     @include media-breakpoint-up(md) {
-      display: block !important;
-    }
-  }
-  &-md {
-    @include media-breakpoint-up(lg) {
       display: block !important;
     }
   }

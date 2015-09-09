@@ -39,7 +39,8 @@
   }
 
   &.disabled,
-  &:disabled {
+  &:disabled,
+  fieldset[disabled] & {
     cursor: $cursor-disabled;
     opacity: .65;
     @include box-shadow(none);
@@ -47,7 +48,7 @@
 }
 
 // Future-proof disabling of clicks on `<a>` elements
-a.btn.disabled,
+a.btn.disaabled,
 fieldset[disabled] a.btn {
   pointer-events: none;
 }
@@ -110,7 +111,8 @@ fieldset[disabled] a.btn {
   &,
   &:active,
   &.active,
-  &:disabled {
+  &:disabled,
+  fieldset[disabled] & {
     background-color: transparent;
     @include box-shadow(none);
   }
@@ -127,7 +129,8 @@ fieldset[disabled] a.btn {
     text-decoration: $link-hover-decoration;
     background-color: transparent;
   }
-  &:disabled {
+  &:disabled,
+  fieldset[disabled] & {
     @include hover-focus {
       color: $btn-link-disabled-color;
       text-decoration: none;

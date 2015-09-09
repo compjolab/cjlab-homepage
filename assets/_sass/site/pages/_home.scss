@@ -1,11 +1,7 @@
 .layout-homepage{
-
   h2{
     text-align: center;
-    font-size: floor(($font-size-h2 * 1.4));
-
   }
-
 
   .home-cal{
     padding: 20px;
@@ -17,13 +13,13 @@
     }
   }
 
-
   .news-list{
     .post-title{
-      font-size:  $font-size-h4;
+      font-size: $font-size-lg;
       margin: 1px 0;
     }
   }
+
   #homepage-banner{
     .nav{
       text-align: center;

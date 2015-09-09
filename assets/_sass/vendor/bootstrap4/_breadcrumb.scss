@@ -4,16 +4,16 @@
   list-style: none;
   background-color: $breadcrumb-bg;
   @include border-radius($border-radius);
-  @include clearfix;
 
   > li {
-    float: left;
+    display: inline-block;
 
-    + li::before {
+    + li:before {
+      $nbsp: "\00a0";
       padding-right: .5rem;
       padding-left: .5rem;
       color: $breadcrumb-divider-color;
-      content: "#{$breadcrumb-divider}";
+      content: "#{$breadcrumb-divider}#{$nbsp}"; // Unicode space added since inline-block means non-collapsing white-space
     }
   }
 
