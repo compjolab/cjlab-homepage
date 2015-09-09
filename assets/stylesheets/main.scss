@@ -7,25 +7,25 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "custom_vars/colors",
-        "custom_vars/grid",
+        // "custom_vars/grid",
         "custom_vars/typography",
-        "vendor/bootstrap",
+        "vendor/bootstrap4/bootstrap",
         "vendor/font-awesome/font-awesome",
         "site/footer",
-        "site/header",
-        "site/syntax",
-        "site/code",
-        "site/pages/post",
-        "site/pages/home",
-        "site/pages/page",
-        "site/pages/banner",
-        "site/pages/about",
-        "site/pages/news",
-        "site/pages/class",
-        "site/pages/home-about",
-        "site/pages/home-latest-news",
-        "site/pages/home-mailing-list",
-        "site/pages/home-upcoming-events"
+        "site/header"
+        // "site/syntax",
+        // "site/code",
+        // "site/pages/post",
+        // "site/pages/home",
+        // "site/pages/page",
+        // "site/pages/banner",
+        // "site/pages/about",
+        // "site/pages/news",
+        // "site/pages/class",
+        // "site/pages/home-about",
+        // "site/pages/home-latest-news",
+        // "site/pages/home-mailing-list",
+        // "site/pages/home-upcoming-events"
 ;
 
 
@@ -39,6 +39,6 @@ section.sec{
 
 .container{
     img{
-        @extend .img-responsive;
+        // @extend .img-responsive;
     }
 }
