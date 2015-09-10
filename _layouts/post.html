@@ -1,43 +1,33 @@
 ---
 layout: default
 ---
-
 <div class="layout-post">
   <div class="container">
     <div class="post">
       <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
         <p class="post-meta">
-
-        	<span class="post-date">{{ page.date | date: "%b %-d, %Y" }}</span>
-
-    	    <span class="post-author">{% if page.author %} • {{ page.author }}{% endif %}</span>
-        	{% if page.meta %} • {{ page.meta }}{% endif %}
+          <span class="post-date">{{ page.date | date: "%b %-d, %Y" }}</span>
+          <span class="post-author">{% if page.author %} • {{ page.author }}{% endif %}</span>
+          {% if page.meta %} • {{ page.meta }}{% endif %}
         </p>
       </header>
-
       <article class="post-content">
-
         {% if page.via %}
           <div class="via">
             Via
             {% if page.via_url %}<a href="{{page.via_url}}">{%endif%}
               {{page.via}}:
             {% if page.via_url %}</a>{%endif%}
-
           </div>
-        {%endif%}
-
-        {{ content }}
-
-        {% if page.via_url %}
-          <div class="via read-more">
-            Read more: <a href="{{page.via_url}}">{{page.via_url | truncate: 72}}</a>
-          </div>
-        {%endif%}
-
-
-      </article>
+          {%endif%}
+          {{ content }}
+          {% if page.via_url %}
+            <div class="via read-more">
+              Read more: <a href="{{page.via_url}}">{{page.via_url | truncate: 72}}</a>
+            </div>
+            {%endif%}
+          </article>
+        </div>
+      </div>
     </div>
-  </div>
-</div>

@@ -3,20 +3,23 @@ layout: homepage
 title: Stanford Computational Journalism Lab
 ---
 
-{% include homepage/home-banner.html %}
+<div id="home-sections">
 
-{% include homepage/home-about.html %}
+  {% include homepage/home-banner.html %}
 
-{% include homepage/home-latest-news.html %}
+  {% include homepage/home-navbar.html %}
 
-{% include homepage/home-upcoming-events.html %}
+  {% include homepage/home-about.html %}
 
+  {% include homepage/home-latest-news.html %}
 
+  {% include homepage/home-upcoming-events.html %}
 
+  <section class="sec" id="home-mailing-list">
+      <div class="container">
+        <h2>Join the community</h2>
+        {% include social/mailchimp-signup.html %}
+      </div>
+  </section>
 
-<section class="sec" id="home-mailing-list">
-    <div class="container">
-      <h2>Join the community</h2>
-      {% include social/mailchimp-signup.html %}
-    </div>
-</section>
+</div> <!--home-sections-->

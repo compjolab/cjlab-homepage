@@ -1,7 +1,17 @@
 ## CompJoLab
 
+## How to deploy
 
-Testing out Jekyll. Check out the live deploy at [http://compjolab.github.io](http://compjolab.github.io)
+The [Rakefile](Rakefile) has a task defined. Run this at the command prompt:
+
+      $ rake shoop
+
+
+The deployment URL is:
+
+[http://stanfordcompjolabsite.s3-website-us-east-1.amazonaws.com/](http://stanfordcompjolabsite.s3-website-us-east-1.amazonaws.com/)
+
+
 
 __Here's a [list of resources for developing with Jekyll and Github pages](http://compjolab.github.io/dev-resources)__. You can view its Github file page here: [dev-resources.md](dev-resources.md).
 
