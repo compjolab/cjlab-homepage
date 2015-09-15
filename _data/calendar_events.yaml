@@ -23,9 +23,29 @@
   date_start: 2015-09-21
   more_info_url: https://studentaffairs.stanford.edu/registrar/academic-calendar-1516
 
-- summary: Dan's event 3
-  date_start: 2015-08-25
-  description: This is fun.
+- summary: Computation + Journalism Symposium 2015
+  date_start: 2015-10-02
+  more_info_url: http://cj2015.brown.columbia.edu/
+  image_url: http://cj2015.brown.columbia.edu/img/logo.png
+  image_source_url: http://cj2015.brown.columbia.edu/
+  description: |
+    A two-day conference focused on the intersection of journalism and computing.
+
+- summary: ASNE-APME Conference at Stanford
+  date_start: 2015-10-16
+  more_info_url: http://asne.org/content.asp?pl=165&contentid=165
+  image_url: http://082311a.membershipsoftware.org/content_images/ASNE-APME-2015-logo-banner-final.jpg
+  image_source_url: http://asne.org/content.asp?pl=165&contentid=165
+  description: |
+    The nation's top editors will be at Stanford Oct. 16-18 for the ASNE-APME conference. Major themes will include technology in the newsroom, diversity, First Amendment issues and newsroom leadership.
+
+- summary: Women in Data Science Conference
+  date_start: 2015-11-02
+  more_info_url: http://events.stanford.edu/events/540/54061/
+  image_url: http://events.stanford.edu/events/540/54061/54061-2.jpg
+  image_source_url: http://events.stanford.edu/events/540/54061/
+  description: |
+    A one-day technical conference that will feature data science research, how companies are using data science and networking opportunities. Sponsored by the Institute for Computational and Mathematical Engineering (ICME), along with co-sponsors Department of Statistics, Computer Forum and Stanford Mobilize.
 
 - summary: Stanford Winter 2016 quarter begins
   date_start: 2016-01-04
