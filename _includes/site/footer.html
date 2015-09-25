@@ -2,64 +2,15 @@
 <footer class="site-footer">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
-          <div class="row">
-              <div class="col-sm-4">
-                <div class="footer-logo">
-                   <img src="/assets/images/footer-logo.png" alt="Stanford Logo">
-                </div>
-              </div>
-              <div class="col-sm-8">
-                <div><strong>{{site.title}}</strong></div>
-                <ul class="list-inline">
-                  <li>
-                    <a href="mailto:jayth@stanford.edu?Subject=Regarding Stanford CJ Lab" target="_top">
-                      <i class="fa fa-envelope fa-sm"></i>
-                      Email
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/stanfordjourn">
-                      <i class="fa fa-twitter fa-sm"></i>
-                      Twitter
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.facebook.com/StanfordJournalism">
-                      <i class="fa fa-facebook fa-sm"></i>
-                      Facebook
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#TK">
-                      <i class="fa fa-github fa-sm"></i>
-                      Github
-                    </a>
-                  </li>
-                  <li>
-                    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-                      <i class="fa fa-rss fa-sm"></i>
-                      RSS
-                    </a>
-                  </li>
-                </ul>
-
-                <a class="twitter-follow-button" href="https://twitter.com/StanfordJourn" data-size="small">Follow @StanfordJourn</a>
-
-              </div>
-
-
-
-          </div>
+        <div class="col-sm-4">
+            <strong>{{site.title}}</strong>
         </div>
-
-        <div class="col-sm-6">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est tempore beatae quaerat consectetur nulla ea, sint nostrum, nihil veritatis, ipsum non commodi qui ipsam doloribus praesentium aut deleniti veniam fuga.</p>
-
+        <div class="col-sm-8">
           <ul class="list-inline">
             {% include nav-list-items.html %}
           </ul>
 
+          {% include site/contact-list.html %}
         </div>
       </div>
 

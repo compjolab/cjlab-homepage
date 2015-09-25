@@ -1,5 +1,5 @@
 .layout-homepage{
-  h1{
+  .title{
     text-align: center;
   }
 
@@ -19,43 +19,19 @@
       margin: 1px 0;
     }
   }
-
-  #homepage-banner{
-    .nav{
-      text-align: center;
-      padding: 5px 0px;
-      background: $body-accent;
-      margin-bottom: 2.5em;
-      li{
-        font-size: 1.1em;
-        padding: 0 1.2em;
-      }
-    }
-  }
 }
 
 
-#home-nav{
 
-}
-
-#home-about{
-  background: #ffffff;
-}
-
-.home-latest-news{
-  background: $gray-lighter;
-}
-
-#home-mailing-list{
+#home-subscribe{
   background: $brand-primary;
-  min-height: 400px;
-  h2{
+  padding: 3.0em 0;
+  .description, .title{
     color: white;
+  }
+  .title{
+    margin-bottom: 1.0em;
     text-align: center;
   }
 }
 
-#home-upcoming-events{
-
-}
