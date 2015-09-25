@@ -1,0 +1,17 @@
+.layout-revamp{
+  .navbar{
+    border-bottom: thin solid #aaa;
+    background: #F2F2F2;
+
+    .navbar-link{
+      font-size: 1em;
+    }
+  }
+
+  .headroom--unpinned{
+    // transform: translateY(-10%) scaleY(0.5);
+    font-size: 0.6rem;
+    padding: $navbar-padding-vertical * 0.2 $navbar-padding-horizontal * 0.2;
+  }
+}
+
