@@ -1,0 +1,31 @@
+{% assign event_item=include.item %}
+<div class="calendar-event">
+  <div class="header">
+    <div class="date dtstart">
+      <span class="value" title="{{ event_item.date_start | date: '%Y-%m-%d'}}">
+        {{ event_item.date_start | date: '%A, %B %d, %Y'}}
+       </span>
+    </div>
+    {% if event_item.date_end %}
+      <div class="date dtend">
+        <span class="value" title="{{ event_item.date_end | date: '%Y-%m-%d'}}">
+          {{ event_item.date_end | date: '%A, %B %d, %Y'}}
+         </span>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="body">
+    <div class="summary">{{ event_item.summary }}</div>
+    {% if event_item.description %}
+      <div class="description">
+        {{event_item.description | markdownify }}
+      </div>
+    {% endif %}
+    {% if event_item.more_info_url %}
+      <div class="more-info-url">
+          <a href="{{event_item.more_info_url}}">More info...</a>
+      </div>
+    {% endif %}
+  </div>
+</div> <!-- .calendar-event -->

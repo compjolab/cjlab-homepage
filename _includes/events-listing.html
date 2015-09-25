@@ -5,41 +5,10 @@
   {% assign item_limit = 10000 %}
 {% endif %}
 
-<ul class="calendar-events list-unstyled">
+<ul class="calendar-events list-unstyled row">
   {% for ev in site.data.calendar_events limit: item_limit %}
-    <li>
-      <h3 class="summary">{{ ev.summary }}</h3>
-        <div class="date dtstart">
-          <span class="value" title="{{ ev.date_start | date: '%Y-%m-%d'}}">
-            {{ ev.date_start | date: '%A, %B %d, %Y'}}
-           </span>
-        </div>
-      {% if ev.date_end %}
-        <div class="date dtend">
-          <span class="value" title="{{ ev.date_end | date: '%Y-%m-%d'}}">
-            {{ ev.date_end | date: '%A, %B %d, %Y'}}
-           </span>
-        </div>
-      {% endif %}
-      {% if ev.description %}
-        <div class="description">
-          {{ev.description | markdownify }}
-        </div>
-      {% endif %}
-      {% if ev.more_info_url %}
-        <div class="more-info-url">
-            <a href="{{ev.more_info_url}}">More info...</a>
-        </div>
-      {% endif %}
-
-      <div class="add-event small">
-        <a href="http://www.google.com/calendar/render?action=TEMPLATE&dates={{ ev.date_start | date: '%Y%m%dT%H%MZ'}}/{{ ev.date_start | date: '%Y%m%dT%H%MZ'}}&text={{ev.summary | uri_escape }}">
-          <span style="background: #aaa;">
-            <i class="fa fa-calendar fa-sm"></i>
-            Add to Google Calendar (doesn't work yet)
-            </span>
-        </a>
-      </div>
+    <li class="col-sm-4">
+      {% include snippets/calendar-event.html item=ev %}
     </li>
   {% endfor %}
 </ul>
