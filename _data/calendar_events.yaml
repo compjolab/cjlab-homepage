@@ -1,52 +1,43 @@
-# based off of hCalendar format
-# http://microformats.org/wiki/hcalendar
-#
-# required:
-#   summary, date_start
-#
-# notes:
-#   `description` field can contain markdown
-
-- summary: Deadline for Knight Foundation Prototype Fund grants
+- title: Deadline for Knight Foundation Prototype Fund grants
   date_start: 2015-08-17
   more_info_url: http://www.knightfoundation.org/blogs/knightblog/2015/4/30/20-projects-explore-new-uses-data-media-and-tech-support-knight-prototype-fund/
   image_url: https://upload.wikimedia.org/wikipedia/commons/1/15/Worldskin-01.jpg
   image_caption: World Skin - Maurice Benayoun (Virtual Reality Installation - 1997) by Wikipedia user MoBen
   image_source_url: https://commons.wikimedia.org/wiki/File:Worldskin-01.jpg
-  description: |
+  summary: |
     Every quarter, the Knight Foundation's Prototype Fund offers $35,000 in grant money to help innovative media projects get off the ground.
 
     - The application process starts [with this simple online form](https://knight.submittable.com/submit/).
     - See the [22 projects that were funded in the most recent round](http://www.knightfoundation.org/blogs/knightblog/2015/8/4/22-ideas-win-knight-prototype-fund-support/).
 
-- summary: Stanford Fall 2015 quarter begins
+- title: Stanford Fall 2015 quarter begins
   date_start: 2015-09-21
   more_info_url: https://studentaffairs.stanford.edu/registrar/academic-calendar-1516
 
-- summary: Computation + Journalism Symposium 2015
+- title: Computation + Journalism Symposium 2015
   date_start: 2015-10-02
   more_info_url: http://cj2015.brown.columbia.edu/
   image_url: http://cj2015.brown.columbia.edu/img/logo.png
   image_source_url: http://cj2015.brown.columbia.edu/
-  description: |
+  summary: |
     A two-day conference focused on the intersection of journalism and computing.
 
-- summary: ASNE-APME Conference at Stanford
+- title: ASNE-APME Conference at Stanford
   date_start: 2015-10-16
   more_info_url: http://asne.org/content.asp?pl=165&contentid=165
   image_url: http://082311a.membershipsoftware.org/content_images/ASNE-APME-2015-logo-banner-final.jpg
   image_source_url: http://asne.org/content.asp?pl=165&contentid=165
-  description: |
+  summary: |
     The nation's top editors will be at Stanford Oct. 16-18 for the ASNE-APME conference. Major themes will include technology in the newsroom, diversity, First Amendment issues and newsroom leadership.
 
-- summary: Women in Data Science Conference
+- title: Women in Data Science Conference
   date_start: 2015-11-02
   more_info_url: http://events.stanford.edu/events/540/54061/
   image_url: http://events.stanford.edu/events/540/54061/54061-2.jpg
   image_source_url: http://events.stanford.edu/events/540/54061/
-  description: |
+  summary: |
     A one-day technical conference that will feature data science research, how companies are using data science and networking opportunities. Sponsored by the Institute for Computational and Mathematical Engineering (ICME), along with co-sponsors Department of Statistics, Computer Forum and Stanford Mobilize.
 
-- summary: Stanford Winter 2016 quarter begins
+- title: Stanford Winter 2016 quarter begins
   date_start: 2016-01-04
   more_info_url: https://studentaffairs.stanford.edu/registrar/academic-calendar-1516

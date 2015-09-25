@@ -16,15 +16,12 @@
   </div>
 
   <div class="body">
-    <div class="summary">{{ event_item.summary }}</div>
+    <div class="title">
+      <a href="{{event_item.more_info_url}}">{{ event_item.title }}</a>
+    </div>
     {% if event_item.description %}
       <div class="description">
         {{event_item.description | markdownify }}
-      </div>
-    {% endif %}
-    {% if event_item.more_info_url %}
-      <div class="more-info-url">
-          <a href="{{event_item.more_info_url}}">More info...</a>
       </div>
     {% endif %}
   </div>

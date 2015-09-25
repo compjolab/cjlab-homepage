@@ -1,0 +1,57 @@
+"Stanford":
+
+  - title: The Brown Institute for Media Innovation
+    url: http://brown.stanford.edu/
+
+  - title: Stanford Data Lab
+    url: https://datalab.stanford.edu/
+    description: |
+      In the Data Lab, students develop their data skills by solving real problems with expert coaching. The problems range from simple challenges to master data fundamentals up to unsolved, high-impact problems for NGOs, government agencies, and other social sector organizations.
+    image_url: http://placehold.it/400x400
+
+
+  - title: John S. Knight Journalism Fellowships
+    url: http://jsk.stanford.edu/
+    image_url: http://placehold.it/400x400
+
+
+  - title: CS+Social Good
+    url: http://www.cs4good.org/
+    image_url: http://placehold.it/400x400
+    description: |
+      Stanford's first official student group focusing on the intersection of computer science and social impact.
+
+
+"Bay Area":
+  - title: Hacks/Hackers (Bay Area Chapter)
+    image_url: http://placehold.it/400x400
+    url: http://www.meetup.com/hacksandhackers/
+
+  - title: California Civic Data Coalition
+    image_url: http://placehold.it/400x400
+    url: http://www.californiacivicdata.org/
+    description: |
+      A loosely coupled team from the Los Angeles Times Data Desk, the San Francisco Chronicle, The Center for Investigative Reporting and Stanford's Computational Journalism Lab
+
+  - title: Reveal / Center for Investigative Reporting
+    url: http://www.revealnews.org
+    image_url: http://placehold.it/400x400
+
+
+"National":
+  - title: National Institute for Computer-Assisted Reporting
+    url: http://www.ire.org/nicar/
+    description: |
+      The National Institute for Computer-Assisted Reporting maintains a library of federal databases, employs journalism students, and trains journalists in the practical skills of getting and analyzing electronic information.
+
+  - title: Knight-Mozilla OpenNews
+    url: https://source.opennews.org/en-US/
+    image_url: http://placehold.it/400x400
+    description: |
+      A multi-year partnership between Mozilla and the Knight Foundation dedicated to creating an ecosystem to help strengthen and build community around journalism on the web.
+
+
+  - title: Northwestern Knight Lab
+    url: http://knightlab.northwestern.edu/
+    description: |
+      A Northwestern University joint initiative of Medill School of Journalism, Media, Integrated Marketing Communications and the Robert R. McCormick School of Engineering & Applied Science.
