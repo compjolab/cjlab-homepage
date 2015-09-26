@@ -1,7 +1,13 @@
 .site-footer{
   background: $body-accent;
-  padding-bottom: 5.0em;
-  padding-top: 4.0em;
+  padding-bottom: 3.0em;
+  padding-top: 2.0em;
+
+
+  .nav-list{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+  }
 
 
   .footer-logo img{
