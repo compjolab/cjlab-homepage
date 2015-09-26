@@ -1,5 +1,5 @@
 ---
-title: Nieman Lab writes about the California Civic Data Coalition's winning proposal.
+title: Nieman Lab writes about the California Civic Data Coalition's winning proposal
 description: The Coalition is one of 22 projects to be awarded a total of $3.2 million in Knight Foundation funding.
 date: 2015-07-22
 via: Justin Ellis of Nieman Lab

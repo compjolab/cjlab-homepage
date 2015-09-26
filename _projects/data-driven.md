@@ -12,4 +12,6 @@ Hosted by the Stanford Journalism Program, the REVS Program at Stanford and the 
 
 Car manufacturers, tech companies, city government officials, academics, and journalists all contributed to discussions about data and the evolution of automobility. The conference featured three panels: data in the car, communication from or about the car, and car data as sensors of institutions. Invited panelists shared their experiences with data and cars and there were moderated discussions involving the audience.
 
+We also unveiled a repository of valuable transportation datasets, related to the vehicles we drive and the infrastructure that supports us: <a href="http://www.datadrivenstanford.org/" target="_blank">www.datadrivenstanford.org</a>
+
 <center><iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLpGHT1n4-mAsIxVxtpTQov5A8onvr4JKA" frameborder="0" allowfullscreen></iframe></center>
