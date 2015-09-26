@@ -1,34 +1,22 @@
-.site-header{
-  border-bottom: thin solid #ddd;
-  padding-top: 0.3em;
-  background-color: inherit;
-  margin-bottom: 0;
-
-  &.navbar, &.navbar-fixed{
-    min-height: 10px;
-  }
-
-  .nav-items{
-    font-size: 13px;
-    padding: 0.2em 0;
-    background: $body-accent;
-    ul{
-      margin-bottom: 0;
-    }
-  }
-}
-
-
-
-
 /* headroom stuff */
 .headroom {
   transition: all 0.4s ease;
 }
-.headroom--pinned {
 
+
+.navbar{
+  background: #FFF;
+  border-bottom: thin solid #eee;
+
+  .navbar-link{
+    font-size: 1em;
+  }
 }
 
-.headroom--unpinned {
-
+.headroom--unpinned{
+  // transform: translateY(-10%) scaleY(0.5);
+  border-bottom: thin solid #faa;
+  background: #F2F2F2;
+  font-size: 0.6rem;
+  padding: $navbar-padding-vertical * 0.2 $navbar-padding-horizontal * 0.2;
 }
