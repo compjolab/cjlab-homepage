@@ -1,32 +1,14 @@
-<ul class="list-unstyled">
-    <li>
-      <a href="mailto:jayth@stanford.edu?Subject=Regarding Stanford CJ Lab" target="_top">
-        <i class="fa fa-envelope fa-sm"></i>
-        Email
-      </a>
-    </li>
-    <li>
-      <a href="https://twitter.com/stanfordjourn">
-        <i class="fa fa-twitter fa-sm"></i>
-        Twitter
-      </a>
-    </li>
-    <li>
-      <a href="https://www.facebook.com/StanfordJournalism">
-        <i class="fa fa-facebook fa-sm"></i>
-        Facebook
-      </a>
-    </li>
-    <li>
-      <a href="#TK">
-        <i class="fa fa-github fa-sm"></i>
-        Github
-      </a>
-    </li>
-    <li>
-      <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-        <i class="fa fa-rss fa-sm"></i>
-        RSS
-      </a>
-    </li>
-  </ul>
+<div class="row">
+  {% for i_obj in site.data.contact_us_list %}
+    {% assign item_name=i_obj[0] %}
+    {% assign item=i_obj[1] %}
+    <div class="col-sm-6">
+      <div class="contact">
+          <a href="{{item.href}}">
+            <i class="fa fa-2x fa-{{item.icon}}"></i>
+          </a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+

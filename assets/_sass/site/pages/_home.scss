@@ -27,12 +27,8 @@
 #home-subscribe{
   background: $brand-primary;
   padding: 3.0em 0;
-  .description, .title{
+  .description, .sec-title{
     color: white;
-  }
-  .title{
-    margin-bottom: 1.0em;
-    text-align: center;
   }
 }
 
