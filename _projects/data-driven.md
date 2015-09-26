@@ -1,9 +1,15 @@
 ---
 title: Data Driven, Coding and Writing Transportation's Future
 description: | 
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis mollitia culpa consequuntur delectus, libero alias nesciunt adipisci dicta eveniet veniam et velit expedita dignissimos possimus totam odio, dolore ipsum earum!
-image_url: 
+  A conference focused on the changing landscape of vehicle and transportation-related data, and the opportunities arising from it.
+image_url: http://compjolab.github.io/files/images/photos/DataDrivenConferenceBanner.png
 ---
 
+<strong>February 2015</strong> <br>
+The "Data Driven: Coding and Writing Transportation’s Future" conference focused on the changing landscape of vehicle and transportation-related data, and the opportunities arising from it.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ad, labore! Quam quis corporis eveniet laboriosam cum, modi possimus, cupiditate sit dignissimos, voluptas ut minima nam vitae! Inventore, deleniti, cupiditate.
+Hosted by the Stanford Journalism Program, the REVS Program at Stanford and the Center for Automotive Research at Stanford, the conference brought together professionals from a range of sectors who are working at the frontier of liberating and utilizing vehicular data.
+
+Car manufacturers, tech companies, city government officials, academics, and journalists all contributed to discussions about data and the evolution of automobility. The conference featured three panels: data in the car, communication from or about the car, and car data as sensors of institutions. Invited panelists shared their experiences with data and cars and there were moderated discussions involving the audience.
+
+<center><iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLpGHT1n4-mAsIxVxtpTQov5A8onvr4JKA" frameborder="0" allowfullscreen></iframe></center>
