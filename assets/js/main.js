@@ -5,9 +5,8 @@ $(document).ready(function(){
   var headroom  = new Headroom(myElement);
   // initialise
   headroom.init();
+  smoothScroll.init();
 })
-
-
 
 // hacky code to remove example-page constraints of p-wrapped image tags
 $(document).ready(function(){
