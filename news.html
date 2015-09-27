@@ -8,9 +8,12 @@ banner: true
 <div class="news-page">
 
   <section class="sec">
-    <h3>
-      The latest announcements and news for the Stanford Computational Journalism Lab. 
-    </h3>
+    <h2>
+      News
+    </h2>
+    <h4>
+      The latest updates and announcements for the Stanford Computational Journalism Lab.
+    </h4>
      <p>
       <strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong>
     </p>
@@ -26,6 +29,16 @@ banner: true
 
 
 </div>
+
+  <section class="sec">
+    <h2>
+      Events
+    </h2>
+    <h4>
+      Seminars and workshops happening around the Stanford campus that pertain to data.
+    </h4>
+      {% include events-listing.html %}
+  </section>
 
 <section class="sec">
   <div class="container">
