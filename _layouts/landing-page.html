@@ -6,7 +6,7 @@ layout: default
 {% endif %}
 <div class="layout-landing-page">
   {% if has_banner %}
-    {% include site/page-banner.html title=page.title image_url=page.image_url deck=page.banner.deck %}
+    {% include site/page-banner.html title=page.title image_url=page.image_url banner_text=page.banner_text %}
   {% endif %}
 
   <div class="landing-page-content">

@@ -1,6 +1,10 @@
 {% assign item=include.item %}
-{% assign item_imgurl="http://placehold.it/400x400" %}
-<div class="card card-block">
+{% if item.image_url %}
+  {% assign item_imgurl=item.image_url%}
+{% else %}
+  {% assign item_imgurl="http://placehold.it/400x400" %}
+{% endif %}
+<div class="card card-block feature item">
     <div class="row">
         <div class="col-sm-3">
             <img src="{{item_imgurl}}" alt="TK" class="img-responsive">

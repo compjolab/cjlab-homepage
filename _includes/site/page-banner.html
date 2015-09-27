@@ -1,17 +1,17 @@
 {% if include.image_url %}
-<div class="banner" style="background: url({{include.image_url}});">
+<div class="banner hero" style="background: url({{include.image_url}});">
 {% else %}
-<div class="banner">
+<div class="banner hero">
 {% endif %}
 
   <div class="container">
-    <div class="banner-text">
+    <div class="banner-block">
       <h1 class="banner-title">
         {{ include.title }}
       </h1>
-      {% if include.deck %}
-        <p class="banner-deck">
-          {{ include.deck }}
+      {% if include.banner_text %}
+        <p class="banner-statement">
+          {{ include.banner_text }}
         </p>
       {% endif %}
     </div>

@@ -4,13 +4,13 @@
     text-align: center;
   }
 
-  .mission-statement{
+  .banner-statement{
     font-size: $font-size-h2;
     text-align: center;
     font-weight: bold;
   }
 
-  .secondary-mission-statement{
+  .secondary-banner-statement{
     font-size: $font-size-h2;
     text-align: center;
   }
@@ -33,15 +33,12 @@
       color: #8C1515;
       margin-bottom: 0;
     }
-    .mission-statement {
+    .banner-statement {
         font-size: $font-size-h2;
         text-align: center;
     }
 }
 
-#home-hero{
-  padding-top: 8em;
-}
 
 #home-about {
     background: $gray-lighter;

@@ -2,7 +2,7 @@
 title: California Civic Data Coalition
 description: |
   A team from the Los Angeles Times Data Desk, the San Francisco Chronicle, The Center for Investigative Reporting and the Stanford Computational Journalism Lab.
-image_url: http://www.californiacivicdata.org/img/logo.png
+image_url: /files/images/projects/ca-civic-data-icon.jpg
 ---
 
 The California Civic Data Coalition is a loosely coupled team from the Los Angeles Times Data Desk, the San Francisco Chronicle, The Center for Investigative Reporting and Stanford's Computational Journalism Lab.

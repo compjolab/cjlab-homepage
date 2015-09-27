@@ -1,0 +1,14 @@
+.spread{
+  background-color: $body-bg;
+  background-repeat: no-repeat;
+  overflow-y: hidden ! important;
+  overflow-x: hidden ! important;
+  min-height: 400px;
+}
+
+
+.spread{
+  .feature.item{
+    background: $body-bg;
+  }
+}

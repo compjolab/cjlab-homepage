@@ -20,7 +20,8 @@
         "site/pages/news",
         "site/pages/post",
         "site/pages/home",
-        "site/pages/page"
+        "site/pages/page",
+        "site/pages/spread"
         ;
 
 
@@ -49,4 +50,12 @@ body{
     @extend .animated;
     @extend .fadeInDown;
     animation-duration: 1s;
+}
+
+
+
+/* TK MOVVE THIS SOMEWHERE ELSE */
+.hero{
+  padding-top: 15rem;
+  padding-bottom: 8rem;
 }
