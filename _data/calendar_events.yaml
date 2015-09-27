@@ -36,6 +36,14 @@
   summary: |
     The nation's top editors will be at Stanford Oct. 16-18 for the ASNE-APME conference. Major themes will include technology in the newsroom, diversity, First Amendment issues and newsroom leadership.
 
+- title: Data Science at Stanford Seminar Series
+  date_start: 2015-10-21
+  more_info_url: https://events.stanford.edu/events/544/54491/
+  image_url: https://events.stanford.edu/about/defaultimages/default_image.jpg
+  image_source_url: https://events.stanford.edu/events/544/54491/
+  summary: |
+    Listen to Trevor Hastie speak about statistical learning using big data from 2:30 to 3:30 p.m. at Stanford's Clark Center Auditorium. 
+
 - title: Women in Data Science Conference
   date_start: 2015-11-02
   more_info_url: http://events.stanford.edu/events/540/54061/
