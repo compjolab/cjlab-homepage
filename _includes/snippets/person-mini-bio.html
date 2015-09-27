@@ -1,0 +1,22 @@
+{% assign person=include.person %}
+<div class="person card card-block">
+    <div class="row">
+        <div class="col-sm-2">
+            <img class="img-rounded img-responsive" alt="Photo of {{person.full_name}}" src="{{person.photo}}">
+        </div>
+        <div class="col-sm-10">
+            <div class="name">
+                {{ person.full_name }}
+            </div>
+            <div class="title">
+                {{ person.title }}
+            </div>
+            <div class="email">
+                <a href="mailto:{{ person.email_actual }}?subject=Referred by CJ Lab site">{{ person.email_spelled }}</a>
+            </div>
+            <div class="blurb">
+                {{ person.blurb }}
+            </div>
+        </div>
+    </div>
+</div>

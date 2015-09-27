@@ -29,14 +29,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  - scope:
-      type: "pages"
-    values:
-      layout: "page"
-  - scope:
-      type: "projects"
-    values:
-      layout: "page"
 
 gems:
   - octopress-autoprefixer

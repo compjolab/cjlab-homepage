@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{% if page.banner %}
+  {% assign has_banner = true %}
+{% endif %}
+<div class="layout-page">
+  {% if has_banner %}
+    {% include site/page-banner.html title=page.title image_url=page.image_url deck=page.banner.deck %}
+  {% endif %}
+  <div class="container">
+    <div class="post">
+      {% if has_banner != true %}
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title }}</h1>
+        </header>
+        {% if page.image_url %}
+          <img class="img-responsive" src="{{ page.image_url }}" alt="image">
+        {% endif %}
+      {% endif %}
+      <section>
+        <article class="post-content">
+          {{ content }}
+        </article>
+      </section>
+    </div>
+  </div>
+</div>

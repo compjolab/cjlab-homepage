@@ -1,23 +1,10 @@
-<div class="row">
-    {% for pobj in site.data.people %} 
-    {% assign person=pobj[1] %}
-    <div class="col-sm-4">
-        <div class="person">
-            <img class="img-circle img-responsive" alt="Photo of {{person.full_name}}" src="{{person.photo}}">
-              
-            <div class="name">
-                {{ person.full_name }}
-            </div>
-            <div class="title">
-                {{ person.title }}
-            </div>
-            <div class="email">
-                <a href="mailto:{{ person.email_actual }}?subject=Referred by CJ Lab site">{{ person.email_spelled }}</a>
-            </div>
-            <div class="blurb">
-              {{ person.blurb }}
-            </div>
-        </div>
-    </div>
-    {% endfor %}
-</div>
+<h1 class="sec-title">Meet the Team</h1>
+
+
+
+
+{% include snippets/person-mini-bio.html person=site.data.people.hamilton_jay %}
+
+{% include snippets/person-mini-bio.html person=site.data.people.phillips_cheryl  %}
+
+{% include snippets/person-mini-bio.html person=site.data.people.nguyen_dan %}

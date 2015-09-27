@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% if page.banner %}
+  {% assign has_banner = true %}
+{% endif %}
+<div class="layout-landing-page">
+  {% if has_banner %}
+    {% include site/page-banner.html title=page.title image_url=page.image_url deck=page.banner.deck %}
+  {% endif %}
+
+  <div class="landing-page-content">
+    {{ content }}
+  </div>
+
+</div>
