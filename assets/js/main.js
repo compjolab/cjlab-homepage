@@ -6,6 +6,10 @@ $(document).ready(function(){
   // initialise
   headroom.init();
   smoothScroll.init();
+  $.stellar({
+      horizontalScrolling: false
+  });
+
 })
 
 // hacky code to remove example-page constraints of p-wrapped image tags
