@@ -1,6 +1,37 @@
-.layout-homepage {
-    .call-to-action {
-        text-align: center;
+
+.layout-homepage{
+  .call-to-action{
+    text-align: center;
+  }
+
+  .mission-statement{
+    font-size: $font-size-h2;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .secondary-mission-statement{
+    font-size: $font-size-h2;
+    text-align: center;
+  }
+}
+
+  #home-hero{
+    background-image: url("/files/images/photos/CJ_Background_A.jpg");
+    background-attachment: fixed;
+  }
+
+  #home-upcoming-events{
+    background: $gray-lighter;
+    padding: 3.0em 0;
+}
+
+  .home-cal{
+    padding: 20px;
+    .title{
+      font-size: 1.1rem;
+      color: #8C1515;
+      margin-bottom: 0;
     }
     .mission-statement {
         font-size: $font-size-h2;

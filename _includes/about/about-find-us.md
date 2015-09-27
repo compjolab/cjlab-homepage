@@ -1,8 +1,10 @@
 
 
-## Social Buttons TK
+## Virtual
+<a href="https://twitter.com/StanfordJourn" target="_blank"><i class="fa fa-twitter fa-2x"></i> @StanfordJourn on Twitter</a> <br>
+<a href="https://www.facebook.com/StanfordJournalism" target="_blank"><i class="fa fa-facebook fa-2x"></i> Stanford Journalism on Facebook</a>
 
-## Address
+## Physical
 
 We're located in the heart of Silicon Valley in Stanford University's McClatchy Hall.
 
