@@ -9,6 +9,13 @@
     text-align: center;
   }
 
+  #home-about{
+  background: $gray-lighter;
+  padding: 3.0em 0;
+  .description, .sec-title{
+    color: white;
+  }
+}
   .home-cal{
     padding: 20px;
     .title{
@@ -25,7 +32,6 @@
     }
   }
 }
-
 
 
 #home-subscribe{
