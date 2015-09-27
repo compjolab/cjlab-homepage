@@ -4,24 +4,17 @@ image_url: /files/images/photos/ExcelBridgeData_overlay_red.jpg
 banner: true
 ---
 
+<p>
+We've been exploring transportation data, governmental corruption and campaign finance activity in politics. But it's just the beginning.
+</p>
 
-<h2>Projects</h2>
-<h4>We've been exploring transportation data, governmental corruption and campaign finance activity in politics. But it's just the beginning.</h4>
 
-&nbsp;
-
-{% for project in site.projects %}
-
-  <div class="project">
-    <h3><a href="{{project.url}}">{{project.title}}</a></h3>
-    <p>{{project.description}}</p>
-  </div>
-
-{% endfor %}
-
-<h2>Classes</h2>
-<h4>We're teaching classes in the Stanford Journalism Program focused on public affairs, computational methods and investigative reporting.</h4>
-
-<h2>Tutorials</h2>
-<h4>Resources to get your feet wet in data analysis and reporting.</h4>
-
+<section class="sec major">
+  {% include projects_page/projects_section.html %}
+</section>
+<section class="sec major">
+  {% include projects_page/classes_section.html %}
+</section>
+<section class="sec major">
+    {% include projects_page/tutorials_section.html %}
+</section>

@@ -7,20 +7,22 @@
 .navbar{
   background: #FFF;
   border-bottom: thin solid #eee;
-
+  padding: 2rem 1rem;
   .logo{
-    max-height: 42px;
+    max-height: 36px;
   }
 
-  .navbar-link{
-    font-size: 1em;
+  .nav-link{
+    font-size: 0.75rem;
+    padding-top: 0.20rem;
+    padding-bottom: 0.1rem;
   }
 }
 
 .headroom--unpinned{
   // transform: translateY(-10%) scaleY(0.5);
-  border-bottom: thin solid #faa;
-  background: #F2F2F2;
-  font-size: 0.6rem;
+  border-bottom: thin solid #fdd;
+  padding: 0.3rem 1rem;
+  // font-size: 0.6rem;
   // padding: $navbar-padding-vertical * 0.2 $navbar-padding-horizontal * 0.2;
 }

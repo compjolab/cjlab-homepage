@@ -1,0 +1,16 @@
+
+
+
+<h1>Tutorials</h1>
+<p>Resources to get your feet wet in data analysis and reporting.</p>
+
+{% for tutorial in site.data.tutorials %}
+<div class="tutorial">
+  <div class="title">
+    <a href="{{tutorial.url}}">{{tutorial.title}}</a>
+  </div>
+  <div class="description">
+    {{ tutorial.description }}
+  </div>
+</div>
+{% endfor %}
