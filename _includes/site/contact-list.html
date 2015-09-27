@@ -2,10 +2,10 @@
   {% for i_obj in site.data.contact_us_list %}
     {% assign item_name=i_obj[0] %}
     {% assign item=i_obj[1] %}
-    <div class="col-sm-6">
+    <div class="col-xs-3">
       <div class="contact">
           <a href="{{item.href}}">
-            <i class="fa fa-2x fa-{{item.icon}}"></i>
+            <i class="fa fa-{{item.icon}}"></i>
           </a>
       </div>
     </div>

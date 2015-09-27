@@ -8,8 +8,8 @@
   background: #FFF;
   border-bottom: thin solid #eee;
 
-  .line.logo{
-    max-height: 20px;
+  .logo{
+    max-height: 42px;
   }
 
   .navbar-link{
@@ -22,5 +22,5 @@
   border-bottom: thin solid #faa;
   background: #F2F2F2;
   font-size: 0.6rem;
-  padding: $navbar-padding-vertical * 0.2 $navbar-padding-horizontal * 0.2;
+  // padding: $navbar-padding-vertical * 0.2 $navbar-padding-horizontal * 0.2;
 }
