@@ -33,3 +33,5 @@ defaults:
 gems:
   - octopress-autoprefixer
   - s3_website
+  # - jekyll-assets
+  # - uglifier

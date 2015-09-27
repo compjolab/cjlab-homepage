@@ -1,0 +1,26 @@
+{% assign event_item=include.item %}
+  <div class="header">
+    <div class="date dtstart">
+      <span class="value" title="{{ event_item.date_start | date: '%Y-%m-%d'}}">
+        {{ event_item.date_start | date: '%A, %B %d, %Y'}}
+       </span>
+    </div>
+    {% if event_item.date_end %}
+      <div class="date dtend">
+        <span class="value" title="{{ event_item.date_end | date: '%Y-%m-%d'}}">
+          {{ event_item.date_end | date: '%A, %B %d, %Y'}}
+         </span>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="body">
+    <div class="title">
+      <a href="{{event_item.more_info_url}}">{{ event_item.title }}</a>
+    </div>
+    {% if event_item.description %}
+      <div class="description">
+        {{event_item.description | markdownify }}
+      </div>
+    {% endif %}
+  </div>

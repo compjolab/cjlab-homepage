@@ -1,50 +1,24 @@
 ---
-title: News
+title: News and Events
 description: The latest announcements and news for Stanford Computational Journalism
 image_url: /files/images/photos/StanfordArches_overlay_red.jpg
 banner: true
+banner_text: The latest announcements and news for Stanford Computational Journalism
 layout: landing-page
 ---
+<div class="sec major">
 
-<div class="news-page">
-
-  <section class="sec">
-    <h2>
-      News
-    </h2>
-    <h4>
-      The latest updates and announcements for the Stanford Computational Journalism Lab.
-    </h4>
-     <p>
-      <strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong>
-    </p>
-  </section>
-
-  <section class="sec">
-    {% include news-list.html %}
-  </section>
-
-  <p class="rss-subscribe">Subscribe
-    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-  </p>
-
-
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+      <h3>News</h3>
+      {% include news_page/news_section.html %}
+    </div>
+    <div class="col-sm-4">
+      <h3>Events</h3>
+      {% include news_page/events_section.html %}
+    </div>
+  </div>
 </div>
 
-  <section class="sec">
-    <h2>
-      Events
-    </h2>
-    <h4>
-      Seminars and workshops happening around the Stanford campus that pertain to data.
-    </h4>
-      {% include events-listing.html %}
-  </section>
-
-  <section class="sec">
-    <div class="container">
-
-      {% include homepage/home-subscribe.html %}
-
-    </div>
-  </section>
+</div>

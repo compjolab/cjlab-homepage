@@ -9,6 +9,7 @@
         "vendor/bootstrap4/bootstrap",
         "vendor/font-awesome/font-awesome",
         "vendor/animate",
+        "site/effects",
         "site/footer",
         "site/header",
         "site/syntax",
@@ -27,6 +28,11 @@
 
 body{
 
+}
+
+
+.btn{
+    transition: all 0.3s ease 0s;
 }
 
 .sec{
@@ -59,3 +65,13 @@ body{
   padding-top: 15rem;
   padding-bottom: 8rem;
 }
+
+
+.nav-link{
+        @extend .hvr-underline-from-left;
+}
+
+// a{
+//     @extend .hvr-fade;
+// }
+
