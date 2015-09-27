@@ -1,0 +1,13 @@
+{% assign item=include.item %}
+{% assign item_imgurl="http://placehold.it/400x400" %}
+<div class="card card-block">
+    <div class="row">
+        <div class="col-sm-3">
+            <img src="{{item_imgurl}}" alt="TK" class="img-responsive">
+        </div>
+        <div class="col-sm-9">
+            <h5 class="title"><a href="{{item.url}}">{{item.title}}</a></h5>
+            <div class="description">{{item.description}}</div>
+        </div>
+    </div>
+</div>

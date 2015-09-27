@@ -1,8 +1,21 @@
 <h1 class="sec-title">Classes</h1>
 <p>We're teaching classes in the Stanford Journalism Program focused on public affairs, computational methods and investigative reporting.</p>
 <p>Students across Stanford can enroll in five data-focused journalism classes that explore storytelling with data, investigative reporting and technical tools to gather, analyze and present data for news audiences.</p>
-<img class="img-responsive" src="http://compjolab.github.io/files/images/photos/WatchdogClass2015_group.jpg" alt="class"> {% include class-listing.html %}
+<img class="img-responsive" src="http://compjolab.github.io/files/images/photos/WatchdogClass2015_group.jpg" alt="class">
+
+
+
+{% for course in site.data.courses %}
+<div class="course">
+  {% include snippets/feature-item.html item=course %}
+</div>
+{% endfor %}
+
+
+
 <img class="img-responsive" src="http://compjolab.github.io/files/images/photos/WatchdogClass2015_cheryl2.jpg" alt="class image">
+
+
 <div class="card card-block">
     <h2>Interested in a complete master's program?</h2> The Stanford Journalism Program's nine-month MA degree incorporates data-driven reporting with multimedia storytelling. Learn more at <a href="http://journalism.stanford.edu">http://journalism.stanford.edu</a>
 </div>

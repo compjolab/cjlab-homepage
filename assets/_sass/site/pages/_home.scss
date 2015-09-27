@@ -1,48 +1,45 @@
-.layout-homepage{
-
-  #home-logo{
-    animation-duration: 2s;
-  }
-
-  .call-to-action{
-    text-align: center;
-  }
-
-  .mission-statement{
-    font-size: $font-size-h2;
-    text-align: center;
-  }
-
-  #home-about{
-  background: $gray-lighter;
-  padding: 3.0em 0;
-  .description, .sec-title{
-    color: white;
-  }
-}
-  .home-cal{
-    padding: 20px;
-    .title{
-      font-size: 1.1rem;
-      color: #8C1515;
-      margin-bottom: 0;
+.layout-homepage {
+    .call-to-action {
+        text-align: center;
     }
-  }
-
-  .news-list{
-    .post-title{
-      font-size: $font-size-lg;
-      margin: 1px 0;
+    .mission-statement {
+        font-size: $font-size-h2;
+        text-align: center;
     }
-  }
 }
 
-
-#home-subscribe{
-  background: $brand-primary;
-  padding: 3.0em 0;
-  .description, .sec-title{
-    color: white;
-  }
+#home-hero{
+  padding-top: 8em;
 }
 
+#home-about {
+    background: $gray-lighter;
+    padding: 3.0em 0;
+    .description,
+    .sec-title {
+        color: white;
+    }
+    .home-cal {
+        padding: 20px;
+        .title {
+            font-size: 1.1rem;
+            color: #8C1515;
+            margin-bottom: 0;
+        }
+    }
+    .news-list {
+        .post-title {
+            font-size: $font-size-lg;
+            margin: 1px 0;
+        }
+    }
+}
+
+#home-subscribe {
+    background: $brand-primary;
+    padding: 3.0em 0;
+    .description,
+    .sec-title {
+        color: white;
+    }
+}
