@@ -2,7 +2,7 @@
 title: Corruption Conference
 description: | 
   An exploration of defining and measuring corruption in politics as seen through the lens of legal scholarship, journalism and political science.
-image_url: http://events.stanford.edu/events/501/50185/50185-1.jpg
+image_url: /files/images/projects/corruption-icon.jpg
 ---
 
 <strong>April 2015</strong> <br>

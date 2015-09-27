@@ -2,7 +2,7 @@
 title: Data Driven, Coding and Writing Transportation's Future
 description: | 
   A conference focused on the changing landscape of vehicle and transportation-related data, and the opportunities arising from it.
-image_url: /files/images/photos/DataDrivenConferenceBanner.png
+image_url: /files/images/projects/data-driven-icon.jpg
 ---
 
 <strong>February 2015</strong> <br>
