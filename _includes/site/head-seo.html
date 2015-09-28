@@ -31,6 +31,6 @@
 {% if page.image_url %}
   {% assign meta_image_url = page.image_url %}
 {% else %}
-  {% assign meta_image_url = "/assets/images/favicon.png" | prepend: site.baseurl | prepend: site.url %}
+  {% assign meta_image_url = "/assets/logo.png" | prepend: site.baseurl | prepend: site.url %}
 {% endif %}
 <meta property="og:image" content="{{ meta_image_url }}" />

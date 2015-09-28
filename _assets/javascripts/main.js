@@ -1,3 +1,10 @@
+//= require vendor/jquery
+//= require_tree ./vendor/bootstrap4
+//= require vendor/headroom
+//= require vendor/stellar
+//= require vendor/smooth-scroll
+
+
 // disable mobile via: https://github.com/markdalgleish/stellar.js/issues/37
 var isMobile = {
     Android: function() {

@@ -1,9 +1,8 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
 @charset "utf-8";
-@import
-        "custom_vars/colors",
+
+$fa-font-path: "/assets/fonts/font-awesome";
+
+@import "custom_vars/colors",
         "custom_vars/grid",
         "custom_vars/typography",
         "vendor/bootstrap4/bootstrap",
@@ -71,7 +70,7 @@ body{
         @extend .hvr-underline-from-left;
 }
 
-// a{
-//     @extend .hvr-fade;
-// }
+a{
+    @extend .hvr-fade;
+}
 
