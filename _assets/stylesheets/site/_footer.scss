@@ -1,7 +1,8 @@
 .site-footer{
-  background: $body-accent;
+  background: $body-bg;
   padding-bottom: 3.0em;
   padding-top: 2.5em;
+  @extend .tessel_back;
 
   img.logo{
     max-height: 100px;

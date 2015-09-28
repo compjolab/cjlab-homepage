@@ -6,6 +6,7 @@
 
 .navbar{
   background: #FFF;
+  color: $brand-primary;
   border-bottom: thin solid #eee;
   padding: 2rem 1rem;
   .logo{
@@ -17,12 +18,15 @@
     font-size: 0.75rem;
     padding-top: 0.20rem;
     padding-bottom: 0.1rem;
+    color: inherit;
   }
 }
 
 .headroom--unpinned{
+  background: $brand-primary;
+  color: #FFF;
   // transform: translateY(-10%) scaleY(0.5);
-  border-bottom: thin solid #fdd;
+  border-bottom: thin solid #ddd;
   padding: 0.3rem 1rem;
   // font-size: 0.6rem;
   // padding: $navbar-padding-vertical * 0.2 $navbar-padding-horizontal * 0.2;

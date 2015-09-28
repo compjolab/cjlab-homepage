@@ -60,17 +60,13 @@ body{
 
 /* TK MOVVE THIS SOMEWHERE ELSE */
 .hero{
-  padding-top: 15rem;
+  padding-top: 12rem;
   padding-bottom: 8rem;
 }
 
 
 .nav-link{
         @extend .hvr-underline-from-left;
-}
-
-a{
-    @extend .hvr-fade;
 }
 
 
