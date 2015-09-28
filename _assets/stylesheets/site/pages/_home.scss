@@ -5,9 +5,8 @@
   }
 
   .banner-statement{
-    font-size: $font-size-h2;
+    font-size: $font-size-h1;
     text-align: center;
-    font-weight: bold;
   }
 
   .secondary-banner-statement{
@@ -17,14 +16,14 @@
 }
 
   #home-hero{
-    @extend .tessel_back;
+    @extend .back-tile-neutral;
     // background-image: url("/files/images/photos/cj-background.jpg");
     // background-attachment: fixed;
   }
 
   #home-logo{
     max-width: 98%;
-    margin: 0.5em auto 1.2em;
+    margin: 0.5em auto 2.0em;
   }
 
 

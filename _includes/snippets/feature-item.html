@@ -4,7 +4,7 @@
 {% else %}
   {% assign item_imgurl="http://placehold.it/400x400" %}
 {% endif %}
-<div class="card card-block feature item">
+<div class="card card-block feature item" data-href="{{item.url}}">
     <div class="row">
         <div class="col-sm-3">
             <img src="{{item_imgurl}}" alt="TK" class="img-responsive">

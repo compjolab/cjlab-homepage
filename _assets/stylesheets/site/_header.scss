@@ -5,9 +5,10 @@
 
 
 .navbar{
-  background: #FFF;
+  background-color: rgba(255,255,255,0.95);
+
   color: $brand-primary;
-  border-bottom: thin solid #eee;
+  border-bottom: thin solid #333;
   padding: 2rem 1rem;
   .logo{
     max-height: 36px;
@@ -23,7 +24,7 @@
 }
 
 .headroom--unpinned{
-  background: $brand-primary;
+  background-color: $brand-primary;
   color: #FFF;
   // transform: translateY(-10%) scaleY(0.5);
   border-bottom: thin solid #ddd;

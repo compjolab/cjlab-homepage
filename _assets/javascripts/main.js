@@ -27,7 +27,16 @@ var isMobile = {
     }
 };
 
-
+$(document).ready(function(){
+    $(".item").each(function(){
+        if($(this).attr('data-href')){
+            var thishref = $(this).attr('data-href');
+            $(this).addClass('clickable').click(function(){
+                window.location = thishref;
+            });
+        }
+    })
+})
 
 
 

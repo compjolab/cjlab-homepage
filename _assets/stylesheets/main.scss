@@ -25,11 +25,6 @@ $fa-font-path: "/assets/fonts/font-awesome";
         ;
 
 
-body{
-
-}
-
-
 .btn{
     transition: all 0.3s ease 0s;
 }
@@ -68,12 +63,38 @@ background: $body-bg;
 
 
 .nav-link{
-        @extend .hvr-underline-from-left;
+    @extend .hvr-bob;
 }
 
 
-.tessel_back{
-    background-image: url("/assets/css_images/subtlenet2/subtlenet2_@2X.png");
+.back-tile-dark{
+    // background-color: #222;
+    background-image: url("/files/images/tiles/binding_dark.jpg");
     background-repeat: repeat;
+    color: white;
+}
+
+.back-tile-neutral{
+    // background-color: $body-bg;
+    background-image: url("/files/images/tiles/brushed_alum.jpg");
+    background-repeat: repeat;
+}
+
+.back-tile-white{
+    // background-color: #FFF;
+    background-image: url("/files/images/tiles/brushed_white_alum.jpg");
+    background-repeat: repeat;
+}
+
+
+body{
     background-color: $body-bg;
+    @extend .back-tile-white;
+}
+
+
+.clickable{
+    @extend .hvr-bob;
+    @extend .hvr-box-shadow-outset;
+    cursor: pointer;
 }
