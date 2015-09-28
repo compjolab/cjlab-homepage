@@ -2,11 +2,11 @@
   background-color: #000;
   background: url(/assets/images/banner.jpg);
   background-repeat: no-repeat;
-  background-repeat: no-repeat;
+  background-size: cover;
   overflow-y: hidden ! important;
   overflow-x: hidden ! important;
-  min-height: 400px;
   text-shadow: 1px 1px 1px #000;
+  background-position: 50% 0%;
 
   .banner-block{
   }

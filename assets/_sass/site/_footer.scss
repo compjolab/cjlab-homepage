@@ -1,10 +1,11 @@
 .site-footer{
   background: $body-accent;
   padding-bottom: 3.0em;
-  padding-top: 1.0em;
+  padding-top: 2.5em;
 
   img.logo{
     max-height: 100px;
+    margin-bottom: 0.5em;
   }
 
   .nav-list{
@@ -12,11 +13,11 @@
     text-transform: uppercase;
   }
 
+  .contact-list{
+    text-align: center;
+  }
   .contact{
     @extend .hvr-grow;
-  }
-
-  .contact{
     margin-bottom: 0.5em;
   }
 

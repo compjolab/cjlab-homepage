@@ -1,6 +1,12 @@
 
+
+<p class="rss-subscribe">
+<a class="btn btn-primary" href="{{ " /feed.xml " | prepend: site.baseurl }}">Subscribe via RSS</a>
+</p>
+
+
 {% for post in site.posts limit: post_limit %}
-    <div class="post">
+    <div class="post news-item">
       <div class="header">
         <div class="post-meta">
           <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
@@ -22,6 +28,6 @@
 
 
 
-<p class="rss-subscribe">Subscribe
-<a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a>
+<p class="rss-subscribe">
+<a class="btn btn-primary" href="{{ " /feed.xml " | prepend: site.baseurl }}">Subscribe via RSS</a>
 </p>

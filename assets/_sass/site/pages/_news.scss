@@ -4,6 +4,22 @@
   }
 }
 
+#news-section{
+  .news-item{
+    margin-bottom: 1.5em;
+    .title{
+      font-weight: bold;
+    }
+  }
+}
+
+#events-section{
+  .event{
+    font-size: 0.8rem;
+    margin-bottom: 1.0em;
+  }
+}
+
 
 .news-page{
   .news-list{
@@ -26,6 +42,4 @@
       }
     }
   }
-
-
 }

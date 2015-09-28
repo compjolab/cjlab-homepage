@@ -55,10 +55,13 @@
 }
 
 #home-subscribe {
-    background: $brand-primary;
+    background-color: $brand-primary;
     padding: 3.0em 0;
+    text-shadow: 1px 1px 1px #FFF;
+
     .description,
     .sec-title {
+        text-shadow: 1px 1px 1px #000;
         color: white;
     }
 }
