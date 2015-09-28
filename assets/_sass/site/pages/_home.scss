@@ -21,10 +21,6 @@
     background-attachment: fixed;
   }
 
-  #home-upcoming-events{
-    background: $gray-lighter;
-    padding: 3.0em 0;
-}
 
   .home-cal{
     padding: 20px;
@@ -40,13 +36,8 @@
 }
 
 
-#home-about {
-    background: $gray-lighter;
-    padding: 3.0em 0;
-    .description,
-    .sec-title {
-        color: white;
-    }
+  #home-about {
+
     .home-cal {
         padding: 20px;
         .title {
