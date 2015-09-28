@@ -3,6 +3,7 @@
   quarter: Fall 2015
   teacher: Dan Nguyen
   url: http://www.padjo.org/
+  image_url:
   description: |
     Even before the ubiquity of Internet access and high-powered computers, public accountability reporting relied on the concerted collection of observations and analytical problem-solving. We study the methods, and the data, used to discover leads and conduct in-depth reporting on public affairs, including election finance and safety regulations. Students gain practical experience with the digital tools and techniques of computer-assisted reporting.
 
@@ -12,6 +13,7 @@
   quarter: Winter 2016
   teacher: Cheryl Phillips
   url: http://storybytes.org/
+  image_url: /files/images/classes/PADJO2-icon.png
   description: |
     Learn how to find, create and analyze data to tell news stories with public service impact. Uses relational databases, advanced queries, basic statistics, and mapping to analyze data for storytelling. Assignments may include stories, blog posts, and data visualizations, with at least one in-depth project based on data analysis.
 
@@ -21,6 +23,7 @@
   quarter: Winter 2016
   teacher: Dan Nguyen
   url: http://www.compciv.org/
+  image_url:
   description: |
     The widespread availability of public data provides a rich opportunity for those who can efficiently filter, interpret, and visualize information. Course develops necessary technical skills for data collection, analysis, and publication, including data mining and web visualization, with a focus on civic affairs and government accountability. Open to all majors and a range of technical skill levels. Involves tackling new tools and technical concepts in the pursuit of engaging, public-facing projects.
 
@@ -29,21 +32,24 @@
   quarter: Winter 2016
   teacher: Geri Migielicz and Janine Zacharia
   url: https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=comm+291&collapse=
+  image_url: /files/images/classes/VirtualReality-icon.jpg
   description: |
     Details TBA.
 
 - title: Computational Journalism
   listing: COMM 177A/277A
   quarter: Spring 2016
-  url: http://www.compjour.org/
   teacher: Dan Nguyen
+  url: http://www.compjour.org/
+  image_url:
   description: |
     Focuses on using data and algorithms to lower the cost of discovering stories or telling stories in more engaging and personalized ways. Project based assignments based on real-world challenges faced in newsrooms. Prior experience in journalism or computational thinking helpful.
 
 - title: Becoming a Watchdog - Investigative Reporting Techniques
   listing: COMM 117I/277I
   quarter: Spring 2016
-  url: https://explorecourses.stanford.edu
   teacher: Cheryl Phillips and Stanford Data Lab's Bill Behrman
+  url: https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=COMM+277I&collapse=
+  image_url: /files/images/classes/WatchdogReporting-icon.jpg
   description: |
     Learn how to apply an investigative and data mindset to journalism, from understanding how to background an individual or entity using online databases to compiling or combining disparate sets of information in ways that unveil wrongdoing or mismanagement. Focuses on mining texts, tracking associations, and using visualizations. Stories produced apply investigative techniques to beat reporting, breaking news, and long form journalism.
