@@ -52,9 +52,8 @@ body{
 
 
 .animate-intro{
-    @extend .animated;
     @extend .fadeInDown;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
 }
 
 
@@ -74,3 +73,9 @@ a{
     @extend .hvr-fade;
 }
 
+
+.tessel_back{
+    background-image: url("/assets/css_images/subtlenet2/subtlenet2_@2X.png");
+    background-repeat: repeat;
+    background-color: $body-bg;
+}

@@ -1,14 +1,13 @@
 # Site settings
 title: Stanford Computational Journalism Lab
 email: journalism@commu.stanford.edu
-description: Data-driven storytelling from Silicon Valley
-
+description: Computational methods in the pursuit of accountability journalism and data-driven storytelling.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://cjlab.stanford.edu" # the base hostname & protocol for your site
 twitter_username: stanfordjourn
 github_username:  stanfordjourn
 
-github_repo: compjolab/compjolab.github.io
+github_repo: compjolab/cjlab-homepage
 
 
 # Build settings
