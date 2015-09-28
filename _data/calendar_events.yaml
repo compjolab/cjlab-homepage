@@ -1,53 +1,51 @@
-- title: Deadline for Knight Foundation Prototype Fund grants
-  date_start: 2015-08-17
-  more_info_url: http://www.knightfoundation.org/blogs/knightblog/2015/4/30/20-projects-explore-new-uses-data-media-and-tech-support-knight-prototype-fund/
-  image_url: https://upload.wikimedia.org/wikipedia/commons/1/15/Worldskin-01.jpg
-  image_caption: World Skin - Maurice Benayoun (Virtual Reality Installation - 1997) by Wikipedia user MoBen
-  image_source_url: https://commons.wikimedia.org/wiki/File:Worldskin-01.jpg
-  summary: |
-    Every quarter, the Knight Foundation's Prototype Fund offers $35,000 in grant money to help innovative media projects get off the ground.
-
-    - The application process starts [with this simple online form](https://knight.submittable.com/submit/).
-    - See the [22 projects that were funded in the most recent round](http://www.knightfoundation.org/blogs/knightblog/2015/8/4/22-ideas-win-knight-prototype-fund-support/).
-
-- title: Stanford Fall 2015 quarter begins
-  date_start: 2015-09-21
-  more_info_url: https://studentaffairs.stanford.edu/registrar/academic-calendar-1516
-
 - title: CJ Lab Informational Session at Stanford
   date_start: 2015-09-30
-  more_info_url: http://cjlab.stanford.edu
+  more_info_url: https://docs.google.com/forms/d/1ZdlA6CMnruwEQXFYY-hrGl10OBfBHe3RnmjEe9gPhwU/viewform
+  description: |
+    Join us for an informational session at 4:30 to 5:30 p.m. in McClatchy Hall, Mendenhall on the first floor.
   summary: |
     We're just getting started and would love to have you get involved in the new Stanford Computational Journalism Lab. Join us for an informational session at 4:30 to 5:30 p.m. in McClatchy Hall, Mendenhall on the first floor.
 
-- title: Computation + Journalism Symposium 2015
-  date_start: 2015-10-02
-  more_info_url: http://cj2015.brown.columbia.edu/
-  image_url: http://cj2015.brown.columbia.edu/img/logo.png
-  image_source_url: http://cj2015.brown.columbia.edu/
-  summary: |
-    A two-day conference focused on the intersection of journalism and computing.
 
 - title: ASNE-APME Conference at Stanford
   date_start: 2015-10-16
   more_info_url: http://asne.org/content.asp?pl=165&contentid=165
   image_url: http://082311a.membershipsoftware.org/content_images/ASNE-APME-2015-logo-banner-final.jpg
   image_source_url: http://asne.org/content.asp?pl=165&contentid=165
-  summary: |
-    The nation's top editors will be at Stanford Oct. 16-18 for the ASNE-APME conference. Major themes will include technology in the newsroom, diversity, First Amendment issues and newsroom leadership.
+  description: |
+    The nation's top editors will be at Stanford for the ASNE-APME conference
 
 - title: Data Science at Stanford Seminar Series
   date_start: 2015-10-21
   more_info_url: https://events.stanford.edu/events/544/54491/
   image_url: https://events.stanford.edu/about/defaultimages/default_image.jpg
   image_source_url: https://events.stanford.edu/events/544/54491/
-  summary: |
-    Listen to Trevor Hastie speak about statistical learning using big data from 2:30 to 3:30 p.m. at Stanford's Clark Center Auditorium. 
+  description: |
+    Trevor Hastie speaks about statistical learning using big data from 2:30 to 3:30 p.m. at Stanford's Clark Center Auditorium.
+
+- title: Stanford Journalism Open House
+  date_start: 2015-10-26
+  more_info_url: http://journalism.stanford.edu/admissions/applications/
+  description: |
+    Interested in applying for our graduate program? RSVP for our open house to learn more.
 
 - title: Women in Data Science Conference
   date_start: 2015-11-02
   more_info_url: http://events.stanford.edu/events/540/54061/
   image_url: http://events.stanford.edu/events/540/54061/54061-2.jpg
   image_source_url: http://events.stanford.edu/events/540/54061/
-  summary: |
-    A one-day technical conference that will feature data science research, how companies are using data science and networking opportunities. Sponsored by the Institute for Computational and Mathematical Engineering (ICME), along with co-sponsors Department of Statistics, Computer Forum and Stanford Mobilize.
+  description: |
+    A one-day technical conference featuring the latest data science research and applications in industry, as well as discussions on how to better support women in data science.
+
+- title: Stanford Journalism Open House
+  date_start: 2015-11-16
+  more_info_url: http://journalism.stanford.edu/admissions/applications/
+  description: |
+    Interested in applying for our graduate program? RSVP for our open house to learn more.
+
+
+- title: Application Deadline for Stanford Journalism Graduate Program
+  date_start: 2015-12-01
+  more_info_url: http://journalism.stanford.edu/admissions/applications/
+  description: |
+    The deadline for all graduate application forms is December 1, 2015.

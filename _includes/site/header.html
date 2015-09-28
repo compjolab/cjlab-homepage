@@ -3,12 +3,16 @@
         <ul class="nav navbar-nav">
             <li class="pull-left">
                 <a class="" href="/">
-                    <img class="logo line" src="/assets/images/cj-avatar.png" alt="CJ Lab">
+                    <img class="logo" src="/assets/images/cj-logo-line.png" alt="CJ Lab">
                 </a>
             </li>
-            <div class="pull-right">
+            <li class="pull-right hidden-sm-up">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingMainNavBar">
+                &#9776;
+                </button>
+            </li>
+            <div class="pull-right collapse navbar-toggleable-xs" id="collapsingMainNavBar">
                 {% include nav-list-items.html %}
-
             </div>
         </ul>
     </div>
