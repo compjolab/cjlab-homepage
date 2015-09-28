@@ -28,6 +28,10 @@
   // transform: translateY(-10%) scaleY(0.5);
   border-bottom: thin solid #ddd;
   padding: 0.3rem 1rem;
+
+  .hvr-underline-from-left:before{
+    background: #FFF;
+  }
   // font-size: 0.6rem;
   // padding: $navbar-padding-vertical * 0.2 $navbar-padding-horizontal * 0.2;
 }

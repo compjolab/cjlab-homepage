@@ -17,8 +17,9 @@
 }
 
   #home-hero{
-    background-image: url("/files/images/photos/CJ_Background_A.jpg");
-    background-attachment: fixed;
+    @extend .tessel_back;
+    // background-image: url("/files/images/photos/cj-background.jpg");
+    // background-attachment: fixed;
   }
 
   #home-logo{
