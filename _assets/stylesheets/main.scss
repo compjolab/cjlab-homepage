@@ -98,3 +98,25 @@ body{
     @extend .hvr-box-shadow-outset;
     cursor: pointer;
 }
+
+
+
+
+.pushme{
+    @extend .hvr-sink;
+    @extend .fa;
+    @extend .fa-2x;
+
+    cursor: pointer;
+    color: $brand-primary;
+    text-shadow: 1px 1px 1px #555;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    &:hover{
+        color: white;
+        text-decoration: none;
+    }
+    &:visited, &:active{
+        text-decoration: none;
+    }
+}
