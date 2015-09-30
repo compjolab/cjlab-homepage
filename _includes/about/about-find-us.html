@@ -6,11 +6,19 @@
             </div>
             <div class="card-block">
                 <ul class="list-unstyled">
-                    <li><a href="https://twitter.com/StanfordJourn" target="_blank"><i class="fa fa-twitter fa-2x"></i> @StanfordJourn on Twitter</a>
+                    {% for ix in site.data.contact_us_list %}
+                    {% assign service_name=ix[0]%}
+                    {% assign service=ix[1]%}
+                    <li class="item">
+                        <a href="{{service.url}}" target="_blank">
+                            <i class="fa fa-2x fa-{{service.icon}}"></i>
+                            <span class="name">{{service_name}}</span>
+                        </a>
                     </li>
-                    <li>
-                        <a href="https://www.facebook.com/StanfordJournalism" target="_blank"><i class="fa fa-facebook fa-2x"></i> Stanford Journalism on Facebook</a>
-                    </li>
+                    {% endfor %}
+
+
+
                 </ul>
             </div>
         </div>
