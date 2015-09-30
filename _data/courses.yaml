@@ -15,7 +15,7 @@
   url: http://storybytes.org/
   image_url: /files/images/classes/PADJO2-icon.png
   description: |
-    Learn how to find, create and analyze data to tell news stories with public service impact. Uses relational databases, advanced queries, basic statistics, and mapping to analyze data for storytelling. Assignments may include stories, blog posts, and data visualizations, with at least one in-depth project based on data analysis.
+    Learn how to find, create and analyze data to tell news stories with public service impact. Uses relational databases, advanced queries, basic statistics and mapping to analyze data for storytelling. Assignments may include stories, blog posts and data visualizations, with at least one in-depth project based on data analysis.
 
 
 - title: Computational Methods in the Civic Sphere
@@ -26,6 +26,7 @@
   image_url: /files/images/icons/compciv.png
   description: |
     The widespread availability of public data provides a rich opportunity for those who can efficiently filter, interpret, and visualize information. This course develops necessary technical skills for data collection, analysis, and publication, including data mining and web visualization, with a focus on civic affairs and government accountability.
+
 
 - title: Immersive Storytelling with Virtual Reality
   listing: COMM 291
@@ -43,7 +44,7 @@
   url: http://www.compjour.org/
   image_url: /files/images/icons/compjour.png
   description: |
-    Focuses on using data and algorithms to lower the cost of discovering stories or telling stories in more engaging and personalized ways. Project based assignments based on real-world challenges faced in newsrooms. Prior experience in journalism or computational thinking helpful.
+    Focuses on using data and algorithms to lower the cost of discovering stories or telling stories in more engaging and personalized ways. Project-based assignments based on real-world challenges faced in newsrooms. Prior experience in journalism or computational thinking helpful.
 
 - title: Becoming a Watchdog - Investigative Reporting Techniques
   listing: COMM 117I/277I
@@ -52,4 +53,4 @@
   url: https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=COMM+277I&collapse=
   image_url: /files/images/classes/WatchdogReporting-icon.jpg
   description: |
-    Learn how to apply an investigative and data mindset to journalism, from understanding how to background an individual or entity using online databases to compiling or combining disparate sets of information in ways that unveil wrongdoing or mismanagement. Focuses on mining texts, tracking associations, and using visualizations. Stories produced apply investigative techniques to beat reporting, breaking news, and long form journalism.
+    Learn how to apply an investigative and data mindset to journalism, from understanding how to background an individual or entity using online databases to compiling or combining disparate sets of information in ways that unveil wrongdoing or mismanagement. Focuses on mining texts, tracking associations and using visualizations. Stories produced apply investigative techniques to beat reporting, breaking news and long-form journalism.
