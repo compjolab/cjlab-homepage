@@ -1,12 +1,15 @@
-Email:
-  href: "mailto:jayth@stanford.edu?Subject=Regarding Stanford CJ Lab"
-  icon: envelope
-RSS:
-  href: /feed.xml
-  icon: rss
+Newsletter:
+  url: "/contact#newsletter-section"
+  icon: newspaper-o
 Twitter:
-  href: https://twitter.com/StanfordJourn
+  url: https://twitter.com/StanfordJourn
   icon: twitter
 Facebook:
-  href: https://www.facebook.com/StanfordJournalism
+  url: https://www.facebook.com/StanfordJournalism
   icon: facebook
+RSS:
+  url: /feed.xml
+  icon: rss
+Email:
+  url: "mailto:jayth@stanford.edu?Subject=Regarding Stanford CJ Lab"
+  icon: envelope
