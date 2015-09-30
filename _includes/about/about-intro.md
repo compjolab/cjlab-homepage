@@ -24,4 +24,4 @@ The ultimate goal of the CJ Lab is to produce students, algorithms and investiga
 
 There are many ways to become engaged with the work of the Stanford CJ Lab, including [projects](/initiatives#projects-section), [conferences and meet-ups](/initiatives#meetups-section), [classes](/initiatives#courses-section), [tutorials](/initiatives#tutorials-section).
 
-Contact us TK.
+We want to hear from you. [Contact us](/contact).
