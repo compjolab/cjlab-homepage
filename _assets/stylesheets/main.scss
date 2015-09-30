@@ -29,6 +29,11 @@ $fa-font-path: "/assets/fonts/font-awesome";
     transition: all 0.3s ease 0s;
 }
 
+
+blockquote{
+    @extend .blockquote;
+}
+
 .sec{
     padding: 3.5em 0;
 
@@ -91,7 +96,7 @@ body{
 
 
 .pulsing{
-        @extend .hvr-bounce-in;
+        @extend .hvr-underline-reveal;
 
 }
 

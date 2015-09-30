@@ -3,6 +3,9 @@
   transition: all 0.5s ease;
 }
 
+#mast-logo{
+
+}
 
 .navbar{
   background-color: $body-bg;
@@ -20,6 +23,12 @@
     padding-top: 0.20rem;
     padding-bottom: 0.1rem;
     color: inherit;
+    transition: all 0.5s ease;
+
+  }
+
+  .navbar-toggler{
+    padding: 0 0;
   }
 }
 

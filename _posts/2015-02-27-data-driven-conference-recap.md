@@ -12,8 +12,10 @@ The conference focused on the changing landscape of vehicle and transportation r
 
 The Stanford Journalism Program also unveiled <a href="http://www.datadrivenstanford.org/" target="_blank">DataDrivenStanford.org</a>, a repository of valuable datasets and journalism related to the vehicles we drive and the transportation infrastructure.
 
-If you missed attending the conference, you can watch the videos below <a href="https://www.youtube.com/playlist?list=PLpGHT1n4-mAsIxVxtpTQov5A8onvr4JKA" target="_blank">via YouTube</a> or download them <a href="https://itunes.apple.com/us/itunes-u/id971419498" target="_blank">on iTunes</a>.
 
 Stanford senior Peter Johnson also wrote a blog post about highlights from the conference: <a href="http://revs.stanford.edu/blog/772" target="_blank">Read his story on the Revs Program at Stanford site.</a>
 
-<center><iframe src="https://www.youtube.com/embed/videoseries?list=PLpGHT1n4-mAsIxVxtpTQov5A8onvr4JKA" width="853" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLpGHT1n4-mAsIxVxtpTQov5A8onvr4JKA" width="100%" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+If you missed attending the conference, you can watch the videos <a href="https://www.youtube.com/playlist?list=PLpGHT1n4-mAsIxVxtpTQov5A8onvr4JKA" target="_blank">via YouTube</a> or download them <a href="https://itunes.apple.com/us/itunes-u/id971419498" target="_blank">on iTunes</a>.
+
