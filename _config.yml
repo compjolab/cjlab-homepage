@@ -22,12 +22,17 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+    layout: page
 
 defaults:
   - scope:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      type: "projects"
+    values:
+      layout: "page"
 
 gems:
   - octopress-autoprefixer
