@@ -1,32 +1,40 @@
+
+
 - title: "Data Exploration with OpenRefine"
   url: http://www.padjo.org/tutorials/open-refine/introduction-to-open-refine/
   description: |
-    OpenRefine is a power tool for cleaning data. In this tutorial, we learn basic operations for exploring the data in Refine.
+    How to use OpenRefine as a power tool for cleaning and exploring data.
+  image_url: /files/images/icons/tutorials/tutorial-refine-exploration.png
 
 - title: "Clustering text facets in OpenRefine"
   url: http://www.padjo.org/tutorials/open-refine/clustering/
   description: OpenRefine gives point-and-click access to a variety of powerful text clustering algorithms.
+  image_url: /files/images/icons/tutorials/tutorial-refine-clusters.png
 
 - title: A little Tableau tutorial
   url: https://www.dropbox.com/s/5qh0ilvpbdi1aut/Basic_Tableau_Viz.pdf?dl=0
   description: A quick tutorial of Tableau and visualizing Washington state lobbying expenditures.
+  image_url: /files/images/icons/tutorials/tutorial-a-little-tableau.png
 
-- title: Tableau tree map tutorial
-  url: https://www.dropbox.com/s/5qh0ilvpbdi1aut/Basic_Tableau_Viz.pdf?dl=0
-  description: |
-    A walk-through for building a Tableau tree map visualization. (Download <a href="https://www.dropbox.com/s/vrk2alt303og9gm/GOVT-LOBBYING-sample.xlsx?dl=0">sample data</a>)
+
 
 - title: Getting Started with SQLite and Sequel Pro
   description: An introduction to using SQL with a GUI client
   url: http://www.padjo.org/tutorials/databases/getting-around-sqlite-and-sequel-pro/
+  image_url: /files/images/icons/tutorials/tutorial-intro-sequel-pro.png
+
 
 - title: Mapping Census data using Arcmap with ESRI
   description: Tips to easily map Census data.
   url: https://drive.google.com/file/d/0B0-s_hU2WGE-SUFKN1lCWGE3c2c/view
+  image_url: /files/images/icons/tutorials/tutorial-census-arcmap.png
 
-- title: How to burst data out of PDFs with Tabula
+
+- title: Busting data out of PDFs
   description: |
-    Methods to pull data out of PDF documents. (Download <a href="https://www.dropbox.com/s/oh136f6vkpjwkp3/TomRodney2013.pdf?dl=0 ">sample PDF</a> and <a href="https://www.dropbox.com/s/xznbt45x8ez1dfg/auburnpermits.xlsx?dl=0">Excel data</a>)
+    A walkthrough of software and methods for extracting textual data from PDFs.
   url: https://www.dropbox.com/s/hc60bc6gznhqdlx/Busting%20data%20out%20of%20PDFs.docx?dl=0
+  image_url: /files/images/icons/tutorials/tutorial-tabula.png
+
 
 
