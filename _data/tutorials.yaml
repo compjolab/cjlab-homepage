@@ -1,5 +1,10 @@
 
 
+- title: Search-Script-Scrape
+  url: https://github.com/compjour/search-script-scrape
+  description: |
+    An assignment for the Computational Journalism class: 101 real world web scraping exercises in Python 3 for data journalists
+
 - title: "Data Exploration with OpenRefine"
   url: http://www.padjo.org/tutorials/open-refine/introduction-to-open-refine/
   description: |
