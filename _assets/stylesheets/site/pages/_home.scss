@@ -1,3 +1,6 @@
+.sec-shadow{
+   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
 
 .layout-homepage{
   .call-to-action{
@@ -31,41 +34,30 @@
   }
 
 
-  .home-cal{
-    padding: 20px;
-    .title{
-      font-size: 1.1rem;
-      color: #8C1515;
-      margin-bottom: 0;
-    }
-    .banner-statement {
-        font-size: $font-size-h2;
-        text-align: center;
-    }
-}
-
-
-  #home-about {
-
-    .home-cal {
-        padding: 20px;
-        .title {
-            font-size: 1.1rem;
-            color: #8C1515;
-            margin-bottom: 0;
-        }
-    }
-    .news-list {
-        .post-title {
-            font-size: $font-size-lg;
-            margin: 1px 0;
-        }
-    }
+#home-about{
+  @extend .sec-shadow;
 }
 
 #home-subscribe {
+    @extend .sec-shadow;
     .sec-title {
         color: white;
-        text-shadow: 1px 1px 1px #000;
+        text-shadow: 2px 2px 2px #000;
     }
+}
+
+
+
+
+
+#home-features{
+  .feature{
+    .description{
+      font-size: $font-size-sm;
+    }
+
+    img{
+      margin-bottom: 1.0em;
+    }
+  }
 }
