@@ -1,5 +1,5 @@
 ---
-title: Stanford Data Lab Announcement
+title: Stanford Data Lab announcement
 date: 2015-03-01
 description: The Stanford Data Lab is a new initiative to teach the practical skills of data science by engaging students in the solution of real problems.
 authors: 
@@ -40,5 +40,7 @@ The faculty for this project includes __Cheryl Phillips__ from the Stanford Jour
 - Admission by application: due Sun, Mar 22, 11:59 PM
 
 For questions, contact datalab@stanford.edu.
+
+More info on [the Stanford Data Lab website](http://datalab.stanford.edu).
 
 __URL for this announcement__: [http://goo.gl/4ZHiIJ](http://goo.gl/4ZHiIJ)

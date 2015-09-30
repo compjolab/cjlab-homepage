@@ -25,9 +25,3 @@ Watch the full video from Wednesday’s announcement on Knight Foundation’s si
 
 <strong>About California Civic Data Coalition
 </strong>The California Civic Data Coalition is a coalition of journalists from the Los Angeles Times, The Center for Investigative Reporting, the San Francisco Chronicle and Stanford’s Computational Journalism Lab. Learn more at <a href="http://www.californiacivicdata.org">http://www.californiacivicdata.org</a>
-
-<strong>About Stanford Computational Journalism Lab
-</strong>The Stanford Journalism Program’s Computational Journalism Lab will launch in September. Stay tuned at <a href="http://cjlab.stanford.edu">http://cjlab.stanford.edu</a>.
-
-<em>Follow California Civic Data Coalition on Twitter: </em><em><a href="https://twitter.com/cacivicdata" target="_blank">@cacivicdata</a>
-</em><em>Follow Stanford Journalism Program on Twitter: <a href="https://twitter.com/StanfordJourn" target="_blank">@StanfordJourn</a></em>
