@@ -7,9 +7,10 @@
 
 }
 
+
+
 .navbar{
   background-color: $body-bg;
-
   color: $brand-primary;
   border-bottom: thin solid #333;
   padding: 2rem 1rem;
@@ -44,4 +45,17 @@
   }
   // font-size: 0.6rem;
   // padding: $navbar-padding-vertical * 0.2 $navbar-padding-horizontal * 0.2;
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .navbar{
+      padding: 0.3rem 1rem;
+      .nav-item, .nav-item+.nav-item{
+        float:none;
+        margin-left: 0;
+      }
+
+  }
 }

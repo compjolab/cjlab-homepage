@@ -131,3 +131,19 @@ body{
         text-decoration: none;
     }
 }
+
+
+
+@media only screen and (max-width : 480px) {
+  body{
+    font-size: 0.9rem;
+  }
+
+  .sec .sec-title, .sec-title{
+    font-size: 2.2rem;
+  }
+
+  .sec.major{
+    padding: 2.0em 0;
+  }
+}
