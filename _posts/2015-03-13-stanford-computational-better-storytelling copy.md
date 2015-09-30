@@ -3,7 +3,7 @@ title: Stanford's computational journalism offers distinct tools for better stor
 description: An interview with the Stanford Journalism director Jay Hamilton.
 date: 2015-03-13
 via: Clifton B. Parker of the Stanford Report
-via_url: http://news.stanford.edu/news/2015/march/hamilton-computational-journalism-031315.html)
+via_url: http://news.stanford.edu/news/2015/march/hamilton-computational-journalism-031315.html
 ---
 
 > Stanford's data-driven journalism program gives students powerful new ways to explore complex stories of public and social significance. The program blends computers and storytelling while upholding the journalistic values of accuracy and relevance.
