@@ -4,7 +4,7 @@ description: Volunteers contributed more than 250 code commits toward a larger p
 date: 2015-09-01
 ---
 
-Ben Welsh, with our partners at the California Civic Data Coalition, recently traveled to Buenos Aires to take part in Hacks/Hacker's Media Party 2015 event. As part of the event, volunteers finished decoding 1,400 cryptic CAL-ACCESS database fields.
+Ben Welsh, with our partners at the California Civic Data Coalition, recently traveled to Buenos Aires to take part in Hacks/Hackers' Media Party 2015 event. As part of the event, volunteers finished decoding 1,400 cryptic CAL-ACCESS database fields.
 
 Welsh is data desk editor at the Los Angeles Times.
 
