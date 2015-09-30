@@ -5,13 +5,13 @@
                 <h3>Online</h3>
             </div>
             <div class="card-block">
-                <ul class="list-unstyled">
+                <ul class="list-unstyled make-contact-list">
                     {% for ix in site.data.contact_us_list %}
                     {% assign service_name=ix[0]%}
                     {% assign service=ix[1]%}
                     <li class="item">
                         <a href="{{service.url}}" target="_blank">
-                            <i class="fa fa-2x fa-{{service.icon}}"></i>
+                            <i class="icon fa fa-lg fa-{{service.icon}}"></i>
                             <span class="name">{{service_name}}</span>
                         </a>
                     </li>
