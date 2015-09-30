@@ -7,7 +7,7 @@ $fa-font-path: "/assets/fonts/font-awesome";
         "custom_vars/typography",
         "vendor/bootstrap4/bootstrap",
         "vendor/font-awesome/font-awesome",
-        "vendor/animate",
+        // "vendor/animate",
         "site/effects",
         "site/footer",
         "site/header",
@@ -47,7 +47,7 @@ $fa-font-path: "/assets/fonts/font-awesome";
 
 
 .animate-intro{
-    @extend .fadeInDown;
+    @extend .fadeInUp;
     animation-duration: 0.5s;
 }
 
@@ -62,9 +62,6 @@ background: $body-bg;
 }
 
 
-.nav-link{
-    @extend .hvr-bob;
-}
 
 
 .back-tile-dark{
@@ -93,12 +90,20 @@ body{
 }
 
 
+.pulsing{
+        @extend .hvr-bounce-in;
+
+}
+
 .clickable{
     @extend .hvr-bob;
     @extend .hvr-box-shadow-outset;
     cursor: pointer;
 }
 
+.nav-link{
+    @extend .pulsing;
+}
 
 
 
