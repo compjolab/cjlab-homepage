@@ -1,6 +1,6 @@
 ## Our Mission
 
-The Stanford Computational Journalism Lab supports the evolution of computational approaches to public affairs journalism through research, teaching, and the production of reporting.
+The Stanford Computational Journalism Lab supports the evolution of computational approaches to public affairs journalism through research, teaching and the production of reporting.
 
 
 ## What We Do
