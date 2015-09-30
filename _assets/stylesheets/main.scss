@@ -108,6 +108,7 @@ body{
 
 .nav-link{
     @extend .pulsing;
+    font-family: $headings-font-family;
 }
 
 

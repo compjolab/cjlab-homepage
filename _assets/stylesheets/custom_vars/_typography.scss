@@ -1,12 +1,11 @@
 // Import Google fonts
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,300italic);
 @import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,400italic);
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700,400);
 
 $font-family-serif:       "Lora", Georgia, "Times New Roman", Times, serif !default;
 $font-family-sans-serif:  "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$headings-font-family:    "Roboto", $font-family-sans-serif;
+$headings-font-family:    "Montserrat", $font-family-sans-serif;
 $headings-font-weight:    bold;
 
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
