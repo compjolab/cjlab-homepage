@@ -108,7 +108,11 @@ body{
 
 .nav-link{
     @extend .pulsing;
+    @extend .fadeIn;
     font-family: $headings-font-family;
+    animation-duration: 0.7s;
+    transition: all 0.7s ease; /*fixlater*/
+
 }
 
 
