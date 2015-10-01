@@ -3,6 +3,8 @@ title: A quick list of deep and interesting datasets for computational journalis
 description: |
   Here are the URLs for the public datasets I mentioned as being big, interesting, and (relatively) easy to get.
 author: Dan Nguyen
+description: In case you missed the Sept. 30 CJ Lab info session, a summary and some links to get you acquainted.
+date: 2015-09-30
 ---
 
 Thank you to everyone who attended [today's informational session](http://us7.campaign-archive1.com/?u=60a5181e3d9c08e1e0f401dc0&id=1d23daf12f&e=a077356aa8) about the Stanford Computational Journalism Lab. If you weren't able to come by, feel free to sign up for our [mailing list](http://cjlab.stanford.edu/contact#newsletter-section), and/or get in contact with us [via email and social media](http://cjlab.stanford.edu/contact/).
