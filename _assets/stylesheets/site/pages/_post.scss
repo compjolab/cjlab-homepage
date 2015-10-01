@@ -1,3 +1,9 @@
 .layout-post{
   padding-top: 8.0em;
+
+
+}
+
+.post-content img{
+  @extend .img-responsive;
 }
