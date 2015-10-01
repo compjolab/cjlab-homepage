@@ -51,8 +51,10 @@ Those are just what I could fit into the slide. There are many more, of course:
 - [311 Requests for San Francisco](https://data.sfgov.org/City-Infrastructure/Case-Data-from-San-Francisco-311-SF311-/vw6y-z8j6)
 - [Recalls and civil/criminal penalties via the U.S. Consumer Product Safety Commission](http://www.cpsc.gov/en/Newsroom/Downloadable-Data/)
 - [Payments made by health care companies to doctors](https://www.cms.gov/openpayments/)
+- [New York subway turnstile data](http://web.mta.info/developers/turnstile.html)
 - [NYPD motor vehicle collisions](https://nycopendata.socrata.com/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95?)
 - [Seattle Real Time Fire 911 Calls](https://data.seattle.gov/Public-Safety/Seattle-Real-Time-Fire-911-Calls/kzjm-xkqj)
+- [NIST's national database of software security flaws](https://nvd.nist.gov/download.cfm)
 - [Reported incidents of civilian aircraft hitting birds and other animals](http://wildlife.faa.gov/)
 
 Many cities and states are using the Socrata portal; here's [San Francisco](https://data.sfgov.org/) and [New York City](https://nycopendata.socrata.com/data). The [U.S. City Open Data Census](http://us-city.census.okfn.org/), via Code For America, Sunlight Foundation, and Open Knowledge Foundation, is a great place to see what's available.
