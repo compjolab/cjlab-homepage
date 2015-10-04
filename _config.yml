@@ -39,6 +39,7 @@ gems:
   - s3_website
   - jekyll-assets
   - uglifier
+  - jekyll-sitemap
 
 assets:
   js_compressor:  uglifier

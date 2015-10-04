@@ -1,7 +1,5 @@
 ---
 title: A quick list of deep and interesting datasets for computational journalists
-description: |
-  Here are the URLs for the public datasets I mentioned as being big, interesting, and (relatively) easy to get.
 author: Dan Nguyen
 description: In case you missed the Sept. 30 CJ Lab info session, a summary and some links to get you acquainted.
 date: 2015-09-30
