@@ -70,7 +70,7 @@ $(document).ready(function(){
         color: 'rgb(200, 32, 32)',
         fontSize: 20};
 
-        console.message().text("ADMIN MODE: http://cjlab.stanford.edu/admin", {color: 'rgb(0, 0, 200, 0.7)'}).print();
+        console.message().text("ADMIN MODE: http://cjlab.stanford.edu/pages/STAGING/admin", {color: 'rgb(0, 0, 200, 0.7)'}).print();
         console.message().text("[TODO: disable admin mode BEFORE pushing to production!!!]").print();
         console.message().text(" dbl check gitignre.txt before deploying!").print();
                 console.message().text("-------------------------------").print();
