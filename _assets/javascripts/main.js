@@ -2,6 +2,7 @@
 //= require_tree ./vendor/bootstrap4
 //= require vendor/headroom
 //= require vendor/stellar
+//= require vendor/console.message
 //= require vendor/smooth-scroll
 
 
@@ -58,5 +59,25 @@ $(document).ready(function(){
     $(".animate-intro").removeClass('animate-intro');
     // disable animate
   }
+})
+
+$(document).ready(function(){
+
+    var _basestyle = {fontFamily: "'Gill Sans', Helvetica, sans-serif",
+        color: 'rgb(156, 10, 10)',
+        fontSize: 20}
+
+    var _fancystyle = {
+        fontSize: 42,
+        color: 'hsl(295, 100%, 50%)',
+        fontFamily: '\'Permanent Marker\', cursive'
+    }
+
+    console.message().text("Hi Hack/Hacker! Welcome to the Console!", _fancystyle).print();
+
+    console.message().text("- Check out our Github: https://github.com/compjolab/cjlab-homepage", _basestyle).print();
+    console.message().text("- Here's a dev tools tutorial: http://www.compjour.org/tutorials/intro-to-the-web-inspector/", _basestyle).print();
+
+    console.message().text("- A fun use of the network panel for journalism: https://www.propublica.org/nerds/item/reading-flash-data", _basestyle).print();
 })
 
