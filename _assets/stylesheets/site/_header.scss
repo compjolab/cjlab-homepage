@@ -51,13 +51,24 @@
 
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
+@include media-breakpoint-down(md){
   .navbar{
       padding: 0.3rem 1rem;
+
+      .nav-item, .nav-item+.nav-item{
+        margin-left: 0.5rem;
+      }
+      .nav-link{
+        font-size: 0.62rem;
+      }
+  }
+}
+
+@include media-breakpoint-down(sm){
+  .navbar{
       .nav-item, .nav-item+.nav-item{
         float:none;
         margin-left: 0;
       }
-
   }
 }

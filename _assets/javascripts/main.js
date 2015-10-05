@@ -159,14 +159,7 @@ function debugMe(){
         fontFamily: '\'Permanent Marker\', cursive'
     };
 
-console.message().text(" _____________________________ ", {color: 'red'}).print();
-console.message().text("< HEY! U R UNAUHTORIZED!?>", {color: 'red', fontWeight: 'bold'}).print();
-console.message().text(" ----------------------------- ", {color: 'red'}).print();
-console.message().text("        \\   ^__^", {color: 'red'}).print();
-console.message().text("         \\  (ಠಠ)\\_______", {color: 'red'}).print();
-console.message().text("            (__)\\       )\\/\\", {color: 'red'}).print();
-console.message().text("                ||----w |", {color: 'red'}).print();
-console.message().text(" ");console.log("\n");console.log(" ");console.log(" ");
+
 
     console.message().text("So you like to hack?", _fancystyle).print();
     console.message().text("                       ...We like that!", _smallfancystyle).print();
