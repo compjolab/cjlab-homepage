@@ -47,23 +47,37 @@ $(document).ready(function(){
   if( !isMobile.any() ){
   // grab an element
     var myElement = document.querySelector("#header-headroom");
-    // construct an instance of Headroom, passing the element
-    var headroom  = new Headroom(myElement);
-    // initialise
+    if(myElement){
+        // construct an instance of Headroom, passing the element
+        var headroom  = new Headroom(myElement);
+        // initialise
 
-    headroom.init();
-    $.stellar({
-        horizontalScrolling: false
-    });
+        headroom.init();
+        $.stellar({
+            horizontalScrolling: false
+        });
+
+    }
   }else{
     $(".animate-intro").removeClass('animate-intro');
     // disable animate
   }
 })
 
-$(document).ready(function(){
 
-    var _basestyle = {fontFamily: "'Gill Sans', Helvetica, sans-serif",
+$(document).ready(function(){
+        var _heystyle = {fontFamily: "Menlo, Monaco, Consolas, 'Courier New', monospace, Helvetica, sans-serif",
+        color: 'rgb(200, 32, 32)',
+        fontSize: 20};
+
+        console.message().text("ADMIN MODE: http://cjlab.stanford.edu/admin", {color: 'rgb(0, 0, 200, 0.7)'}).print();
+        console.message().text("[TODO: disable admin mode BEFORE pushing to production!!!]", _heystyle).print();
+        console.message().text(" dbl check gitignre.txt before deploying!").print();
+});
+
+
+function debugMe(){
+        var _basestyle = {fontFamily: "'Gill Sans', Helvetica, sans-serif",
         color: 'rgb(156, 10, 10)',
         fontSize: 20};
 
@@ -92,4 +106,4 @@ $(document).ready(function(){
     console.message().text("- Here's a fun real-world journlaism use for the network panel:", _basestyle).print();
     console.message().text("     https://www.propublica.org/nerds/item/reading-flash-data", _linkstyle).print();
 
-});
+}
