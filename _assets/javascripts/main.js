@@ -134,7 +134,7 @@ console.log("            (__)\\       )\\/\\");
 console.log("                ||----w |");
 console.log("                ||     ||");
 console.log("TODO add Konami code JS and do a cool easter egg thing!")
-
+debugMe();
 });
 
 
@@ -174,7 +174,7 @@ console.message().text(" ");console.log("\n");console.log(" ");console.log(" ");
     console.message().text("     https://github.com/compjolab/cjlab-homepage", _linkstyle).print();
     console.message().text("- Here's a dev tools tutorial from the Computational Journalism class:", _basestyle).print();
     console.message().text("     http://www.compjour.org/tutorials/intro-to-the-web-inspector/", _linkstyle).print();
-    console.message().text("- Here's a fun real-world journlaism use for the network panel:", _basestyle).print();
+    console.message().text("- Here's a fun real-world journalism use for the network panel:", _basestyle).print();
     console.message().text("     https://www.propublica.org/nerds/item/reading-flash-data", _linkstyle).print();
 
 }
