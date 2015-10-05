@@ -148,26 +148,28 @@ function debugMe(){
         fontSize: 16};
 
     var _fancystyle = {
-        fontSize: 42,
-        color: 'hsl(295, 100%, 50%)',
-        fontFamily: '\'Permanent Marker\', cursive'
+        fontSize: 50,
+        color: 'hsl(330, 100%, 50%)',
+        textShadow: '0 2px 0 hsl(330, 100%, 25%), 0 3px 2px hsla(330, 100%, 15%, 0.5), /* next */ 0 3px 0 hsl(350, 100%, 50%), 0 5px 0 hsl(350, 100%, 25%), 0 6px 2px hsla(350, 100%, 15%, 0.5), /* next */ 0 6px 0 hsl(20, 100%, 50%), 0 8px 0 hsl(20, 100%, 25%), 0 9px 2px hsla(20, 100%, 15%, 0.5), /* next */ 0 9px 0 hsl(50, 100%, 50%), 0 11px 0 hsl(50, 100%, 25%), 0 12px 2px hsla(50, 100%, 15%, 0.5), /* next */ 0 12px 0 hsl(70, 100%, 50%), 0 14px 0 hsl(70, 100%, 25%), 0 15px 2px hsla(70, 100%, 15%, 0.5), /* next */ 0 10px 0 hsl(90, 100%, 50%), 0 10px 0 hsl(90, 100%, 25%), 0 10px 2px hsla(90, 100%, 15%, 0.5)',
+        fontFamily: "Menlo, Monaco, Consolas, 'Courier New', cursive",
+        backgroundColor: '#43FF43'
     };
 
     var _smallfancystyle = {
         fontSize: 26,
-        color: 'hsl(342, 100%, 50%)',
-        fontFamily: '\'Permanent Marker\', cursive'
+        color: '#FF408C',
+        fontFamily: "cursive, Helvetica"
     };
 
 
 
     console.message().text("So you like to hack?", _fancystyle).print();
-    console.message().text("                       ...We like that!", _smallfancystyle).print();
-    console.message().text("- Check out our Github:", _basestyle).print();
-    console.message().text("     https://github.com/compjolab/cjlab-homepage", _linkstyle).print();
-    console.message().text("- Here's a dev tools tutorial from the Computational Journalism class:", _basestyle).print();
-    console.message().text("     http://www.compjour.org/tutorials/intro-to-the-web-inspector/", _linkstyle).print();
-    console.message().text("- Here's a fun real-world journalism use for the network panel:", _basestyle).print();
-    console.message().text("     https://www.propublica.org/nerds/item/reading-flash-data", _linkstyle).print();
+    console.message().text("                                    ...We like that!", _smallfancystyle).print();
+    console.message().text("This site's Github repo:", _basestyle).print();
+    console.message().text("   https://github.com/compjolab/cjlab-homepage", _linkstyle).print();
+    console.message().text("Here's a dev tools tutorial from the Computational Journalism class:", _basestyle).print();
+    console.message().text("   http://www.compjour.org/tutorials/intro-to-the-web-inspector/", _linkstyle).print();
+    console.message().text("Here's a fun real-world journalism use for the network panel:", _basestyle).print();
+    console.message().text("   https://www.propublica.org/nerds/item/reading-flash-data", _linkstyle).print();
 
 }
