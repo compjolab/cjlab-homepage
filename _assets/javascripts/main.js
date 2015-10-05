@@ -65,19 +65,31 @@ $(document).ready(function(){
 
     var _basestyle = {fontFamily: "'Gill Sans', Helvetica, sans-serif",
         color: 'rgb(156, 10, 10)',
-        fontSize: 20}
+        fontSize: 20};
+
+    var _linkstyle = {fontFamily: "Menlo, Monaco, Consolas, 'Courier New', monospace, Helvetica, sans-serif",
+        color: 'rgb(19, 10, 200)',
+        fontSize: 16};
 
     var _fancystyle = {
         fontSize: 42,
         color: 'hsl(295, 100%, 50%)',
         fontFamily: '\'Permanent Marker\', cursive'
-    }
+    };
 
-    console.message().text("Hi Hack/Hacker! Welcome to the Console!", _fancystyle).print();
+    var _smallfancystyle = {
+        fontSize: 26,
+        color: 'hsl(342, 100%, 50%)',
+        fontFamily: '\'Permanent Marker\', cursive'
+    };
 
-    console.message().text("- Check out our Github: https://github.com/compjolab/cjlab-homepage", _basestyle).print();
-    console.message().text("- Here's a dev tools tutorial: http://www.compjour.org/tutorials/intro-to-the-web-inspector/", _basestyle).print();
+    console.message().text("So you like to hack?", _fancystyle).print();
+    console.message().text("                       ...We like that!", _smallfancystyle).print();
+    console.message().text("- Check out our Github:", _basestyle).print();
+    console.message().text("     https://github.com/compjolab/cjlab-homepage", _linkstyle).print();
+    console.message().text("- Here's a dev tools tutorial from the Computational Journalism class:", _basestyle).print();
+    console.message().text("     http://www.compjour.org/tutorials/intro-to-the-web-inspector/", _linkstyle).print();
+    console.message().text("- Here's a fun real-world journlaism use for the network panel:", _basestyle).print();
+    console.message().text("     https://www.propublica.org/nerds/item/reading-flash-data", _linkstyle).print();
 
-    console.message().text("- A fun use of the network panel for journalism: https://www.propublica.org/nerds/item/reading-flash-data", _basestyle).print();
-})
-
+});
