@@ -32,6 +32,8 @@ $fa-font-path: "/assets/fonts/font-awesome";
 
 blockquote{
     @extend .blockquote;
+    font-size: 1.05rem;
+    p{ font-size: 1.05rem;}
 }
 
 .sec{
