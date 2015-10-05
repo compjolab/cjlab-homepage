@@ -78,7 +78,7 @@ $(document).ready(function(){
          console.log("testing bootstrap alpha 4!")
          console.log("[todo remove old bootstrap 3.x before moving to prodeuction")
         console.log("[todo: disable admin mode before pushing to production]");
-        console.log("todo chck pages/gitignore before pushing to production")
+        console.log("todo dbl check pages/.gitignore")
         console.log("tod remove old version of konami code (didn't work)")
         console.log("testing post removal of  branch 2015-10-01")
         console.log("hello world again")
