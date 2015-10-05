@@ -71,9 +71,12 @@ $(document).ready(function(){
         fontSize: 20};
         console.log("hello world!")
                 console.message().text("-------------------------------").print();
-
+        console.log("bye world!")
+        console.log("testing new branch 2015-10-01")
+        console.log("todo change new tag after testing new branch in README txt")
         console.message().text("[todo: disable admin mode i.e. dbl chck pages/gitignore before pushing to production]").print();
-                console.message().text("-------------------------------").print();
+        console.log("testing post removal of  branch 2015-10-01")
+                console.message().text("------------------------\n-------\n\n").print();
 
         console.log("hello world again?")
                 console.message().text("-------------------------------").print();
