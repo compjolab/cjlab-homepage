@@ -4,7 +4,13 @@
 }
 
 #mast-logo{
-
+  h1{
+    font-size: 0.80rem;
+    font-family: $font-family-serif;
+    margin: 0 0;
+    font-weight: 400;
+    display: inline;
+  }
 }
 
 
@@ -14,10 +20,6 @@
   color: $brand-primary;
   border-bottom: thin solid #333;
   padding: 2rem 1rem;
-  .logo{
-    max-height: 36px;
-    max-width: 250px;
-  }
 
   .nav-link{
     font-size: 0.75rem;
