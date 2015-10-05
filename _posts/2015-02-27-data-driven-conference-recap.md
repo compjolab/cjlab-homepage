@@ -1,7 +1,7 @@
 ---
 title: ‘Data Driven’ conference drives discussions on transportation data
-date: 2015-02-27
 description: Stanford's Journalism Program, REVS, and Center for Automotive Research hosted a conference on the changing landscape of vehicle and transportation related data.
+date: 2015-02-27
 ---
 
 _Reposted from [Stanford Journalism Program website](http://journalism.stanford.edu/data-driven-conference-videos/)._

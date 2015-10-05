@@ -1,7 +1,7 @@
 ---
 title: New grant to help Stanford journalism students track political money flow
-description: Stanford News Service highlights California Civic Data Coalition's Knight Foundation funding
 date: 2015-08-12
+description: Stanford News Service highlights California Civic Data Coalition's Knight Foundation funding
 via: Christina Dong of Stanford News Service
 via_url: http://news.stanford.edu/thedish/2015/08/12/new-grant-to-help-stanford-journalism-students-track-political-money-flow/
 ---

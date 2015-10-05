@@ -1,7 +1,7 @@
 ---
 title: Stanford focuses on data in 'refreshed' journalism curriculum
-description: The International Journalists' Network looks at the new changes to Stanford's journalism program.
 date: 2014-10-29
+description: The International Journalists' Network looks at the new changes to Stanford's journalism program.
 ---
 
 Via [Ashley Nguyen of the International Journalists' Network](https://ijnet.org/en/blog/stanford-focuses-data-refreshed-journalism-curriculum):

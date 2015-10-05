@@ -6,7 +6,6 @@
           <img class="img-responsive" src="{{person.photo}}" alt="Photo of {{ person.full_name }}">
         </div>
     </div>
-
     <div class="col-sm-8">
         <div class="name">
           {{ person.full_name }}
@@ -20,7 +19,6 @@
       <div class="bio">
         {{ person.bio | markdownify }}
       </div>
-
       {% if person.twitter %}
         <a class="twitter-follow-button" href="https://twitter.com/{{ person.twitter }}" data-size="large">Follow @{{ person.twitter }}</a>
       {% endif %}

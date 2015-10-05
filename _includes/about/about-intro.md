@@ -2,9 +2,7 @@
 
 The Stanford Computational Journalism Lab supports the evolution of computational approaches to public affairs journalism through research, teaching and the production of reporting.
 
-
 ## What We Do
-
 
 The CJ Lab surfaces problems faced by reporters to those focused on computational approaches to solving analytical challenges. Classes and projects at the CJ Lab focus on two research questions:
 

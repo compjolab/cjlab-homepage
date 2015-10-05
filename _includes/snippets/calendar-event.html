@@ -1,13 +1,13 @@
 {% assign event_item=include.item %}
 <div class="calendar-event">
   <div class="header">
-    <div class="date dtstart">
+    <div class="date dtstart datetime-start">
       <span class="value" title="{{ event_item.date_start | date: '%Y-%m-%d'}}">
         {{ event_item.date_start | date: '%A, %B %d, %Y'}}
        </span>
     </div>
     {% if event_item.date_end %}
-      <div class="date dtend">
+      <div class="date dtend datetime-end">
         <span class="value" title="{{ event_item.date_end | date: '%Y-%m-%d'}}">
           {{ event_item.date_end | date: '%A, %B %d, %Y'}}
          </span>
