@@ -9,7 +9,7 @@ Thank you to everyone who attended [today's informational session](http://us7.ca
 
 During the presentation, I had a slide listing all the datasets I could think of in 5 minutes that were public, important, "big" (100,000 records or more), and "easy" to get -- at least compared to the days when you had to [send a government agency a shrink-wrapped hard drive](http://chriswhong.com/open-data/foil_nyc_taxi/):
 
-![image](/files/images/news/slide-datasets.png)
+![image](/files/images/news/slide-datasets.png){:.bordered}
 
 
 Not all the datasets are literally just one-click-to-download -- you may have to [re-read the wget manual](https://gist.github.com/dannguyen/26e5922614dc22053745) or write a [quick scraper](https://github.com/compjour/search-script-scrape) -- but they are freely accessible to anyone with an Internet connection. Here's the list of datasets with URLs:
