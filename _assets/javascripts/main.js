@@ -74,8 +74,19 @@ $(document).ready(function(){
         console.log("bye world!")
         console.log("testing new branch 2015-10-01")
         console.log("todo change new tag after testing new branch in README txt")
-        console.message().text("[todo: disable admin mode i.e. dbl chck pages/gitignore before pushing to production]").print();
+         console.log("remove old version of jquery (no IE support)")
+         console.log("testing bootstrap alpha 4!")
+         console.log("[todo remove old bootstrap 3.x before moving to prodeuction")
+        console.log("[todo: disable admin mode before pushing to production]");
+        console.log("todo chck pages/gitignore before pushing to production")
+        console.log("tod remove old version of konami code (didn't work)")
         console.log("testing post removal of  branch 2015-10-01")
+        console.log("hello world again")
+        console.log('-30-')
+        console.log("main.js: hello world again")
+       console.log("main.js: end of file bye world")
+       console.log("todo REMOVE console.info calls")
+
                 console.message().text("------------------------\n-------\n\n").print();
 
         console.log("hello world again?")
@@ -122,7 +133,7 @@ console.log("         \\  (oo)\\_______");
 console.log("            (__)\\       )\\/\\");
 console.log("                ||----w |");
 console.log("                ||     ||");
-
+console.log("TODO add Konami code JS and do a cool easter egg thing!")
 
 });
 
