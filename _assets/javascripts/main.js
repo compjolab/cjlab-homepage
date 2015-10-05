@@ -71,8 +71,53 @@ $(document).ready(function(){
         fontSize: 20};
 
         console.message().text("ADMIN MODE: http://cjlab.stanford.edu/admin", {color: 'rgb(0, 0, 200, 0.7)'}).print();
-        console.message().text("[TODO: disable admin mode BEFORE pushing to production!!!]", _heystyle).print();
+        console.message().text("[TODO: disable admin mode BEFORE pushing to production!!!]").print();
         console.message().text(" dbl check gitignre.txt before deploying!").print();
+                console.message().text("-------------------------------").print();
+
+        console.message().text("console testing (remove before publishing site!", _heystyle).print();
+        console.message().text("testing JS").print();
+        console.message().text("hello world").print();
+        console.message().text("testing jquery ").print();
+        console.message().text("hello world 10").print();
+        console.message().text("testing jekyll assets").print();
+        console.message().text("HELLO JEKKYL").print();
+        console.message().text("testing document ready loop:").print();
+        console.message().text("loop 0").print();
+        console.message().text("loop 1").print();
+        console.message().text("loop 2").print();
+        console.message().text("loop 3").print();
+        console.message().text("loop 4").print();
+        console.message().text("loop 5").print();
+        console.message().text("loop 6").print();
+        console.message().text("loop 7").print();
+        console.message().text("loop 8").print();
+        console.message().text("loop DONE !").print();
+        console.message().text("testing bootstrap.js ready loop:").print();
+        console.message().text("loop 0").print();
+        console.message().text("loop 1").print();
+        console.message().text("loop 2").print();
+        console.message().text("loop 3").print();
+        console.message().text("loop 4").print();
+        console.message().text("loop 5").print();
+        console.message().text("loop 6").print();
+        console.message().text("loop 7").print();
+
+
+        console.message().text('end script tag').print();
+        console.message().text("END OF MAIN.JS [WHEW!!! ]", {fontWeight: 'bold'}).print();
+                console.message().text("-------------------------------").print();
+
+console.log(" _____________________________ ");
+console.log("< MOOO. The Javascript works! >");
+console.log(" ----------------------------- ");
+console.log("        \\   ^__^");
+console.log("         \\  (oo)\\_______");
+console.log("            (__)\\       )\\/\\");
+console.log("                ||----w |");
+console.log("                ||     ||");
+
+
 });
 
 
@@ -96,6 +141,15 @@ function debugMe(){
         color: 'hsl(342, 100%, 50%)',
         fontFamily: '\'Permanent Marker\', cursive'
     };
+
+console.message().text(" _____________________________ ", {color: 'red'}).print();
+console.message().text("< HEY! U R UNAUHTORIZED!?>", {color: 'red', fontWeight: 'bold'}).print();
+console.message().text(" ----------------------------- ", {color: 'red'}).print();
+console.message().text("        \\   ^__^", {color: 'red'}).print();
+console.message().text("         \\  (ಠಠ)\\_______", {color: 'red'}).print();
+console.message().text("            (__)\\       )\\/\\", {color: 'red'}).print();
+console.message().text("                ||----w |", {color: 'red'}).print();
+console.message().text(" ");console.log("\n");console.log(" ");console.log(" ");
 
     console.message().text("So you like to hack?", _fancystyle).print();
     console.message().text("                       ...We like that!", _smallfancystyle).print();
