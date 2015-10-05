@@ -10,6 +10,10 @@ github_username:  stanfordjourn
 github_repo: compjolab/cjlab-homepage
 
 
+service_ids:
+  google_analytics: "UA-68150677-1"
+  google_search: '012541043402465721355:csszj3j0mao'
+
 # Build settings
 markdown: kramdown
 

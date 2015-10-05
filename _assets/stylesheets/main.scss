@@ -158,3 +158,34 @@ body{
 img.bordered{
     outline: #888 solid thin;
 }
+
+.larger-box{
+    .google-search-box{
+        margin: 1.3em 0;
+     .cse .gsc-control-cse, .gsc-control-cse {
+            padding: 2em;
+        }
+        }
+}
+
+.google-search-box{
+
+    .gsc-search-button
+    {
+        background-color: #333333;
+        border-radius: 2px;
+
+    }
+
+    input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
+        background-color: #111111 !important;
+        background-image: url("http://www.google.com/uds/css/v2/search_box_icon.png") !important;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        height: 16px !important;
+        border-color: #000000 !important;
+        filter: none;
+    }
+
+}
+
