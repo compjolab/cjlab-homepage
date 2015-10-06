@@ -53,6 +53,8 @@
 
 #home-features{
   .feature{
+    padding: 0.8em;
+     outline: #CCC solid thin;
     .description{
       font-size: $font-size-sm;
     }
