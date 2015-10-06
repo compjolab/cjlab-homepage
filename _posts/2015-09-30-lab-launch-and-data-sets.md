@@ -89,7 +89,7 @@ Sunlight has [an API for Congressional speeches](http://capitolwords.org/api/1/)
 
 --------
 
-This is barely scratching the surface of available public data -- I didn't even mention the [federal data.gov portal](http://www.data.gov/) or the [U.S. Census data](http://www.census.gov/) -- but I highlight these datasets because they have plenty of rows while being relatively self-contained with (usually) decent, if not fun-to-read documentation.
+This is barely scratching the surface of freely available (and mostly public) data -- I didn't even mention the [federal data.gov portal](http://www.data.gov/) or the [U.S. Census data](http://www.census.gov/). I've highlighted these datasets because they have plenty of rows while being relatively self-contained and (usually) having decent, if not fun-to-read documentation.
 
 (And one more example, just because it's too big to _not_ mention: [Amazon's AWS Public Data Sets page](https://aws.amazon.com/datasets/) is an overwhelming collection of massive and free data sets.)
 
