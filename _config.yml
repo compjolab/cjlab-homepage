@@ -48,3 +48,6 @@ gems:
 assets:
   js_compressor:  uglifier
   css_compressor: sass
+  gzip: [ text/css, application/javascript ]
+  cachebust: hard
+  debug: false
