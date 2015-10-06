@@ -66,13 +66,15 @@ Those are just what I could fit into the slide. There are many more, of course:
 - [NIST's national database of software security flaws](https://nvd.nist.gov/download.cfm)
 - [Reported incidents of civilian aircraft hitting birds and other animals](http://wildlife.faa.gov/)
 
-Many cities and states are (with, in my opinion, surprising enthusiasm) uploading their machine-readable data to Socrata, which provides easy CSV and JSON data exports; here's [San Francisco](https://data.sfgov.org/) and [New York City](https://nycopendata.socrata.com/data). The [U.S. City Open Data Census](http://us-city.census.okfn.org/) and the [Police Open Data Census](https://codeforamerica.github.io/PoliceOpenDataCensus/) -- via Code For America, Sunlight Foundation, and Open Knowledge Foundation -- are two particularly great places to find interesting civic data.
+Many cities and states are (with, in my opinion, surprising enthusiasm) uploading their machine-readable data to Socrata, which provides easy CSV and JSON data exports; here are the Socrata portals for [San Francisco](https://data.sfgov.org/) and [New York City](https://nycopendata.socrata.com/data).
+
+The [U.S. City Open Data Census](http://us-city.census.okfn.org/) and the [Police Open Data Census](https://codeforamerica.github.io/PoliceOpenDataCensus/) -- via Code For America, Sunlight Foundation, and Open Knowledge Foundation -- serve as portals to curated city data.
 
 <a href="http://us-city.census.okfn.org/">
 <img class="bordered img-responsive" src="/files/images/news/okfn-us-city-census.png" alt="US City Open Data Census screenshot">
 </a>
 
-<strong>Note:</strong> So far, I've only included only machine-readable data that comes directly from purported official sources. This leaves out independently curated data that pertains to public affairs, such as the [Supreme Court Database](http://supremecourtdatabase.org/). For federal lawmaking and lawmaker data, the sheer expanse of Sunlight Foundation's [projects page](https://sunlightfoundation.com/tools/) and [GovTrack's bulk data](https://www.govtrack.us/developers) can't be praised enough; their data-parsing efforts have created comprehensive databases out of text intended for dead trees.
+The examples above include only the machine-readable datasets that come directly from purported official sources. This leaves out independently curated data that pertains to public affairs, such as the [Supreme Court Database](http://supremecourtdatabase.org/). For federal lawmaking and lawmaker data, the sheer size of Sunlight Foundation's [projects page](https://sunlightfoundation.com/tools/) and [GovTrack's bulk data](https://www.govtrack.us/developers) hint at the breadth of their data-parsing efforts, which have created comprehensive databases from text intended for dead trees.
 
 
 #### Natural language and data mining
@@ -109,7 +111,7 @@ For example, a simple aggregate count of the [White House visitor records](https
 
 Despite these inherent problems of the dataset, enterprising news organizations can find interesting bits when they know how to focus their search, such as [Politico's report on secret visits by _The Daily Show's_ Jon Stewart](http://www.politico.com/agenda/story/2015/07/jon-stewarts-secret-white-house-visits-000178?hp=t3_r).
 
-As we said during the presentation, computational journalism requires not just technical skill, but the ability to conduct in-depth research and investigation of the institutions and the processes that produce these datasets. However, don't let that intimidate you -- even just knowing the existence of these datasets might be enough to inspire project ideas.
+As we said during the presentation, computational journalism requires not just technical skill, but the ability to conduct in-depth research and investigation of the institutions and the processes that produce these datasets. This domain knowledge will be necessary for [effective data-wrangling](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html), which will probably take more time than everything else combined. However, don't let that intimidate you -- even just knowing the existence of these datasets should be enough to inspire fun explorations and project ideas.
 
 If you find something interesting, [we'd love to hear from you](/contact). And if studying and practicing computational journalism at Stanford interests you, take a look at the [courses we offer in the winter and spring](/initiatives/#courses-section).
 
