@@ -51,7 +51,8 @@ Those are just what I could fit into the slide. There are many more, of course:
 - [Congressional bills and roll call votes](https://www.govtrack.us/developers/data)
 - [Earthquake events detected by the U.S. Geological Survey network](http://earthquake.usgs.gov/earthquakes/search/)
 - [Surplus military equipment distributed from the Pentagon to civilian law enforcement](https://github.com/datahoarder/leso_1033)
-- [311 Requests for San Francisco](https://data.sfgov.org/City-Infrastructure/Case-Data-from-San-Francisco-311-SF311-/vw6y-z8j6)
+- [311 Requests for San Francisco](https://data.sfgov.org/City-Infrastructure/Case-Data-from-San-Francisco-311-SF311-/vw6y-z8j6). And for [Dallas](https://govstat.demo.socrata.com/dataset/311-Requests-City-Of-Dallas/crsv-cdrs)
+, [Miami-Dade County](https://opendata.miamidade.gov/311/311-Service-Requests-Miami-Dade-County/dj6j-qg5t), [Los Angeles](https://data.lacity.org/dataset/311-Call-Center-Tracking-Data/ukiu-8trj), [Chicago](https://data.cityofchicago.org/browse?limitTo=datasets&q=311&sortBy=relevance&utf8=%E2%9C%93), and [New York](https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9).
 - [Recalls and civil/criminal penalties via the U.S. Consumer Product Safety Commission](http://www.cpsc.gov/en/Newsroom/Downloadable-Data/)
 - [Payments made by health care companies to doctors](https://www.cms.gov/openpayments/)
 - [New York subway turnstile data](http://web.mta.info/developers/turnstile.html)
@@ -96,7 +97,7 @@ This is barely scratching the surface of freely available (and mostly public) da
 
 ### Prepare to research
 
-I don't claim that these datasets are easy to _analyze_, or that they are as complete as they purport to be. In fact, prepare to be frequently frustrated when trying to search for even the most obvious insights. 
+I don't claim that these datasets are easy to _analyze_, or that they are as complete as they purport to be. In fact, prepare to be frequently frustrated when trying to conduct even the most straightforward of analyses.
 
 For example, a simple aggregate count of the [White House visitor records](https://www.whitehouse.gov/briefing-room/disclosures/visitor-records) on the `visitee_namelast` and `visitee_namefirst` fields -- i.e. the name of the White House official being visited -- would seem to yield clues about who is "important" at the White House -- unless visitors are listed as visiting an [official's scheduling assistant](http://www.politico.com/news/stories/0411/53072_Page3.html). Or if [the most powerful White House officials have their meetings outside of the White House, as the New York Times reported](http://www.nytimes.com/2010/06/25/us/politics/25caribou.html):
 
