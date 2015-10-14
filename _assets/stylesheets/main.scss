@@ -103,8 +103,8 @@ body{
 }
 
 .clickable{
-    @extend .hvr-bob;
-    @extend .hvr-box-shadow-outset;
+    // @extend .hvr-bob;
+    // @extend .hvr-box-shadow-outset;
     cursor: pointer;
 }
 

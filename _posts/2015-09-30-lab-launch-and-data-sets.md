@@ -28,6 +28,7 @@ Not all the datasets are literally just one-click-to-download -- you may have to
 - [Los Angeles police reported incidents](https://data.lacity.org/A-Safe-City/LAPD-Crime-and-Collision-Raw-Data-2014/eta5-h8qx?)
 - [Chicago police reported incidents](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2)
 - [Medicare payments for every doctor for every procedure they performed and billed for](https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/medicare-provider-charge-data/physician-and-other-supplier.html)
+- [Total number of prescriptions dispensed by every doctor and drug in Medicare's Part D program](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Part-D-Prescriber.html)
 - [All registered Congressional lobbyists and what issues they lobbied on](http://www.senate.gov/legislative/Public_Disclosure/database_download.htm)
 - [Every one who has visited the White House since December 2009](https://www.whitehouse.gov/briefing-room/disclosures/visitor-records)
 - [The race, age, and sex of everyone the NYPD stopped on the street and frisked](http://www.nyc.gov/html/nypd/html/analysis_and_planning/stop_question_and_frisk_report.shtml)
@@ -76,6 +77,8 @@ The [U.S. City Open Data Census](http://us-city.census.okfn.org/) and the [Polic
 
 The examples above include only the machine-readable datasets that come directly from purported official sources. This leaves out independently curated data that pertains to public affairs, such as the [Supreme Court Database](http://supremecourtdatabase.org/). For federal lawmaking and lawmaker data, the sheer size of Sunlight Foundation's [projects page](https://sunlightfoundation.com/tools/) and [GovTrack's bulk data](https://www.govtrack.us/developers) hint at the breadth of their data-parsing efforts, which have created comprehensive databases from text intended for dead trees.
 
+It's also worth knowing about [ProPublica's Data Store](https://projects.propublica.org/data-store/) -- not just because it's my former employer -- but because their catalog contains free downloads of different years and versions of various datasets mentioned above. For example, they FOIAed the Medicare Part D Prescribing Data for [2011](https://projects.propublica.org/data-store/sets/health-mcd11-1) and [2012](https://projects.propublica.org/data-store/sets/health-mcd12-1) -- which they used in their [Prescriber Checkup project](http://www.propublica.org/series/prescribers). The Centers for Medicare & Medicaid Services has only posted the [2013 data](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Part-D-Prescriber.html).
+
 
 #### Natural language and data mining
 
@@ -111,7 +114,7 @@ For example, a simple aggregate count of the [White House visitor records](https
 
 Despite these inherent problems of the dataset, enterprising news organizations can find interesting bits when they know how to focus their search, such as [Politico's report on secret visits by _The Daily Show's_ Jon Stewart](http://www.politico.com/agenda/story/2015/07/jon-stewarts-secret-white-house-visits-000178?hp=t3_r).
 
-As we said during the presentation, computational journalism requires not just technical skill, but the ability to conduct in-depth research and investigation of the institutions and the processes that produce these datasets. This domain knowledge will be necessary for [effective data-wrangling](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html), which will probably take more time than everything else combined. However, don't let that intimidate you -- even just knowing the existence of these datasets should be enough to inspire fun explorations and project ideas.
+As we mentioned in our presentation, computational journalism requires not just technical skill, but the ability to conduct in-depth research and investigation of the institutions and the processes that produce these datasets. This domain knowledge is needed for [effective and sane data-wrangling](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html). However, don't let that intimidate you -- even just knowing the existence of these datasets should be enough to inspire fun explorations and project ideas.
 
 If you find something interesting, [we'd love to hear from you](/contact). And if studying and practicing computational journalism at Stanford interests you, take a look at the [courses we offer in the winter and spring](/initiatives/#courses-section).
 
