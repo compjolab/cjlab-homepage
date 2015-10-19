@@ -1,27 +1,30 @@
-- title: CJ Lab Informational Session at Stanford
-  date_start: 2015-09-30
-  more_info_url: https://docs.google.com/forms/d/1ZdlA6CMnruwEQXFYY-hrGl10OBfBHe3RnmjEe9gPhwU/viewform
-  description: |
-    Join us for an informational session at 4:30 to 5:30 p.m. in McClatchy Hall, Mendenhall on the first floor.
-  summary: |
-    We're just getting started and would love to have you get involved in the new Stanford Computational Journalism Lab. Join us for an informational session at 4:30 to 5:30 p.m. in McClatchy Hall, Mendenhall on the first floor.
+# - title: CJ Lab Informational Session at Stanford
+#   date_start: 2015-09-30
+#   more_info_url: https://docs.google.com/forms/d/1ZdlA6CMnruwEQXFYY-hrGl10OBfBHe3RnmjEe9gPhwU/viewform
+#   description: |
+#     Join us for an informational session at 4:30 to 5:30 p.m. in McClatchy Hall, Mendenhall on the first floor.
+#   summary: |
+#     We're just getting started and would love to have you get involved in the new Stanford Computational Journalism Lab. Join us for an informational session at 4:30 to 5:30 p.m. in McClatchy Hall, Mendenhall on the first floor.
 
 
-- title: ASNE-APME Conference at Stanford
-  date_start: 2015-10-16
-  more_info_url: http://asne.org/content.asp?pl=165&contentid=165
-  image_url: http://082311a.membershipsoftware.org/content_images/ASNE-APME-2015-logo-banner-final.jpg
-  image_source_url: http://asne.org/content.asp?pl=165&contentid=165
-  description: |
-    The nation's top editors will be at Stanford for the ASNE-APME conference
+# - title: ASNE-APME Conference at Stanford
+#   date_start: 2015-10-16
+#   more_info_url: http://asne.org/content.asp?pl=165&contentid=165
+#   image_url: http://082311a.membershipsoftware.org/content_images/ASNE-APME-2015-logo-banner-final.jpg
+#   image_source_url: http://asne.org/content.asp?pl=165&contentid=165
+#   description: |
+#     The nation's top editors will be at Stanford for the ASNE-APME conference
 
-- title: Applications due for Brown Media Innovation Base Camp 
-  date_start: 2015-10-17
-  more_info_url: http://brown.stanford.edu/blog/base_camp_is_back_apply_for_the_fall_session_now
-  image_url: http://brown.stanford.edu/uploads/700007/1421959738870/_MG_9781-500-0x747x2334x1296.jpg
-  image_source_url: http://brown.stanford.edu/blog/base_camp_is_back_apply_for_the_fall_session_now
-  summary: |
-    The Brown Institute for Media Innovation invites you to apply for the second annual Media Innovation Base Camp on November 6-8, 2015 at Columbia University in New York. The Base Camp is a great starting point for students who want to explore the interplay between story and technology, creating new ways to delight and inform. The goal with Base Camp is to help students develop new ideas that might lead to a one-year “Magic Grant” project.
+# - title: Applications due for Brown Media Innovation Base Camp
+#   date_start: 2015-10-17
+#   more_info_url: http://brown.stanford.edu/blog/base_camp_is_back_apply_for_the_fall_session_now
+#   image_url: http://brown.stanford.edu/uploads/700007/1421959738870/_MG_9781-500-0x747x2334x1296.jpg
+#   image_source_url: http://brown.stanford.edu/blog/base_camp_is_back_apply_for_the_fall_session_now
+#   summary: |
+#     The Brown Institute for Media Innovation invites you to apply for the second annual Media Innovation Base Camp on November 6-8, 2015 at Columbia University in New York. The Base Camp is a great starting point for students who want to explore the interplay between story and technology, creating new ways to delight and inform. The goal with Base Camp is to help students develop new ideas that might lead to a one-year “Magic Grant” project.
+
+
+
 
 - title: Data Science at Stanford Seminar Series
   date_start: 2015-10-21
@@ -30,6 +33,13 @@
   image_source_url: https://events.stanford.edu/events/544/54491/
   description: |
     Trevor Hastie speaks about statistical learning using big data from 2:30 to 3:30 p.m. at Stanford's Clark Center Auditorium.
+
+
+- title: Hacks/Hackers Meetup at Stanford
+  date_start: 2015-10-27
+  more_info_url: http://www.meetup.com/hacksandhackers/events/226169900/
+  description: |
+    Come for a night of free pizza and presentations about how data journalism and computational methods are used in the newsroom. Featuring speakers from the Center for Investigative Reporting, SmartNews, and Vocativ.
 
 - title: Stanford Journalism Open House
   date_start: 2015-10-26
