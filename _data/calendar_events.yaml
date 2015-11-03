@@ -26,26 +26,26 @@
 
 
 
-- title: Data Science at Stanford Seminar Series
-  date_start: 2015-10-21
-  more_info_url: https://events.stanford.edu/events/544/54491/
-  image_url: https://events.stanford.edu/about/defaultimages/default_image.jpg
-  image_source_url: https://events.stanford.edu/events/544/54491/
-  description: |
-    Trevor Hastie speaks about statistical learning using big data from 2:30 to 3:30 p.m. at Stanford's Clark Center Auditorium.
+#- title: Data Science at Stanford Seminar Series
+ # date_start: 2015-10-21
+  #more_info_url: https://events.stanford.edu/events/544/54491/
+  #image_url: https://events.stanford.edu/about/defaultimages/default_image.jpg
+  #image_source_url: https://events.stanford.edu/events/544/54491/
+  #description: |
+   # Trevor Hastie speaks about statistical learning using big data from 2:30 to 3:30 p.m. at Stanford's Clark Center Auditorium.
 
 
-- title: Hacks/Hackers Meetup at Stanford
-  date_start: 2015-10-27
-  more_info_url: http://www.meetup.com/hacksandhackers/events/226169900/
-  description: |
-    Come for a night of free pizza and presentations about how data journalism and computational methods are used in the newsroom. Featuring speakers from the Center for Investigative Reporting, SmartNews, and Vocativ.
+#- title: Hacks/Hackers Meetup at Stanford
+ # date_start: 2015-10-27
+  #more_info_url: http://www.meetup.com/hacksandhackers/events/226169900/
+  #description: |
+   # Come for a night of free pizza and presentations about how data journalism and computational methods are used in the newsroom. Featuring speakers from the Center for Investigative Reporting, SmartNews, and Vocativ.
 
-- title: Stanford Journalism Open House
-  date_start: 2015-10-26
-  more_info_url: http://journalism.stanford.edu/admissions/applications/
-  description: |
-    Interested in applying for our graduate program? RSVP for our open house to learn more.
+#- title: Stanford Journalism Open House
+ # date_start: 2015-10-26
+  #more_info_url: http://journalism.stanford.edu/admissions/applications/
+  #description: |
+   # Interested in applying for our graduate program? RSVP for our open house to learn more.
 
 - title: Women in Data Science Conference
   date_start: 2015-11-02
@@ -54,6 +54,12 @@
   image_source_url: http://events.stanford.edu/events/540/54061/
   description: |
     A one-day technical conference featuring the latest data science research and applications in industry, as well as discussions on how to better support women in data science.
+
+- title: SLunchtime: Civic Data and Pizza with Google
+  date_start: 2015-11-09
+  more_info_url: https://www.eventbrite.com/e/computational-journalism-exploring-big-civic-data-tickets-19303437100
+  description: |
+    Join us and Google Cloud Platform on Monday, November 9, 12:30PM at McClatchy Hall (Room 101B) for free pizza, discussion, and demonstrations of querying and visualizing large public datasets.
 
 - title: Stanford Journalism Open House
   date_start: 2015-11-16
