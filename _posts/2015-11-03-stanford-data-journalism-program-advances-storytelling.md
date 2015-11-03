@@ -1,6 +1,7 @@
 ---
 title: Stanford's data journalism program advances the storytelling form
 date: 2015-11-03
+description: Interviews highlighting new initiatives in data journalism and storytelling in the Stanford Journalism Program.
 via: Clifton B. Parker of the Stanford Report
 via_url: http://news.stanford.edu/news/2015/november/data-journalism-program-110315.html
 ---
