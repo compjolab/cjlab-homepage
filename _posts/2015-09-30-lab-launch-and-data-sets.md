@@ -27,7 +27,6 @@ Not all the datasets are literally just one-click-to-download -- you may have to
 - [Dallas police reported incidents](https://www.dallasopendata.com/Police/Dallas-Police-Public-Data-RMS-Incidents/tbnj-w5hb)
 - [Los Angeles police reported incidents](https://data.lacity.org/A-Safe-City/LAPD-Crime-and-Collision-Raw-Data-2014/eta5-h8qx?)
 - [Chicago police reported incidents](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2)
-- [Frequently Occurring Surnames from the Census 2000](http://www.census.gov/topics/population/genealogy/data/2000_surnames.html)
 - [Medicare payments for every doctor for every procedure they performed and billed for](https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/medicare-provider-charge-data/physician-and-other-supplier.html)
 - [Total number of prescriptions dispensed by every doctor and drug in Medicare's Part D program](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Part-D-Prescriber.html)
 - [All registered Congressional lobbyists and what issues they lobbied on](http://www.senate.gov/legislative/Public_Disclosure/database_download.htm)
@@ -67,6 +66,8 @@ Those are just what I could fit into the slide. There are many more, of course:
 - [Seattle Real Time Fire 911 Calls](https://data.seattle.gov/Public-Safety/Seattle-Real-Time-Fire-911-Calls/kzjm-xkqj)
 - [NIST's national database of software security flaws](https://nvd.nist.gov/download.cfm)
 - [Reported incidents of civilian aircraft hitting birds and other animals](http://wildlife.faa.gov/)
+- [Frequently Occurring Surnames from the Census 2000](http://www.census.gov/topics/population/genealogy/data/2000_surnames.html)
+
 
 Many cities and states are (with, in my opinion, surprising enthusiasm) uploading their machine-readable data to Socrata, which provides easy CSV and JSON data exports; here are the Socrata portals for [San Francisco](https://data.sfgov.org/) and [New York City](https://nycopendata.socrata.com/data).
 
