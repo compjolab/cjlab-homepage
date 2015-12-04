@@ -47,35 +47,71 @@
   #description: |
    # Interested in applying for our graduate program? RSVP for our open house to learn more.
 
-- title: Women in Data Science Conference
-  date_start: 2015-11-02
-  more_info_url: http://events.stanford.edu/events/540/54061/
-  image_url: http://events.stanford.edu/events/540/54061/54061-2.jpg
-  image_source_url: http://events.stanford.edu/events/540/54061/
-  description: |
-    A one-day technical conference featuring the latest data science research and applications in industry, as well as discussions on how to better support women in data science.
+#- title: Women in Data Science Conference
+  #date_start: 2015-11-02
+  #more_info_url: http://events.stanford.edu/events/540/54061/
+  #image_url: http://events.stanford.edu/events/540/54061/54061-2.jpg
+  #image_source_url: http://events.stanford.edu/events/540/54061/
+  #description: |
+    #A one-day technical conference featuring the latest data science research and applications in industry, as well as discussions on how to better support women in data science.
 
-- title: "Luncheon: Civic Data and Pizza with Google"
-  date_start: 2015-11-09
-  more_info_url: https://www.eventbrite.com/e/computational-journalism-exploring-big-civic-data-tickets-19303437100
-  description: |
-    Join us and Google Cloud Platform on Monday, November 9, 12:30PM at McClatchy Hall (Room 101B) for free pizza, discussion, and demonstrations of querying and visualizing large public datasets.
+#- title: "Luncheon: Civic Data and Pizza with Google"
+  #date_start: 2015-11-09
+  #more_info_url: https://www.eventbrite.com/e/computational-journalism-exploring-big-civic-data-tickets-19303437100
+  #description: |
+    #Join us and Google Cloud Platform on Monday, November 9, 12:30PM at McClatchy Hall (Room 101B) for free pizza, discussion, and demonstrations of querying and visualizing large public datasets.
 
-- title: Stanford Journalism Open House
-  date_start: 2015-11-16
-  more_info_url: http://journalism.stanford.edu/admissions/applications/
-  description: |
-    Interested in applying for our graduate program? RSVP for our open house to learn more.
+#- title: Stanford Journalism Open House
+  #date_start: 2015-11-16
+  #more_info_url: http://journalism.stanford.edu/admissions/applications/
+  #description: |
+    #Interested in applying for our graduate program? RSVP for our open house to learn more.
 
 
-- title: Application Deadline for Stanford Journalism Graduate Program
-  date_start: 2015-12-01
-  more_info_url: http://journalism.stanford.edu/admissions/applications/
-  description: |
-    The deadline for all graduate application forms is December 1, 2015.
+#- title: Application Deadline for Stanford Journalism Graduate Program
+  #date_start: 2015-12-01
+  #more_info_url: http://journalism.stanford.edu/admissions/applications/
+  #description: |
+    #The deadline for all graduate application forms is December 1, 2015.
 
-- title: Application Deadline for JSK Fellowships Program
-  date_start: 2015-12-01
-  more_info_url: http://jsk.stanford.edu/become-a-fellow/
+#- title: Application Deadline for JSK Fellowships Program
+  #date_start: 2015-12-01
+  #more_info_url: http://jsk.stanford.edu/become-a-fellow/
+  #description: |
+    #The deadline for all fellowship applications for the John S. Knight Journalism Fellowships at Stanford is December 1, 2015.
+
+- title: Cyber Initiative Seminar: Who Owns Your Data?
+  date_start: 2015-12-07
+  more_info_url: http://events.stanford.edu/events/559/55945/
   description: |
-    The deadline for all fellowship applications for the John S. Knight Journalism Fellowships at Stanford is December 1, 2015.
+    A discussion on the science, economics and ethics of personal, corporate and government data ownership. Hosted by the Stanford Cyber Initiative.
+
+- title: Hacks/Hackers Connect SF
+  date_start: 2016-01-22
+  more_info_url: http://connect.hackshackers.com/event/sf/
+  description: |
+    A launchpad event series for news-media entrepreneurs. Whether you are a startup founder or working on innovating within a larger organization, you will leave with new ideas, opportunities and connections.
+
+- title: NICAR 2016 Conference in Denver
+  date_start: 2016-03-10
+  more_info_url: http://www.ire.org/conferences/nicar2016/
+  description: |
+    Join IRE and NICAR in Denver for their annual conference devoted to data journalism, March 10-13, 2016. Learn about tools you need to dig deeper into stories and give readers, viewers and your online audience the information they're demanding.
+
+- title: Linking and Visualizing Data in the Chinese Humanities
+  date_start: 2016-04-14
+  more_info_url: http://events.stanford.edu/events/559/55941/
+  description: |
+    An introduction to the thinking behind and the functionality of two digital text analysis platforms designed for the customized automated annotation of Chinese texts and the analysis and visualization of the resulting data.
+
+- title: IRE 2015 Conference in New Orleans
+  date_start: 2016-06-16
+  more_info_url: https://ire.org/conferences/
+  description: |
+    The best in the business will gather for more than 150 panels, hands-on classes and special presentations about covering business, public safety, government, health care, education, the military, the environment and other key beats. Speakers will share strategies for locating documents and gaining access to public records, finding the best stories and managing investigations.
+
+- title: ONA 2016
+  date_start: 2016-09-15
+  more_info_url: http://journalists.org/conference/future-conferences/
+  description: |
+    Online News Association's 2016 conference will be in Denver, Sept. 15-17, 2016.
