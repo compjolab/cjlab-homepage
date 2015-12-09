@@ -1,0 +1,994 @@
+---
+title: Tech Team Report
+image_url: /files/images/photos/stanfordcolumns.jpg
+banner: true
+layout: landing-page
+---
+<section class="sec">
+    <div class="container">
+		<h4>After 10 weeks of experimenting with a myriad of data tools in Cheryl Phillips, "Becoming a Watchdog: Investigative Reporting Techniques" Spring 2015 course, students on the class' technology team wrote up their experience as a guide for others.</h4>
+		<p>The guide covers everything from web scraping to mapping and data visualization, with pros, cons and opinions on how easy each program or software package is to use. It shares the experiences of the class as they worked through their projects.</p>
+&nbsp;
+<h4>CONTENTS:</h4>
+  	<div class="row">
+        <div class="col-md-4">
+			<ul>
+	<li><a href="#intro"><strong>Introduction</strong></a></li>
+	<li><a href="#wranglinganalysis"><strong>Data Wrangling and Analysis</strong></a>
+<ul>
+	<li><a href="#basictools"><span style="font-weight: 400;">Basic Tools</span></a>
+<ul>
+	<li><a href="#spreadsheets">Excel and Google Sheets</span></a></li>
+	<li><a href="#sql">SQL</span></a></li>
+</ul>
+</li>
+	<li><a href="#cleaning"><span style="font-weight: 400;">Cleaning</span></a>
+<ul>
+	<li><a href="#openrefine"><span style="font-weight: 400;">OpenRefine</span></a></li>
+	<li><a href="#trifacta"><span style="font-weight: 400;">Trifacta</span></a></li>
+</ul>
+</li>
+	<li><a href="#general"><span style="font-weight: 400;">General Purpose and Scripting Tools</span></a>
+<ul>
+	<li><a href="#python"><span style="font-weight: 400;">Python</span></a></li>
+	<li><a href="#r"><span style="font-weight: 400;">R and RStudio</span></a></li>
+	<li><a href="#summary"><span style="font-weight: 400;">Summary and Comparisons</span></a></li>
+</ul>
+</li>
+	<li><a href="#documentanalysis"><span style="font-weight: 400;">Document Analysis</span></a>
+<ul>
+	<li><a href="#overview"><span style="font-weight: 400;">Overview</span></a></li>
+	<li><a href="#documentcloud"><span style="font-weight: 400;">DocumentCloud</span></a></li>
+	<li><a href="#googleocr"><span style="font-weight: 400;">Google OCR</span></a></li>
+	<li><a href="#summary2"><span style="font-weight: 400;">Summary and Comparisons</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col-sm-3">
+</li>
+	<li><a href="#visualizationmapping"><strong>Data Visualization and Mapping</strong></a>
+<ul>
+	<li><a href="#generalpurpose"><span style="font-weight: 400;">General Purpose</span></a>
+<ul>
+	<li><a href="#tableau"><span style="font-weight: 400;">Tableau</span></a></li>
+	<li><a href="#ggplot"><span style="font-weight: 400;">R - ggplot2</span></a></li>
+	<li><a href="#d3"><span style="font-weight: 400;">D3</span></a></li>
+</ul>
+</li>
+	<li><a href="#geospatial"><span style="font-weight: 400;">Geospatial Data</span></a>
+<ul>
+	<li><a href="#cartodb"><span style="font-weight: 400;">CartoDB</span></a></li>
+	<li><a href="#geopy"><span style="font-weight: 400;">GeoPy</span></a></li>
+</ul>
+</li>
+	<li><a href="#timelines"><span style="font-weight: 400;">Timelines</span></a>
+<ul>
+	<li><a href="#timelinejs"><span style="font-weight: 400;">TimelineJS</span></a></li>
+</ul>
+</li>
+	<li><a href="#networks"><span style="font-weight: 400;">Networks</span></a>
+<ul>
+	<li><a href="#gephi"><span style="font-weight: 400;">Gephi</span></a></li>
+</ul>
+</li>
+	<li><a href="#summary3"><span style="font-weight: 400;">Summary and Comparisons</span></a></li>
+</ul>
+</li>
+</div>
+<div class="col-sm-3">
+	<li><a href="#acquisition"><strong>Data Acquisition</strong></a>
+<ul>
+	<li><a href="#twitterdata"><span style="font-weight: 400;">Twitter Data</span></a>
+<ul>
+	<li><a href="#tags"><span style="font-weight: 400;">Twitter Archiving Google Spreadsheets (TAGS)</span></a></li>
+</ul>
+</li>
+	<li><a href="#scraping"><span style="font-weight: 400;">Scraping from Websites</span></a>
+<ul>
+	<li><a href="#scrapy">Python - Scrapy</span></a></li>
+	<li><a href="#requests"><span style="font-weight: 400;">Python - requests + lxml etree</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  		</div>
+    </div>
+&nbsp;
+<div id="intro"><center><h1><span style="font-weight: 400;">Introduction</span></h1></center>
+<p>When journalism masters student Maya Humes began her final quarter at Stanford University, she had no coding experience and had rarely even worked with Microsoft Excel. But after a 10-week watchdog journalism course and working closely with a computational and mathematical engineering masters student, she sees great potential in the merging of journalism and computer science.</p>
+
+<p>Humes was one of 19 students in a new data journalism course at Stanford during the spring 2015 quarter, which brought journalism and computer science students together working towards one common goal: using programming techniques to assist in investigative reporting.</p>
+
+<p>The students’ projects required them to analyze documents and records. Like most data that journalists encounter, it often only existed in messy spreadsheets and scanned PDFs. Using both well-established and newly released programs, the computer science students (dubbed the “Tech Team”) and the journalism students worked together to wrangle, clean and analyze the data and then present it in new forms.</p>
+
+<p>Many of the stories would have been nearly impossible to pursue without the aid of data journalism techniques.</p>
+
+<p>“For our project, we were pulling such a huge amount of data that there’s no way we could have done it without computers,” said Christina Passariello, who was a John S. Knight Journalism Fellow at Stanford during the class and is a journalist with The Wall Street Journal in San Francisco.</p>
+
+<p>Under the guidance of the Tech Team, all of whom had years of coding experience, the reporting teams were able to wrangle large data sets and most ended up producing publishable investigative or explanatory stories.</p>
+
+<p>However, the high learning curve of many of the tools can make it difficult for people with no coding experience to take full advantage of all that data journalism has to offer.</p>
+
+<p>“Especially at the beginning I felt super lost,” Humes said. “And even though we had tutorials in class, I just had no coding background.”</p>
+
+<p>With more time, both Passariello and Humes said they would ideally like to become more proficient in data journalism techniques.</p>
+
+<p>“Going forward, it’s more important for everyone to have some sort of [computer science] knowledge,” Humes said.</p>
+
+<p>The course was also educational for members of the Tech Team, all of whom were new to journalism.</p>
+
+<p>“Journalism is hard,” said Cayman Simpson, a Math and Computational Science major. “I learned a lot about how the industry works, how to work with people who don't want to work with you, [people you’re trying to interview], and I learned how to work with people who do want to work with you (my team).”</p>
+
+<p>It seems to be a growing consensus, at least at Stanford, that data journalism is the way of the future. While many journalists will never be expert programmers, Passariello would like to see more collaboration between journalists and computer scientists.</p>
+
+<p>“I would love to try to form partnerships to get advanced coding skills to help the newsroom,” Passariello said.</p>
+
+<p>Some of the computer science students who were in the course said they would be open to more journalism projects in the future. Journalism is a great way for computer scientists to have a social impact and to put their skills to good use, Simpson said.</p>
+
+<p>Along those lines, the Tech Team came up with a contribution to data journalism that came as a by-product of the class. After 10 weeks of experimenting with a myriad of data tools, the team wrote up their experience as a guide for others. The guide covers everything from web scraping to mapping and data visualization, with pros, cons and opinions on how easy each program or software package is to use. It isn’t a comprehensive guide but shares the experiences of the class as they worked through their projects.</p>
+
+<p>Still, Simpson believes it may give other journalists a head-start on their projects.</p>
+
+<p>“It will help other budding data journalists be more efficient with their time,” he said. “They don't have to make the mistakes that we made and they can build off our already-established knowledge base.”</p>
+</div>
+&nbsp;
+<div id="wranglinganalysis"></div>
+<center><h1><span style="font-weight: 400;">Data Wrangling and Analysis</span></h1></center>
+&nbsp;
+<div id="basictools"></div>
+<h2><b>BASIC TOOLS</b></h2>
+&nbsp;
+<div id="spreadsheets"></div>
+<h3><b>Excel and Google Sheets</b></h3>
+<ul>
+	<li><b>Description</b>: A user-friendly tool for data wrangling and basic data analysis.</li>
+
+	<li><b><b>Website: </b><a href="https://drive.google.com">https://drive.google.com</a></b></li>
+
+	<li><b>When to Use: </b><span style="font-weight: 400;">Quick and basic data analysis.</span></li>
+
+	<li><b>Case Study: </b><span style="font-weight: 400;">For small tabular datasets, some groups first used a spreadsheet to look at the data. Google Sheets allowed groups to share access to a dataset.</span></li>
+
+	<li><b>Ease of Use: </b><span style="font-weight: 400;">Beginner</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost: Excel is paid, Google is free</b></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Works Well With: </b><span style="font-weight: 400;">Trifacta</span></b></li>
+</ul>
+<ul>
+	<li style="font-weight: 400;"><b>Strengths</b><span style="font-weight: 400;">: </span>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">They are effective for exploring and doing summaries (i.e. summing columns) for small datasets.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">They make it easy to quickly skim spreadsheets to become familiar with what data is available.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">They requires no programming experience.</span></li>
+</ul>
+</li>
+	<li style="font-weight: 400;"><b>Weaknesses</b><span style="font-weight: 400;">:</span>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">They are generally only effective for relatively small datasets (less than 10MB).</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Best used for basic data analysis.</span></li>
+</ul>
+</li>
+</ul>
+&nbsp;
+<div id="sql"></div>
+<h3><b>SQL</b></h3>
+<ul>
+	<li><b>Description:</b> Structured Query Language (SQL) is a programming language designed to query and analyze data in relational databases.</li>
+	<li><b><b>Website: </b><span style="font-weight: 400;">Various software programs based in SQL, such as MySQL, PostgreSQL, and SQLite. SQL is used in a variety of other tools, such as CartoDB for example. </span></b></li>
+</ul>
+<ul>
+	<li><b>When to Use: </b><span style="font-weight: 400;">Initial</span> <span style="font-weight: 400;">data exploration and analysis, particularly in concert with other applications.</span></li>
+</ul>
+<ul>
+	<li><b>Case Study: </b><span style="font-weight: 400;">One group used SQL as part of their CartoDB mapping application. CartoDB stores data in a PostGIS database, and the CartoDB.js API allows users to modify the SQL queries used in their CartoDB applications. In this case, the group used this functionality to create interactive filters for the data shown on their map.</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use: </b><span style="font-weight: 400;">Beginner, with some instruction.</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost: </b><span style="font-weight: 400;">Paid and free versions</span></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Works Well With: </b><span style="font-weight: 400;">Useful in doing many kinds of data journalism and analysis, particularly for joining different data sets.</span></b></li>
+</ul>
+<ul>
+	<li style="font-weight: 400;"><b>Strengths: </b>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It is effective for exploring data.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It makes it easy to quickly analyze data and helps in becoming familiar with the data and determining next steps in data-cleaning.</span></li>
+</ul>
+</li>
+	<li style="font-weight: 400;"><b>Weaknesses:</b>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Can have a higher learning curve for journalists unfamiliar with using data analysis techniques.</span></li>
+</ul>
+</li>
+</ul>
+&nbsp;
+<div id="cleaning"></div>
+<h2><b>CLEANING</b></h2>
+&nbsp;
+<div id="openrefine"></div>
+<h3><b>OpenRefine</b></h3>
+<ul>
+	<li><b>Description:</b> OpenRefine is a tool that runs on a local machine and allows a user to filter and transform data.</li>
+
+	<li><b><b>Website: </b><a href="http://openrefine.org/"><span style="font-weight: 400;">http://openrefine.org/</span></a></b></li>
+</ul>
+<ul>
+	<li><b>When to Use:</b><span style="font-weight: 400;"> To clean medium to large amounts of messy tabular data.</span></li>
+</ul>
+<ul>
+	<li><b>Case Study:</b><span style="font-weight: 400;"> For one investigation, a team performed a data analysis on inspection reports, containing about 40,000 - 60,000 observations. A number of fields were unstandardized. For example, the suggested timeline for fixes to had numerous variations: “3 months”, “within 3 months”, “less than 3 months”, as well as spelling mistakes. OpenRefine made it easy to see these different variations and cluster and normalize them with the “text facet” feature. The “numeric” and “date” facets allowed the team to identify outliers and other problems with the data.</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use:</b><span style="font-weight: 400;"> Beginner</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost: Open-source/free</b></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Strengths: </b></b></li>
+</ul>
+<ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">One can use Python to write scripts for it, allowing for a wide-range of data manipulations.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Has a fairly useful set of pre-programmed transformations.</span></li>
+</ul>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It can require a some programming knowledge for tasks that go beyond the abilities of the pre-programmed operations.</span></li>
+</ul>
+</ul>
+&nbsp;
+<div id="trifacta"></div>
+<h3><b>Trifacta</b></h3>
+<ul>
+	<li><b>Description:</b> Trifacta is a data wrangling tool with a very intuitive user interface to simplify the process for non-technical users. The user interface can be used for simple data analysis, such as understanding each variable’s distribution. It is built on Hadoop and can handle large datasets.</li>
+	<li><b><b>Website: </b><a href="http://www.trifacta.com/"><span style="font-weight: 400;">http://www.trifacta.com/</span></a></b></li>
+</ul>
+<ul>
+	<li><b>When to Use: </b><span style="font-weight: 400;">When a dataset needs cleaning or wrangling, or for quick analysis of variable distributions.</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use: </b><span style="font-weight: 400;">Beginner</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost: </b><span style="font-weight: 400;">Paid program</span></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Works Well With: </b><span style="font-weight: 400;">R, any tool that can input tabular data</span></b></li>
+</ul>
+<ul>
+	<li><b>Strengths: </b></li>
+</ul>
+<ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It is an effective formatting tool that saves development time in structuring data. Its biggest, underrated strength is developing scripts on random samples of the data -- it provides a snapshot of what the distribution of columns looks like.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It abstracts and provides a user-friendly interface for basic regular expressions. It is good at predicting, without user-input, what kinds of transformations might be necessary to clean a dataset. It does a good job of autocompleting commands.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Prior familiarity with SQL might help, but isn’t necessary.</span></li>
+</ul>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Input data needs to be sufficiently regular, for example rows with a uniform number of columns.</span></li>
+</ul>
+</ul>
+&nbsp;
+<div id="general"></div>
+<h2><b>GENERAL PURPOSE AND SCRIPTING TOOLS</b></h2>
+&nbsp;
+<div id="python"></div>
+<h3><b>Python</b></h3>
+<ul>
+	<li><b>Description: </b>Python is a powerful tool for data-wrangling, preprocessing and data analysis. It is a general programming language, and its utility comes from its packages. The Pandas package, in particular, is useful for data manipulation and analysis.</li>
+	<li><b><b>Website: </b><a href="https://www.python.org/"><span style="font-weight: 400;">https://www.python.org/</span></a></b></li>
+</ul>
+<ul>
+	<li><b>When to Use: </b><span style="font-weight: 400;">Great for data wrangling and cleaning. When data needs partial work that can’t be done cell-wise -- date conversion, partial summing or aggregation. It is a good fall-back if other tools do not work.</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use: </b><span style="font-weight: 400;">Intermediate </span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost: Open-source/free</b></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Works Well With: </b><span style="font-weight: 400;">Tableau</span></b></li>
+</ul>
+<ul>
+	<li><b>Strengths: </b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It is versatile. If there is not a specialized tool for a given task, Python can usually be successfully used.</span></li>
+</ul>
+</ul>
+<ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Python makes it easy to modify the raw data contained in a CSV file, as opposed to other programming languages in which a user can modify data only after it has been read into a new data table or other programming object.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Its programming syntax is easy to read and understand.</span></li>
+</ul>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It requires a moderate level of programming knowledge.</span></li>
+</ul>
+</ul>
+&nbsp;
+<div id="r"></div>
+<h3><b>R and RStudio</b></h3>
+<ul>
+	<li><b>Description:</b> The combination of R and Rstudio are extremely effective tools for any kind of data manipulation and analysis. It uses a command-line interface, but with only a few commands even beginners can do meaningful work such as viewing, manipulating, and analyzing their data. Its strength comes from the thousands for data analysis packages written for it. Particularly useful are the dplyr and tidyr packages for manipulation and the ggplot2 package for visualization. RStudio is an integrated development environment for R with a script editor, an interactive console for running code, and windows with variable information, graphical output, and documentation. Overall, R and RStudio are probably the most effective data wrangling and analysis tools with their variety of packages available and R’s flexible and compact language.</li>
+	<li><b><b>Website: </b><a href="http://www.r-project.org/"><span style="font-weight: 400;">http://www.r-project.org/</span></a></b></li>
+</ul>
+<ul>
+	<li><b>When to Use: </b><span style="font-weight: 400;">Wrangling data, such joining data sets, and for a wide range of analysis and visualization.</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use: </b><span style="font-weight: 400;">Beginner to advanced: simple functionality is easily learned; advanced programming and packages can have a steep learning curve.</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost: Open-source/free</b></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Works Well With: </b><span style="font-weight: 400;">Trifacta</span></b></li>
+</ul>
+<ul>
+	<li><b>Strengths:</b></li>
+</ul>
+<ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Its functionality extends beyond basic tasks (reading in a table and printing out rows/columns) to almost any kind of analysis.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Due to its popularity among the data analysis community, there are a variety of packages available for different tasks, as well as a large body of tutorials/help forums available online.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It is useful in quickly generating graphs and computing statistics about data with only a few simple lines of code.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Its statistical capabilities proved useful in detecting patterns in the data.</span></li>
+</ul>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Using its more advanced programming features requires moderate programming knowledge, include functional programming to efficiently process large datasets.</span></li>
+</ul>
+</ul>
+&nbsp;
+<div id="summary"></div>
+<h3><b>Summary and Comparisons</b></h3>
+<ul>
+	<li style="font-weight: 400;"><a href="#spreasheets"><b>Excel</b></a><span style="font-weight: 400;">, </span><a href="#spreadsheets"><b>Google Sheets</b></a><span style="font-weight: 400;">, and </span><a href="#r"><b>R</b></a><span style="font-weight: 400;"> are great tools for basic data analysis. Each allows you to quickly view your data, do summaries, and look for patterns.</span></li>
+	<li style="font-weight: 400;"><a href="#r"><b>R</b></a><span style="font-weight: 400;">’s dplyr package and </span><a href="#sql"><b>SQL</b></a><span style="font-weight: 400;"> can both filter, select, summarize, and join datasets. SQL is suitable when the data are stored in a database. R can handle data stored in databases and in files.</span></li>
+	<li style="font-weight: 400;"><a href="#python"><b>Python</b></a><span style="font-weight: 400;"> is a general purpose programming language designed for ease of use. </span><a href="#r"><b>R</b></a><span style="font-weight: 400;"> is special purpose programming language design for working with data. Python has packages in many domains. R has extensive, high-quality packages for manipulating, visualizing, analyzing, and modeling data.</span></li>
+	<li style="font-weight: 400;"><a href="#trifacta"><b>Trifacta</b></a><span style="font-weight: 400;"> makes wrangling data easier for non-technical users with its intuitive user interface and by automatically suggesting cleaning steps and transformations. Some programming knowledge is helpful but not essential.</span></li>
+	<li style="font-weight: 400;"><a href="#openrefine"><b>OpenRefine</b></a><span style="font-weight: 400;"> and </span><a href="#trifacta"><b>Trifacta</b></a><span style="font-weight: 400;"> are both useful tools to clean data. The Trifacta interface guesses good defaults and transformations, while OpenRefine is very manually driven. That said, OpenRefine might be a better option with smaller datasets because it lets you view all the data and execute transformations better. Trifacta saves a transformation script, which is very useful when redoing a transformation on a dataset.</span></li>
+</ul>
+&nbsp;
+<div id="documentanalysis"></div>
+<h2><b>DOCUMENT ANALYSIS</b></h2>
+&nbsp;
+<div id="overview"></div>
+<h3><b>Overview</b></h3>
+<ul>
+	<li><b>Description:</b> Overview processes PDF files, either uploaded from a local drive or imported directly from DocumentCloud, and finds common words and phrases that appear in multiple documents. It is a great tool for finding basic patterns across documents.</li>
+	<li><b><b>Website: </b><a href="https://www.overviewproject.org/"><span style="font-weight: 400;">https://www.overviewproject.org/</span></a></b></li>
+</ul>
+<ul>
+	<li><b>When to Use: </b><span style="font-weight: 400;">Document sorting, management</span></li>
+</ul>
+<ul>
+	<li><b>Case Study: </b><span style="font-weight: 400;">One group used Overview to manage the documents provided by regulatory agencies for easy and shared access. </span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use: </b><span style="font-weight: 400;">Beginner</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost: </b><span style="font-weight: 400;">Free/open-source</span></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Works Well With: </b><span style="font-weight: 400;">DocumentCloud</span></b></li>
+</ul>
+<ul>
+	<li><b>Strengths: </b></li>
+</ul>
+<ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Automatic category detection is quite easy to use and makes Overview well-suited for initial stages of data analysis when one may not be sure what patterns may exist in the data.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Links with DocumentCloud for easy parsing of PDF documents</span></li>
+</ul>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Overview automatic tagging mechanism was largely ineffective and the manual tagging could be mostly duplicated by using Google Docs.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">There are some problems when searching for phrases rather than individual words, most notably when those phrases involve ‘stop words’ (common words such as ‘a’ and ‘the’)</span></li>
+</ul>
+</ul>
+&nbsp;
+<div id="documentcloud"></div>
+<h3><b>DocumentCloud</b></h3>
+<ul>
+	<li><b>Description:</b> DocumentCloud is a great platform to store, annotate, analyze, and read primary source documents. One feature of DocumentCloud is the ability to use dates in documents to generate a timeline to aid in analysis.</li>
+	<li><b><b>Website: </b><a href="https://www.documentcloud.org/"><span style="font-weight: 400;">https://www.documentcloud.org/</span></a></b></li>
+</ul>
+<ul>
+	<li><b>When to Use: </b><span style="font-weight: 400;">PDF to text conversion, entity extraction</span></li>
+</ul>
+<ul>
+	<li><b>Case Study: </b><span style="font-weight: 400;">One group had to read through dozens of press releases and large reports in PDF form. They used DocumentCloud’s entity extraction tool to find potential contacts.</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use: </b><span style="font-weight: 400;">Beginner</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost: </b><span style="font-weight: 400;">Open-source/Free (with journalism organizational account)</span></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Works Well With: </b><span style="font-weight: 400;">Overview</span></b></li>
+</ul>
+<ul>
+	<li><b>Strengths: </b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">DocumentCloud automatically generates a text version of all documents through OCR processing. Having raw text allows users to take advantage of various other tools for parsing raw text.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Entity extraction. This tool is built into DocumentCloud and can identify persons, names, contact details, and other relevant information in each document.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Document hosting. DocumentCloud allows you to host documents publically and privately and is a worthwhile document repository and method of publishing documents.</span></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">The timeline tool was inaccurate and lacked enough detail to supplant human analysis.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">The PDF to text conversion failed on documents that were improperly (not completely straight) scanned. Unfortunately, documents were scanned in this manner a surprising amount of the time.</span></li>
+</ul>
+</ul>
+&nbsp;
+<div id="googleocr"></div>
+<h3><b>Google OCR</b></h3>
+<ul>
+	<li><b>Description</b>: Google has a straightforward web-based OCR tool that requires no previous knowledge, training or programming knowledge. How to use: Upload document to Google Drive, right click it and open with Google Docs. It will automatically OCR your pdf.</li>
+	<li><b><b>Website: </b><span style="font-weight: 400;"> N/A</span></b></li>
+</ul>
+<ul>
+	<li><b>When to Use:</b><span style="font-weight: 400;"> When documents are saved in PDF format.</span></li>
+</ul>
+<ul>
+	<li><b>Case Study:  </b><span style="font-weight: 400;">One team took annual statistical reports in PDF format and used Google OCR to convert them to text</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use:</b><span style="font-weight: 400;"> Beginner</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost: </b><span style="font-weight: 400;">Free</span></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Works Well With:</b><span style="font-weight: 400;"> PDFs</span></b></li>
+</ul>
+<ul>
+	<li><b>Strengths:</b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Good for converting PDFs to text for analysis.</span></li>
+</ul>
+	<li style="font-weight: 400;"><b>Weaknesses:</b>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Spotty performance on tables</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Maximum 10MB per file</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Only performs OCR on first 10 pages</span></li>
+</ul>
+</li>
+</ul>
+&nbsp;
+<div id="summary2"></div>
+<h3><b>Summary and Comparisons</b></h3>
+<ul>
+	<li style="font-weight: 400;"><a href="#documentcloud">DocumentCloud</a><span style="font-weight: 400;"> was generally effective at converting PDFs to text. It had  trouble when PDFs were scanned even slightly incorrectly but worked very well on most other documents. The fact that you can host documents and share them with other members of your team is also quite helpful. DocumentCloud is useful when needing to search through and annotate documents or publish them through an embed code. DocumentCloud might be the best choice with large sets of documents that you want to keep together and publish.</span></li>
+	<li style="font-weight: 400;"><a href="#ocr"><span style="font-weight: 400;">Google OCR</span></a><span style="font-weight: 400;"> was useful for its OCR function that is very easy to use for specific documents. </span></li>
+</ul>
+&nbsp;
+&nbsp;
+&nbsp;
+<div id="visualizationmapping"></div>
+<center><h1>Data Visualization and Mapping</h1></center>
+&nbsp;
+<div id="generalpurpose"></div>
+<h2><b>GENERAL PURPOSE</b></h2>
+&nbsp;
+<div id="tableau"></div>
+<h3><b>Tableau</b></h3>
+<ul>
+	<li><b>Description:</b> Tableau is a powerful, customizable, and easy-to-use tool that should be a part of every data visualization tool box. Great for basic charting and exploring your data quickly</li>
+	<li><b><b>Website: </b><a href="http://www.tableau.com/"><span style="font-weight: 400;">http://www.tableau.com/</span></a></b></li>
+</ul>
+<ul>
+	<li><b>When to Use: </b><span style="font-weight: 400;">Quick analyses and visualizations of data.</span></li>
+</ul>
+<ul>
+	<li><b>Case Study: </b><span style="font-weight: 400;">Several groups used Tableau for exploratory data analysis and to prototype visualizations before finalizing them using D3 and CartoDB. One can make graphs in Tableau significantly quicker than by using D3 (though the graphs are less customizable), making it an excellent tool for prototyping.</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use: </b><span style="font-weight: 400;">Beginner/Intermediate</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost: </b><span style="font-weight: 400;">Free version for journalists</span></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Works Well With: </b><span style="font-weight: 400;">Trifacta and data in a wide range of data types or stored in databases</span></b></li>
+</ul>
+<ul>
+	<li><b>Strengths: </b></li>
+</ul>
+<ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Most of its tools are easy-to-use, quick-to-learn, and intuitive.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It can create professional level visualizations and requires no programming knowledge.</span></li>
+</ul>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Hard to do visualizations other than the subset it is designed for.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">More advanced features have a significant learning curve. For example, parameterization and graph coloring require knowledge of their Excel-like formula building.</span></li>
+</ul>
+</ul>
+&nbsp;
+<div id="ggplot"></div>
+<h3><b>R - ggplot2</b></h3>
+<ul>
+	<li><b><b>Description:</b><span style="font-weight: 400;"> A plotting system for R, capable of producing an extensive array of high-quality graphics. Can be used for both exploratory data analysis and for data visualization presentations.</span></b></li>
+</ul>
+<ul>
+	<li><b>Website: </b><a href="http://ggplot2.org"><span style="font-weight: 400;">http://ggplot2.org</span></a></li>
+</ul>
+<ul>
+	<li><b>When to Use: </b><span style="font-weight: 400;">For R users, ggplot2 is an excellent choice for data visualization.</span></li>
+</ul>
+<ul>
+	<li><b>Case Study: </b><span style="font-weight: 400;">One of the groups used ggplot2 to make sense of a large volume of housing data, for example plotting eviction trends over time.</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use: </b><span style="font-weight: 400;">Intermediate</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost:</b><span style="font-weight: 400;"> Free</span></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Works Well With: </b><span style="font-weight: 400;">Any data that can be read into R</span></b></li>
+</ul>
+<ul>
+	<li><b>Strengths: </b></li>
+</ul>
+<ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It is easy to use for simple plots, but gives users extensive customizability.</span></li>
+</ul>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It does require programming knowledge. To make the best use, it is helpful to learn the Grammar of Graphics it uses (the gg in its name).</span></li>
+</ul>
+</ul>
+&nbsp;
+<div id="d3"></div>
+<h3><b>D3</b></h3>
+<ul>
+	<li><b>Description:</b><span style="font-weight: 400;"> D3 is a JavaScript library for data visualizations.</span></li>
+	<li><b>Website:</b> <a href="http://d3js.org/"><span style="font-weight: 400;">http://d3js.org/</span></a></li>
+	<li><b>When to Use:</b><span style="font-weight: 400;"> When designing intricate, highly customized, and interactive visualizations.</span></li>
+	<li><b>Case Study:</b><span style="font-weight: 400;"> One group wanted to develop an interactive timeline-tree to represent Twitter discourse over time. D3 was the only tool that could provide both hover and automation simultaneously. </span></li>
+	<li><b>Ease of Use:</b><span style="font-weight: 400;"> Advanced</span></li>
+	<li><b>Cost:</b><span style="font-weight: 400;"> Open-source/free</span></li>
+	<li><b>Works Well With:</b><span style="font-weight: 400;"> Any structured data format</span></li>
+	<li><b>Strengths:</b>
+<ul>
+	<li><span style="font-weight: 400;">It is highly customizable and creates beautiful, interactive graphics.</span></li>
+	<li><span style="font-weight: 400;">There are several extensive libraries of publicly available examples that can be used to develop visualizations, eg. </span><a href="http://bl.ocks.org/mbostock"><span style="font-weight: 400;">http://bl.ocks.org/mbostock</span></a></li>
+</ul>
+</li>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It has an unintuitive syntax and precipitous learning curve.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Strong programming expertise is required to successfully use D3. </span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Its developmental cycle is long. Therefore, it is best used only after concrete details of the final visualizations have been established.</span></li>
+</ul>
+</ul>
+&nbsp;
+<div id="geospatial"></div>
+<h2><b>GEOSPATIAL DATA</b></h2>
+&nbsp;
+<div id="cartodb"></div>
+<h3><b>CartoDB</b></h3>
+<ul>
+	<li><b>Description:</b> CartoDB is an online tool designed for analyzing and visualizing map data.</li>
+
+	<li><b><b>Website: </b><a href="https://cartodb.com/"><span style="font-weight: 400;">https://cartodb.com/</span></a></b></li>
+</ul>
+<ul>
+	<li><b>When to Use: </b><span style="font-weight: 400;">When mapping data.</span></li>
+</ul>
+<ul>
+	<li><b>Case Study: </b><span style="font-weight: 400;">One group used CartoDB to create a tool which would allow parents to find and compare daycares near them in California. They modified the HTML, CSS and JavaScript of the map to create a highly customized final product.</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use: </b><span style="font-weight: 400;">Beginner-intermediate</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost: Paid and free version</b></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Works Well With: </b><span style="font-weight: 400;">Google Drive, automatically syncing data</span></b></li>
+</ul>
+<ul>
+	<li><b>Strengths: </b></li>
+</ul>
+<ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It easily allows the user to plot a variety of geospatial data on a map and customize their appearance (color, shape, size).</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">For basic functions, it allows the user to carry out tasks through a graphical interface-based wizard, requiring no programming ability.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">While there are limitations to the basic interface, for more nuanced settings, one may modify the HTML, CSS, SQL queries, and JavaScript to create highly customizable maps.</span></li>
+</ul>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">A moderate amount of programming knowledge is required to modify the HTML, CSS, SQL queries, and JavaScript.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Limits the amount of geocoding allowed per account, so users with large datasets must use another tool to geocode.</span></li>
+</ul>
+</ul>
+&nbsp;
+<div id="geopy"></div>
+<h3><b>GeoPy</b></h3>
+<ul>
+	<li><b>Description:</b> GeoPy is a Python library and geocode is an R function that make it easy to use the Google Geocoding API to geocode addresses.</li>
+
+	<li><b><b>Website: </b><a href="https://geopy.readthedocs.org/en/1.10.0/"><span style="font-weight: 400;">https://geopy.readthedocs.org/en/1.10.0/</span></a><span style="font-weight: 400;">; </span><a href="http://cran.r-project.org/web/packages/ggmap/ggmap.pdf"><span style="font-weight: 400;">http://cran.r-project.org/web/packages/ggmap/ggmap.pdf</span></a></b></li>
+</ul>
+<ul>
+	<li><b>When to Use: </b><span style="font-weight: 400;">Geocoding</span></li>
+</ul>
+<ul>
+	<li><b>Case Study:</b><span style="font-weight: 400;"> One group used GeoPy / Google Geocoding API to generate latitudes/longitudes for ~20k addresses in California.</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use: </b><span style="font-weight: 400;">Both are straightforward, requiring only basic coding knowledge</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost: Free</b></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Works Well With:</b><span style="font-weight: 400;"> Each works well with their respective languages</span></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Strengths:</b>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Both make writing the code to interface with Google’s API easier and shorter than writing a script from scratch.</span></li>
+</ul>
+</li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Google’s API limits the number of geocoded addresses to 2,500 per 24-hour period per IP address for non-paying customers.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Both can geocode incorrectly even when the input address is well-formatted. It is important to check for obvious outliers.</span></li>
+</ul>
+</ul>
+&nbsp;
+<div id="timelines"></div>
+<h2><b>TIMELINES</b></h2>
+&nbsp;
+<div id="timelinejs"></div>
+<h3><b>TimelineJS</b></h3>
+<ul>
+	<li><b>Description:</b><span style="font-weight: 400;"> TimelineJS is a tool that allows users to easily create interactive timelines and embed them in web pages.</span></li>
+	<li><b>Website:</b> <a href="http://timeline.knightlab.com/"><span style="font-weight: 400;">http://timeline.knightlab.com/</span></a></li>
+	<li><b>When to Use:</b><span style="font-weight: 400;"> Building a timeline</span></li>
+	<li><b>Case Study:</b><span style="font-weight: 400;"> One group used TimelineJS to create timelines they later used in their final report. Building the timeline was easy and intuitive even for team members with no programming experience. A similar timeline created by Time Magazine can be viewed </span><a href="http://world.time.com/2013/12/05/nelson-mandelas-extraordinary-life-an-interactive-timeline/"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">.</span></li>
+	<li><b>Ease of Use:</b><span style="font-weight: 400;"> Beginner</span></li>
+	<li><b>Cost:</b><span style="font-weight: 400;"> Open-source/free</span></li>
+	<li><b>Works Well With:</b><span style="font-weight: 400;"> Google Spreadsheets</span></li>
+	<li><b>Strengths:</b>
+<ul>
+	<li><span style="font-weight: 400;">It requires no programming knowledge and is extremely easy to use</span></li>
+	<li><span style="font-weight: 400;">The timeline looks extremely professional with little effort. It is linked up to Google Sheets, which means that all one has to do to create a timeline is fill out the spreadsheet template provided.</span></li>
+	<li><span style="font-weight: 400;">It has an active help desk for any questions one might have.</span></li>
+</ul>
+</li>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">The template provided is very difficult to customize.</span></li>
+</ul>
+</ul>
+&nbsp;
+<div id="networks"></div>
+<h2><b>NETWORKS</b></h2>
+&nbsp;
+<div id="gephi"></div>
+<h3><b>Gephi</b></h3>
+<ul>
+	<li><b>Description:</b><span style="font-weight: 400;"> Gephi is an interactive graph data analysis and visualization tool. It is geared towards network analysis, and contains powerful layout algorithms.</span></li>
+
+	<li><b><b>Website: </b><a href="http://gephi.github.io/"><span style="font-weight: 400;">http://gephi.github.io/</span></a></b></li>
+</ul>
+<ul>
+	<li><b>When to Use: </b><span style="font-weight: 400;">When mapping network data</span></li>
+</ul>
+<ul>
+	<li><b>Case Study:</b><span style="font-weight: 400;"> One group experimented with Gephi for visualizing tweet flow. Since number of tweeters was small, and the group wished to have greater control of the interactivity, they ultimately choose to use D3.</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use: </b><span style="font-weight: 400;">Intermediate</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost:</b></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Works Well With:</b><span style="font-weight: 400;"> Data stored in a graph format</span></b></li>
+</ul>
+<ul>
+	<li><b>Strengths: </b></li>
+</ul>
+<ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Great tool for more graph data analysis and visualization</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It can be scaled to large graphs</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">While it has extensive features that are harder to configure, can be used minimally to develop quick analysis</span></li>
+</ul>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It is difficult to customize visualizations. The tool is not designed for data visualization but for analysis.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Once the graph data is uploaded, it is very hard to change nodes, edges or attributes, such as size or descriptive text to accompany the data nodes. For a more interactive network building and analysis process, the user expects to not only delete nodes but change their values. </span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Gephi displays a spreadsheet containing all the information, but it is not modifiable.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">In terms of visualizations, it is not possible to select multiple nodes to rearrange. Visualizations can be designed either using algorithms or manually per node.</span></li>
+</ul>
+</ul>
+&nbsp;
+<div id="summary3"></div>
+<h2><b>SUMMARY AND COMPARISONS</b></h2>
+<ul>
+	<li><span style="font-weight: 400;">The above visualization tools are most suited for the following tasks:</span>
+<ul>
+	<li><a href="#tableau"><b>Tableau</b></a> <span style="font-weight: 400;">- Exploratory data analysis and visualization prototyping</span></li>
+	<li><a href="#ggplot"><b>R - ggplot2</b></a> <span style="font-weight: 400;">- Exploratory data analysis and visualizations for presentations</span></li>
+	<li><a href="#cartodb"><b>CartoDB</b></a> <span style="font-weight: 400;">- Map visualizations</span></li>
+	<li><a href="#d3"><b>D3</b></a><b> - </b><span style="font-weight: 400;">Custom designed, interactive visualizations</span></li>
+</ul>
+</li>
+</ul>
+<ul>
+	<li><b><a href="#gephi"><b>Gephi</b></a> <span style="font-weight: 400;">- Graph analysis</span></b></li>
+</ul>
+<ul>
+	<li><a href="#timelinejs"><b>TimelineJS</b></a> <span style="font-weight: 400;">- Timelines</span></li>
+</ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">If deciding between </span><b>Tableau</b><span style="font-weight: 400;"> and </span><b>D3</b><span style="font-weight: 400;">, Tableau is better for prototyping during the design process and D3 is better for the final product. That said, D3 has a high learning curve, and Tableau is able to create professional level visualizations. If a journalist doesn’t have experience with D3, Tableau is likely the better choice.</span></li>
+</ul>
+&nbsp;
+&nbsp;
+&nbsp;
+<div id="acquisition"></div>
+<center><h1>Data Acquisition</h1></center>
+&nbsp;
+<div id="twitterdata"></div>
+<h2><b>TWITTER DATA</b></h2>
+&nbsp;
+<div id="tags"></div>
+<h3><b>Twitter Archiving Google Spreadsheets (TAGS)</b></h3>
+<ul>
+	<li><b>Description: </b>TAGS is a Google spreadsheet-based program that allows for easy collection of Twitter data based on hashtags.</li>
+
+	<li><b><b>Website: </b><a href="https://tags.hawksey.info/"><span style="font-weight: 400;">https://tags.hawksey.info/</span></a></b></li>
+</ul>
+<ul>
+	<li><b>When to Use: </b><span style="font-weight: 400;">Collecting tweets given a set of hashtags.</span></li>
+</ul>
+<ul>
+	<li><b>Case Study: </b><span style="font-weight: 400;">After running an algorithm with Python to collect hashtags of interest, we fed the resulting hashtags to TAGS and collected more than 15,000 tweets in a fully automated process.</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use: </b><span style="font-weight: 400;">Beginner</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost: Free</b></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Works Well With: </b><span style="font-weight: 400;">Data analysis programs such as Trifacta (see below) or R that can import its CSV results.</span></b></li>
+</ul>
+<ul>
+	<li><b>Strengths: </b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It is easy to use and requires no programming knowledge, an understanding of Google Drive is sufficient.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">When fully automated, can collect 6000 tweets in an hour, and can be further configured to collect more without duplicates.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It produces a well-formatted CSV file with detailed information about the tweets, such as location and language.</span></li>
+</ul>
+	<li style="font-weight: 400;"><b>Weaknesses</b><span style="font-weight: 400;">:</span>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It does not support complicated collection queries.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It does not automatically collect public information about the tweeter.</span></li>
+</ul>
+</li>
+</ul>
+&nbsp;
+<div id="scraping"></div>
+<h2><b>SCRAPING FROM WEBSITES</b></h2>
+<p>Organizations often publish information online through web pages rather than publish their own internal database. In these situations, it can be necessary to scrape data from the website. Unfortunately, the nature of the problem also often requires custom solutions: there is no one-size-fits-all solution. For simple lists of files to be downloaded, a tool such as DownThemAll (a Firefox add-on) can work. Other times, programs such as import.io can help for straightforward scraping jobs.</p>
+
+<p>However, if data needs to extracted from particular parts of the web pages themselves, a scripting solution is often the only option. Here, are two approaches to scrape data from websites using Python.</p>
+&nbsp;
+&nbsp;
+<div id="scrapy"></div>
+<h3><b>Python - Scrapy</b></h3>
+<ul>
+	<li><b><b>Python: </b><span style="font-weight: 400;">Python is a popular programming language accessible by all major operating systems.</span></b></li>
+	<li><b>Description</b><span style="font-weight: 400;">: Scrapy is a package that automatically crawls websites and scrapes data matching a given pattern.</span></li>
+</ul>
+<ul>
+	<li><b><b>Website: </b><a href="http://scrapy.org/"><span style="font-weight: 400;">http://scrapy.org/</span></a></b></li>
+</ul>
+<ul>
+	<li><b>When to Use:</b><span style="font-weight: 400;"> Scrapy is useful for scraping data from an entire website by following all the links. It provides a programming abstraction that requires one to only specify the information to extract from each web page (i.e. table headings, etc.) and which links to follow next. It can be too large of a hammer for scraping a single web page.</span></li>
+</ul>
+<ul>
+	<li><b>Case Study:</b><span style="font-weight: 400;"> For one story, the team needed to extract audit reports. The list was paginated: only 20 reports could be accessed on single page and to get to the next page, the students had to follow a link. Normally, this would be perfect for Scrapy. However, the website had an undocumented protocol that made it difficult to follow the links with Scrapy. So the team hand-coded a scraper using the Python requests package.</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use:</b><span style="font-weight: 400;"> Intermediate - requires a decent knowledge of Python and programming to use.</span></li>
+</ul>
+<ul>
+	<li><b>Cost: Open-source/free</b></li>
+</ul>
+<ul>
+	<li><b>Strengths: </b></li>
+</ul>
+<ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">It is easy to scrape large websites with many pages.</span></li>
+</ul>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Sometimes websites do strange things to prevent scraping. In these cases, the Scrapy abstraction fails and it doesn’t serve the stated purpose.</span></li>
+</ul>
+</ul>
+&nbsp;
+<div id="requests"></div>
+<h3><b>Python - requests + lxml etree</b></h3>
+<ul>
+	<li><b>Description</b>: Requests is a package that makes it easy to query websites, and lxml.etree is a DOM tree parser.</li>
+
+	<li><b><b>Website: </b><a href="http://docs.python-requests.org/en/latest/"><span style="font-weight: 400;">http://docs.python-requests.org/en/latest/</span></a><span style="font-weight: 400;">; </span><a href="http://lxml.de/"><span style="font-weight: 400;">http://lxml.de/</span></a><span style="font-weight: 400;">  </span></b></li>
+</ul>
+<ul>
+	<li><b>When to Use:</b><span style="font-weight: 400;"> This approach is very low-level and requires a good understanding of how the web works, in particular what GET and POST requests are. We would recommend using it if one needs to access a single web page or if one has to work around a website designed to prevent people from scraping it.</span></li>
+</ul>
+<ul>
+	<li><b>Case Study:</b><span style="font-weight: 400;"> As mentioned in the Scrapy case study, one team needed to scrape links and text from a paginated website. The website had a particular protocol which required a hidden field on the website to be used as an argument to link to the next page. Once the team scraped the web page, they extracted the hidden field using the lxml.etree package.</span></li>
+</ul>
+<ul>
+	<li><b>Ease of Use:</b><span style="font-weight: 400;"> Advanced - requires a good understanding of Python, programming, and how the Internet and web pages work.</span></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><b>Cost: Open-source/free</b></li>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Strengths:</b></b></li>
+</ul>
+<ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Its uses are highly customizable and it is easy to use.</span></li>
+</ul>
+</ul>
+</ul>
+<ul>
+	<li><b><b>Weaknesses:</b></b></li>
+</ul>
+<ul>
+<ul>
+	<li style="font-weight: 400;"><span style="font-weight: 400;">Needs one to implement all the logic.</span></li>
+</ul>
+</ul>
+	</div>
+</section>
+
