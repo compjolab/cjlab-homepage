@@ -80,11 +80,17 @@
   #description: |
     #The deadline for all fellowship applications for the John S. Knight Journalism Fellowships at Stanford is December 1, 2015.
 
-- title: Cyber Initiative Seminar, Who Owns Your Data?
-  date_start: 2015-12-07
-  more_info_url: http://events.stanford.edu/events/559/55945/
+# - title: Cyber Initiative Seminar, Who Owns Your Data?
+  #date_start: 2015-12-07
+  #more_info_url: http://events.stanford.edu/events/559/55945/
+  #description: |
+   # A discussion on the science, economics and ethics of personal, corporate and government data ownership. Hosted by the Stanford Cyber Initiative.
+
+- title: Lunch with New York Times' Eric Lipton
+  date_start: 2016-01-19
+  more_info_url: https://www.eventbrite.com/e/lunch-with-eric-lipton-of-the-new-york-times-tickets-20716911841
   description: |
-    A discussion on the science, economics and ethics of personal, corporate and government data ownership. Hosted by the Stanford Cyber Initiative.
+    Eric Lipton, a Washington Bureau reporter for The New York Times and a two-time winner of the Pulitzer Prize, will deconstruct the often secretive techniques major corporations and special interests groups use to influence legislation, law enforcement proceedings and regulatory actions at the state and federal levels. FREE PIZZA!
 
 - title: Hacks/Hackers Connect SF
   date_start: 2016-01-22
