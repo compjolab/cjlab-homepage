@@ -75,16 +75,16 @@
   #more_info_url: http://events.stanford.edu/events/559/55945/
   #description: |
    # A discussion on the science, economics and ethics of personal, corporate and government data ownership. Hosted by the Stanford Cyber Initiative.
-# - title: Lunch with New York Times' Eric Lipton
-  #date_start: 2016-01-19
-  #more_info_url: https://www.eventbrite.com/e/lunch-with-eric-lipton-of-the-new-york-times-tickets-20716911841
-  #description: |
-    #Eric Lipton, a Washington Bureau reporter for The New York Times and a two-time winner of the Pulitzer Prize, will deconstruct the often secretive techniques major corporations and special interests groups use to influence legislation, law enforcement proceedings and regulatory actions at the state and federal levels. FREE PIZZA!
-#- title: Hacks/Hackers Connect SF
-  #date_start: 2016-01-22
-  #more_info_url: http://connect.hackshackers.com/event/sf/
-  #description: |
-    #A launchpad event series for news-media entrepreneurs. Whether you are a startup founder or working on innovating within a larger organization, you will leave with new ideas, opportunities and connections.
+- title: Lunch with New York Times' Eric Lipton
+  date_start: 2016-01-19
+  more_info_url: https://www.eventbrite.com/e/lunch-with-eric-lipton-of-the-new-york-times-tickets-20716911841
+  description: |
+    Eric Lipton, a Washington Bureau reporter for The New York Times and a two-time winner of the Pulitzer Prize, will deconstruct the often secretive techniques major corporations and special interests groups use to influence legislation, law enforcement proceedings and regulatory actions at the state and federal levels. FREE PIZZA!
+- title: Hacks/Hackers Connect SF
+  date_start: 2016-01-22
+  more_info_url: http://connect.hackshackers.com/event/sf/
+  description: |
+    A launchpad event series for news-media entrepreneurs. Whether you are a startup founder or working on innovating within a larger organization, you will leave with new ideas, opportunities and connections.
 - title: NICAR 2016 Conference in Denver
   date_start: 2016-03-10
   more_info_url: http://www.ire.org/conferences/nicar2016/
@@ -95,15 +95,3 @@
   more_info_url: http://events.stanford.edu/events/559/55941/
   description: |
     An introduction to the thinking behind and the functionality of two digital text analysis platforms designed for the customized automated annotation of Chinese texts and the analysis and visualization of the resulting data.
- - title: IRE 2016 Conference in New Orleans
-  date_start: 2016-06-16
-  more_info_url: http://ire.org/conferences/ire-2016/
-  description: |
-    The best in the business will gather for more than 150 panels, hands on classes and special presentations about covering business, public safety, government, health care, education, the military, the environment and other key beats. Speakers will share strategies for locating documents and gaining access to public records, finding the best stories and managing investigations. 
-- title: 2016 Computation + Journalism Symposium
-  date_start: 2016-09-30
-  more_info_url: http://journalism.stanford.edu/cj2016/
-  description: |
-    Join us in the heart of Silicon Valley for a two-day conference exploring the interface between journalism and computing. "#CJ2016" is Sept. 30 and Oct. 1, 2016 on the Stanford campus.
-Status API Training Shop Blog About Pricing
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
