@@ -85,23 +85,23 @@
   #more_info_url: http://connect.hackshackers.com/event/sf/
   #description: |
     #A launchpad event series for news-media entrepreneurs. Whether you are a startup founder or working on innovating within a larger organization, you will leave with new ideas, opportunities and connections.
-- title: NICAR 2016 Conference in Denver
-  date_start: 2016-03-10
-  more_info_url: http://www.ire.org/conferences/nicar2016/
-  description: |
-    Join IRE and NICAR in Denver for their annual conference devoted to data journalism, March 10-13, 2016. Learn about tools you need to dig deeper into stories and give readers, viewers and your online audience the information they're demanding.
-- title: Linking and Visualizing Data in the Chinese Humanities
-  date_start: 2016-04-14
-  more_info_url: http://events.stanford.edu/events/559/55941/
-  description: |
-    An introduction to the thinking behind and the functionality of two digital text analysis platforms designed for the customized automated annotation of Chinese texts and the analysis and visualization of the resulting data.
-- title: IRE 2016 Conference in New Orleans
-  date_start: 2016-06-16
-  more_info_url: http://ire.org/conferences/ire-2016/
-  description: |
-    The best in the business will gather for more than 150 panels, hands on classes and special presentations about covering business, public safety, government, health care, education, the military, the environment and other key beats. Speakers will share strategies for locating documents and gaining access to public records, finding the best stories and managing investigations.
+#- title: NICAR 2016 Conference in Denver
+ #    date_start: 2016-03-10
+  #more_info_url: http://www.ire.org/conferences/nicar2016/
+  #description: |
+   # Join IRE and NICAR in Denver for their annual conference devoted to data journalism, March 10-13, 2016. Learn about tools you need to dig deeper into stories and give readers, viewers and your online audience the information they're demanding.
+#- title: Linking and Visualizing Data in the Chinese Humanities
+ # date_start: 2016-04-14
+  #more_info_url: http://events.stanford.edu/events/559/55941/
+  #description: |
+   # An introduction to the thinking behind and the functionality of two digital text analysis platforms designed for the customized automated annotation of Chinese texts and the analysis and visualization of the resulting data.
+#- title: IRE 2016 Conference in New Orleans
+ # date_start: 2016-06-16
+  #more_info_url: http://ire.org/conferences/ire-2016/
+  #description: |
+   # The best in the business will gather for more than 150 panels, hands on classes and special presentations about covering business, public safety, government, health care, education, the military, the environment and other key beats. Speakers will share strategies for locating documents and gaining access to public records, finding the best stories and managing investigations.
 - title: 2016 Computation + Journalism Symposium
   date_start: 2016-09-30
   more_info_url: http://journalism.stanford.edu/cj2016/
   description: |
-    Join us in the heart of Silicon Valley for a two-day conference exploring the interface between journalism and computing. "#CJ2016" is Sept. 30 and Oct. 1, 2016 on the Stanford campus.
+    Join us in the heart of Silicon Valley for a two-day conference exploring the interface between journalism and computing. "#CJ2016" is Sept. 30 and Oct. 1, 2016 on the Stanford campus. Registration is now open.
