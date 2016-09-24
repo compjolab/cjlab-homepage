@@ -21,7 +21,7 @@ We're part of the interdisciplinary ecosystem of journalism innovation at Stanfo
 
 The ultimate goal of the CJ Lab is to produce students, algorithms and investigations that uncover and reveal stories that currently go untold.
 
-![Journalism Community at Stanford](files/images/photos/JournalismCommunityGraphic_2016.png)
+![Journalism Community at Stanford](/files/images/photos/JournalismCommunityGraphic_2016.png)
 
 ### Getting Involved
 
