@@ -1,6 +1,6 @@
 ## Our Mission
 
-The Stanford Computational Journalism Lab supports the evolution of computational approaches to public affairs journalism through research, teaching and the production of reporting.
+The Stanford Computational Journalism Lab supports the evolution of computational approaches to public affairs journalism through research, teaching, and the production of reporting.
 
 ## What We Do
 
@@ -17,7 +17,11 @@ Answering these questions often involves turning unstructured information into s
 - Virtual reality researchers in the [__Virtual Human Interaction Lab__](https://vhil.stanford.edu/)
 - Media professionals teaching in the [__Stanford Journalism Program__](http://journalism.stanford.edu/). 
 
+We're part of the interdisciplinary ecosystem of journalism innovation at Stanford.
+
 The ultimate goal of the CJ Lab is to produce students, algorithms and investigations that uncover and reveal stories that currently go untold.
+
+![Journalism Community at Stanford](files/images/photos/JournalismCommunityGraphic_2016.png)
 
 ### Getting Involved
 
