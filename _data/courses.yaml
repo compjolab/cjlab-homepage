@@ -1,6 +1,6 @@
 - title: Public Affairs Data Journalism I
   listing: COMM 273D
-  quarter: Fall 2015
+  quarter: Fall 2016
   teacher: Dan Nguyen
   url: http://www.padjo.org/
   image_url: /files/images/icons/padjo.png
@@ -10,7 +10,7 @@
 
 - title: Public Affairs Data Journalism II
   listing: COMM 274D
-  quarter: Winter 2016
+  quarter: Winter 2017
   teacher: Cheryl Phillips
   url: http://storybytes.org/
   image_url: /files/images/classes/PADJO2-icon.png
@@ -20,7 +20,7 @@
 
 - title: Computational Methods in the Civic Sphere
   listing: COMM 113/213
-  quarter: Winter 2016
+  quarter: Winter 2017
   teacher: Dan Nguyen
   url: http://www.compciv.org/
   image_url: /files/images/icons/compciv.png
@@ -28,18 +28,18 @@
     The widespread availability of public data provides a rich opportunity for those who can efficiently filter, interpret, and visualize information. This course develops necessary technical skills for data collection, analysis, and publication, including data mining and web visualization, with a focus on civic affairs and government accountability.
 
 
-- title: Immersive Storytelling with Virtual Reality
-  listing: COMM 291
-  quarter: Winter 2016
-  teacher: Geri Migielicz and Janine Zacharia
-  url: https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=comm+291&collapse=
+- title: Virtual Reality Journalism in the Public Sphere
+  listing: COMM 280
+  quarter: Winter 2017
+  teacher: Geri Migielicz
+  url: https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=comm+280+journalism&collapse=
   image_url: /files/images/classes/VirtualReality-icon.jpg
   description: |
-    This hands-on seminar will focus on establishing best practices and ideal scenarios for using spherical video in immersive journalism.
+    The immersive space (cinematic VR and virtual reality) is journalism's newest and most exciting reporting and storytelling tool. We survey best practices and methods in this emerging medium and learn 360-degree video production and postproduction. Teams will illuminate issues and provoke conversation in the public sphere.
 
 - title: Computational Journalism
   listing: COMM 177A/277A
-  quarter: Spring 2016
+  quarter: Spring 2017
   teacher: Dan Nguyen
   url: http://www.compjour.org/
   image_url: /files/images/icons/compjour.png
@@ -48,7 +48,7 @@
 
 - title: Becoming a Watchdog - Investigative Reporting Techniques
   listing: COMM 117I/277I
-  quarter: Spring 2016
+  quarter: Spring 2017
   teacher: Cheryl Phillips and Stanford Data Lab's Bill Behrman
   url: https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=COMM+277I&collapse=
   image_url: /files/images/classes/WatchdogReporting-icon.jpg
