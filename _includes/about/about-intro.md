@@ -23,8 +23,7 @@ The ultimate goal of the CJ Lab is to produce students, algorithms and investiga
 
 ![Journalism Community at Stanford](/files/images/photos/JournalismCommunityGraphic_2016.png)
 
-### Getting Involved
-
+## Getting Involved
 There are many ways to become engaged with the work of the Stanford CJ Lab, including [projects](/initiatives#projects-section), [classes](/initiatives#courses-section), [tutorials](/initiatives#tutorials-section), [conferences and meet-ups](/initiatives#community-section). We want to hear from you. [Contact us](/contact).
 
 If you are interested in following trends in journalism and computation, you can:
