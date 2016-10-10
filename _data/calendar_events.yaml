@@ -100,22 +100,22 @@
   #more_info_url: http://ire.org/conferences/ire-2016/
   #description: |
    # The best in the business will gather for more than 150 panels, hands on classes and special presentations about covering business, public safety, government, health care, education, the military, the environment and other key beats. Speakers will share strategies for locating documents and gaining access to public records, finding the best stories and managing investigations.
-- title: Brown Institute Media Innovation Showcase 2016
-  date_start: 2016-09-29
-  more_info_url: https://browninstitute.github.io/showcase-2016/
-  description: |
-    Check out how Magic Grant teams and Brown Fellows spent the last year developing groundbreaking media technologies and producing award-winning stories.
-- title: 2016 Computation + Journalism Symposium
-  date_start: 2016-09-30
-  more_info_url: http://journalism.stanford.edu/cj2016/
-  description: |
-    Join us in the heart of Silicon Valley for a two-day conference exploring the interface between journalism and computing. "#CJ2016" is Sept. 30 and Oct. 1, 2016 on the Stanford campus. Register today.
+#- title: Brown Institute Media Innovation Showcase 2016
+ # date_start: 2016-09-29
+  #more_info_url: https://browninstitute.github.io/showcase-2016/
+ # description: |
+ #   Check out how Magic Grant teams and Brown Fellows spent the last year developing groundbreaking media technologies and producing award-winning stories.
+#- title: 2016 Computation + Journalism Symposium
+#  date_start: 2016-09-30
+#  more_info_url: http://journalism.stanford.edu/cj2016/
+#  description: |
+ #   Join us in the heart of Silicon Valley for a two-day conference exploring the interface between journalism and computing. "#CJ2016" is Sept. 30 and Oct. 1, 2016 on the Stanford campus. Register today.
 
-- title: Hands-on Intro to SQL (Structured Query Language)
-  date_start: 2016-10-05
-  more_info_url: http://events.stanford.edu/events/620/62087/
-  description: |
-    A hands-on, interactive introduction to SQL, the language for querying structured data.
+#- title: Hands-on Intro to SQL (Structured Query Language)
+#  date_start: 2016-10-05
+#  more_info_url: http://events.stanford.edu/events/620/62087/
+#  description: |
+#    A hands-on, interactive introduction to SQL, the language for querying structured data.
 
 - title: Hands-on Intro to Data Cleaning with OpenRefine
   date_start: 2016-10-11
