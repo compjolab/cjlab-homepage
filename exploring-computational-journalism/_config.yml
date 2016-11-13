@@ -2,7 +2,7 @@
 title: 2016 Computation + Journalism Symposium
 email: journalism@commu.stanford.edu
 description: Join us for a two-day conference exploring the interface between journalism and computing.
-baseurl: "http://journalism.stanford.edu/cj2016/" # the subpath of your site, e.g. /blog/
+baseurl: "http://cjlab.stanford.edu/exploring-computational-journalism/" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: stanfordjourn
 github_username: 
