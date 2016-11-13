@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Exploring Computational Journalism</title>
+  <meta name="description" content="COMM 281/CS 206 at Stanford University">
+
+  <link rel="stylesheet" href="http://cjlab.stanford.edu/exploring-computational-journalism//css/foundation.css">
+  <link rel="stylesheet" href="http://cjlab.stanford.edu/exploring-computational-journalism//css/style.css">
+  <link rel="stylesheet" href="http://cjlab.stanford.edu/exploring-computational-journalism//css/fontello.css">
+  <link rel="stylesheet" href="http://cjlab.stanford.edu/exploring-computational-journalism//css/font-awesome.css">
+  <script src="http://cjlab.stanford.edu/exploring-computational-journalism//javascripts/libs.js" type="text/javascript"></script>
+  <script>
+    // terrificjs bootstrap
+    (function($) {
+        $(document).ready(function() {
+            var $page = $('body');
+            var config = {
+              dependencyPath: {
+                plugin: 'javascripts/'
+              }
+            }
+            var application = new Tc.Application($page, config);
+            application.registerModules();
+            application.start();
+        });
+    })(Tc.$);
+  </script>
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
+  <script src="http://cjlab.stanford.edu/exploring-computational-journalism//javascripts/masonry.pkgd.js" type="text/javascript"></script>
+  <script src="http://cjlab.stanford.edu/exploring-computational-journalism//javascripts/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="http://cjlab.stanford.edu/exploring-computational-journalism//javascripts/slick.min.js" type="text/javascript"></script>
+
+  <link rel="canonical" href="http://cjlab.stanford.edu/exploring-computational-journalism//">
+  <link rel="alternate" type="application/rss+xml" title="Exploring Computational Journalism" href="http://cjlab.stanford.edu/exploring-computational-journalism//feed.xml" />
+  <!--Google Analytics START-->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68150677-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  <!--Google Analytics END-->
+</head>
+
+
+  <body>
+    
+      <a id='top'></a>
+<div class='contain-to-grid sticky fullwidth'>
+  <nav class='top-bar onepage' data-options='sticky_on: large' data-topbar=''>
+    <ul class='title-area'>
+      <li class='name'>
+        <h1>
+          <a href="index.html">
+            <img alt="" src="images/logo.png" />
+          </a>
+        </h1>
+      </li>
+      <li class='toggle-topbar menu-icon'>
+        <a href='#'>Menu</a>
+      </li>
+    </ul>
+    <section class='top-bar-section'>
+      <ul class='right'>
+        
+          
+            <li>
+              
+                <a href="#top">Home</a>
+              
+
+            </li>
+          
+        
+          
+            <li>
+              
+                <a href="#cj">What is CJ?</a>
+              
+
+            </li>
+
+            <li>
+                <a href="#about">About the Class</a>
+              
+
+            </li>
+          
+        
+          
+            <li>
+              
+                <a href="#apply">Apply</a>
+              
+
+            </li>
+          
+        
+          
+            <li>
+              
+                <a href="#instructors">Teaching Team</a>
+              
+
+            </li>
+          
+      </ul>
+    </section>
+  </nav>
+</div>
+    
+
+
+    <div id='main' role='main'>
+      <div class='mod modFullscreenSlider'>
+  <div class='fullscreen_slideshow' data-autostop='off'>
+    <a class='sequence-prev' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <a class='sequence-next' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <ul class='sequence-pagination'>
+      
+        
+        <li class="current"></li>
+      
+    </ul>
+    <ul class="sequence-canvas">
+      
+        
+
+        <li class='frame centered-text static'>
+          <h1>Explore the evolving field of computational journalism</h1>
+          <p>COMM 281/CS 206 - Winter 2017</p>
+          <div class='two spacing'></div>
+          <div class='buttons-wrapper'>
+
+              <a class='button small' href='#cj'>Learn More</a>
+
+              <a class='button small' href='#apply'>Apply for the Class</a>
+          </div>
+            <div class='bg' style='background-image: url(images/code2.jpg);'></div>
+          
+        </li>
+      
+    </ul>
+  </div>
+</div>
+<a id='cj'></a>
+<div class='full' style='background: #ffffff'>
+  <div class='row'>
+    <div class='large-10 columns large-centered'>
+      <div class='spacing'></div>
+      <div class='alt mod modSectionHeader'>
+  <div class='special-title centered-text'>
+    <h2 style=''>
+      What is Computational Journalism?
+    </h2>
+  </div>
+</div>
+      <div class='spacing'></div>
+      <p class='centered-text' style='font-size: 1.6rem'>
+          Computational journalism is an evolving field. Definitions include:
+      </p>
+      <p style='font-size: 1.2rem'>
+          “What is computational journalism? Ultimately, interactions among journalists, software developers, computer scientists and other scholars over the next few years will have to answer that question. For now though, we define computational journalism as the combination of algorithms, data, and knowledge from the social sciences to supplement the accountability function of journalism.”
+      </p>
+      <p style='font-size: 0.8rem'>
+          James T. Hamilton and Fred Turner, “Accountability through Algorithm: Developing the Field of Computational Journalism” (a report from Developing the Field of Computational Journalism, a Center for Advanced Study in the Behavioral Sciences Summer Workshop, July 27–31, 2009), 2.
+      </p>
+      <p style='font-size: 1.2rem'>
+          Computational journalism, “Broadly defined ... can involve changing how stories are discovered, presented, aggregated, monetized, and archived.”
+      </p>
+      <p style='font-size: 0.8rem'>
+          Sarah Cohen, James T. Hamilton, and Fred Turner, “Computational Journalism,” Communications of the ACM 54 (2011): 66
+      </p>
+      <p style='font-size: 1.2rem'>
+          In analyzing the dimensions of computation that could advance sense making in journalism, Terry Flew and coauthors note:
+
+          “Automation alleviates activities such as data gathering and interpretation, number crunching, network analysis, sorting, and processing that would otherwise need to be done manually; algorithms allow operators to follow predefined steps needed to accomplish certain goals, identify problems, find suitable solutions in a large set of alternatives, and verify information in a reliable, consistent and efficient manner; and abstraction enables the qualification of different levels or perspectives from which an idea may be presented or new directions that may be explored.”
+      </p>
+      <p style='font-size: 0.8rem'>
+          Terry Flew, Christina Spurgeon, Anna Daniel, and Adam Swift , “The Promise of Computational Journalism,” Journalism Practice 6 (2012): 159
+      </p>
+      <p style='font-size: 1.2rem'>
+          Though computational journalism builds on and incorporates elements of computer-assisted reporting and data journalism, this new approach often involves larger data sets and more sophisticated algorithms. Recent advances in computational journalism center on reporting by algorithms, about algorithms, and through algorithms. Stories generated by computer algorithms include those by <a href="https://www.narrativescience.com/" target="_blank">Narrative Science</a> and <a href="https://automatedinsights.com/" target="_blank">Automated Insights</a>, companies seen as leaders in <a href="http://niemanreports.org/articles/automation-in-the-newsroom/" target="_blank">“Automation in the Newsroom.”</a> <a href="http://www.wsj.com/articles/SB10001424127887323777204578189391813881534" target="_blank">The Wall Street Journal</a> and <a href="https://www.propublica.org/article/what-we-know-about-the-computer-formulas-making-decisions-in-your-life" target="_blank">ProPublica</a> have each done reporting that looks at the disparate impacts of private and government algorithms on different groups in society. Reporters are also using algorithms to mine for stories, as the Atlanta Journal Constitution did in using web scraping and machine learning to identify potential cases across the country of <a href="http://doctors.ajc.com/about_this_investigation/" target="_blank">doctors involved in sexual misconduct.</a> The papers and video (to come) from the <a href="http://journalism.stanford.edu/cj2016" target="_blank">2016 Computation + Journalism conference at Stanford</a> show recent computational advances in story discovery, telling, and distribution.
+          </p>
+      <div class='four spacing'></div>
+      <div class='alt mod modSectionHeader'>
+<a id='about'></a>
+  <div class='special-title centered-text'>
+    <h2 style=''>
+      About the Class
+    </h2>
+  </div>
+</div>
+      <p class='centered-text'>
+        <img alt="" src="images/SUSig_White_Stack.png" />
+      </p>
+      <div class='spacing'></div>
+      <p class='centered-text' style='font-size: 1.6rem'>Tuesdays/Thursdays, 10:30 a.m. - 11:50 a.m.</p>
+      <p class='centered-text' style='font-size: 1.6rem'>Chaffee Seminar Room (Rm. 452), McClatchy Hall (Bldg. 120)</p>
+
+            <div class='two spacing'></div>
+      
+      <p style='font-size: 1.6rem'>This course will explore the evolving field of computational journalism. Students will research and discuss the state of field in five areas where computation is affecting journalism:</p>
+
+  <div class='row'>
+  <div class='medium-2 large-2 columns'>
+      <div class='mod modMilestone'>
+  <i class='fa fa-area-chart'></i>
+</div>
+    </div>
+  <div class='medium-10 large-10 columns'>
+  <br>
+  <p style='font-size: 1.6rem'><strong>AI, Data Science, and Info Viz</strong><p>
+</div>
+    </div>
+
+
+  <div class='row'>
+  <div class='medium-2 large-2 columns'>
+      <div class='mod modMilestone'>
+  <i class='fa fa-area-chart'></i>
+</div>
+    </div>
+  <div class='medium-10 large-10 columns'>
+  <br>
+  <p style='font-size: 1.6rem'><strong>Emerging Hardware Tech, including Drones, Sensors and VR</strong><p>
+</div>
+    </div>
+
+  <div class='row'>
+  <div class='medium-2 large-2 columns'>
+      <div class='mod modMilestone'>
+  <i class='fa fa-area-chart'></i>
+</div>
+    </div>
+  <div class='medium-10 large-10 columns'>
+  <br>
+  <p style='font-size: 1.6rem'><strong>Audience Participation and Diverse Viewpoints</strong><p>
+</div>
+    </div>
+
+  <div class='row'>
+  <div class='medium-2 large-2 columns'>
+      <div class='mod modMilestone'>
+  <i class='fa fa-area-chart'></i>
+</div>
+    </div>
+  <div class='medium-10 large-10 columns'>
+  <br>
+  <p style='font-size: 1.6rem'><strong>Free Speech and Democracy</strong><p>
+</div>
+    </div>
+
+  <div class='row'>
+  <div class='medium-2 large-2 columns'>
+      <div class='mod modMilestone'>
+  <i class='fa fa-area-chart'></i>
+
+</div>
+    </div>
+  <div class='medium-10 large-10 columns'>
+  <br>
+  <p style='font-size: 1.6rem'><strong>News Ecosystem and Business Models</strong><p>
+</div>
+</div>
+<p style='font-size: 1.2rem'>Admission to the course is by application. The fifteen students in the course will be divided into five teams of three students. Each team will work on describing the state of the art in CS research and journalism practice on a narrow question within the track. Each team will help select readings for discussion about their track, lead a session on that track, help the class converge on the narrow question to pursue in that track, and develop a final paper (15 pages maximum) and final presentation (3-5 minutes) which captures what is possible and probable in the overlap of computation and journalism they are examining.</p>
+
+<p style='font-size: 1.2rem'><strong>Timeline:</strong></p>
+
+            <ul>
+                <li>
+                    <p style="font-size: 1.2rem;">WEEK ONE (Jan. 10 and Jan. 12): Intro - How can you discover and tell stories through computational journalism?</p>
+                </li>
+                <li>
+                    <p style="font-size: 1.2rem;">WEEK TWO (Jan 17. and Jan. 19): Team Formation and Problem Definition</p>
+                </li>
+                <li>
+                    <p style="font-size: 1.2rem;">WEEK THREE (Jan. 24 and Jan. 26): AI, Data Science and Info Viz</p>
+                </li>
+                <li>
+                    <p style="font-size: 1.2rem;">WEEK FOUR (Jan. 31 and Feb. 2): Emerging Hardware Tech: Drones, Sensors and VR</p>
+                </li>
+                <li>
+                    <p style="font-size: 1.2rem;">WEEK FIVE (Feb. 7 and Feb. 9): Audience Participation and Diverse Viewpoints</p>
+                </li>
+                <li>
+                    <p style="font-size: 1.2rem;">WEEK SIX (Feb. 14 and Feb. 16): Free Speech and Democracy</p>
+                </li>
+                <li>
+                    <p style="font-size: 1.2rem;">WEEK SEVEN (Feb. 21 and Feb. 23): News Ecosystem and Business Models</p>
+                </li>
+                <li>
+                    <p style="font-size: 1.2rem;">WEEK EIGHT (Feb. 28 and March 2): Project presentations, Tracks 1 and 2</p>
+                </li>
+                <li>
+                    <p style="font-size: 1.2rem;">WEEK NINE (March 7 and March 9): Project presentations, Tracks 3 and 4</p>
+                </li>
+                <li>
+                    <p style="font-size: 1.2rem;">WEEK TEN: Project presentation Track 5 (March 14) and final presentations (March 16)</p>
+                </li>
+            </ul>      
+
+<a id='apply'></a>
+<div class='alt mod modSectionHeader'>
+  <div class='special-title centered-text'>
+    <div class='four spacing'></div>
+    <h2 style=''>
+      Application for COMM 281/CS 206
+    </h2>
+  </div>
+</div>
+      <div class='spacing'></div>
+      <p class='centered-text' style='font-size: 1.6rem'>
+        Thank you for your interest in COMM 281/CS 206, Exploring Computational Journalism. Please copy the questions below into the text of an email, complete your responses and email to Professor Jay Hamilton at jayth@stanford.edu.
+      </p>
+        <p class='centered-text' style='font-size: 1.6rem'>
+        First priority <strong>applications are due Nov. 18, 2016</strong>, however we'll accept applications beyond that deadline, depending on available space. The instructors will be reviewing applications with an eye toward selecting a collection of 15 students with backgrounds that will enable the seminar participants to delve into the five research areas.
+      </p>
+      <p style='font-size: 1.2rem'>1.) In this course, students will research and discuss the state of field in five areas where computation is affecting journalism: AI, Data Science and Info Viz; Emerging Hardware Tech, including Drones, Sensors and VR; Audience Participation and Diverse Viewpoints; Free Speech and Democracy; and News Ecosystem and Business Models. Which of these ares would you be most interested in exploring? Why?</p>
+      <p style='font-size: 1.2rem'>2.) Can you describe previous experiences and interests you've had in journalism and/or CS that have led you to be interested in computational journalism?</p>
+      <p style='font-size: 1.2rem'>3.) Is there anything else you would like us to know about why you would like to take the class?</p>
+  </div>
+    </div>
+  </div>
+      <br>
+</div>
+
+
+<div class='full no-padding' style='background: #8c1515; color: #fff'>
+  <div class='two spacing'></div>
+  <div class='mod modCallToAction'>
+    <div class='row'>
+      <div class='large-10 columns large-centered'>
+      <br>
+      <center>
+        <a class='boxed button' href='mailto:jayth@stanford.edu?Subject=My Application for COMM 281/CS206' target='_blank'><center>&nbsp;&nbsp;&nbsp;Email Your Application&nbsp;&nbsp;&nbsp;&nbsp;</center></a>
+      </center>
+      </div>
+    </div>
+  </div>
+
+  <div class='two spacing'></div>
+</div>
+
+
+
+
+ <div class='spacing'></div>
+</div>
+<a id='instructors'></a>
+<div class='full no-padding' style='background: #ffffff;'>
+  <div class='four spacing'></div>
+  <div class='row'>
+    <div class='large-10 columns large-centered'>
+      <div class='alt mod modSectionHeader'>
+  <div class='special-title centered-text'>
+    <h2 style=''>
+      Teaching Team
+    </h2>
+  </div>
+</div>
+      <div class='spacing'></div>
+      <div class='spacing'></div>
+          <div class='medium-6 large-6 columns'>
+      <p class='centered-text'>
+        <img alt="" src="images/agrawala.png"/>
+      </p> 
+      <center>
+        <a class='button small' href='http://graphics.stanford.edu/~maneesh' target='_blank'><center>Bio</center></a>
+      </center>
+      <center>
+        <a class='button small' href='https://en.wikipedia.org/wiki/Computational_thinking' target='_blank'><center>Recommended Reading</center></a>
+      </center> 
+            <div class='four spacing'></div>
+          </div>
+          <div class='medium-6 large-6 columns'>
+      <p style='font-size: 1.6rem'>
+        MANEESH AGRAWALA <br>
+        Professor of Computer Science
+      </p>
+    <p style='font-size: 1.2rem'>
+      My goal for the class is to work with the students and instructors to identify the open research problems and and areas that Computational Journalism (CJ) should focus on.  Where can computational tools and techniques benefit journalism the most? How should journalists think about and incorporate computational methods into their work? What is the role of algorithms and computational methods in the newroom?
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </p>
+            <div class='two spacing'></div>
+          </div>
+
+   <div class='medium-6 large-6 columns'>
+      <p class='centered-text'>
+        <img alt="" src="images/bharat.png"/>
+      </p> 
+      <center>
+        <a class='button small' href='https://en.wikipedia.org/wiki/Krishna_Bharat' target='_blank'><center>Bio</center></a>
+      </center>
+      <center>
+        <a class='button small' href='http://www.niemanlab.org/2011/04/google-news-founder-krishna-bharat-for-news-consumers-the-whole-experience-is-what-counts/' target='_blank'><center>Recommended Reading</center></a>
+      </center> 
+            <div class='four spacing'></div>
+          </div>
+          <div class='medium-6 large-6 columns'>
+      <p style='font-size: 1.6rem'>
+        KRISHNA BHARAT <br>
+        Founder, Google News
+      </p>
+    <p style='font-size: 1.2rem'>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br> 
+      <br>
+      <br>
+      <br> 
+      <br>
+      <br>
+      <br> 
+    </p>
+    </div>
+
+
+    <div class='two spacing'></div>
+          <div class='medium-6 large-6 columns'>
+      <p class='centered-text'>
+        <img alt="" src="images/garcia.png"/>
+      </p> 
+      <center>
+        <a class='button small' href='http://jsk.stanford.edu/about/people/garcia/' target='_blank'><center>Bio</center></a>
+      </center>
+      <center>
+        <a class='button small' href='https://medium.com/@Dawn.Garcia/jsk-fellowships-launches-new-teams-and-themes-concept-4b0b9f2f81c5#.6vmxfynmo' target='_blank'><center>Recommended Reading</center></a>
+      </center> 
+            <div class='four spacing'></div>
+          </div>
+          <div class='medium-6 large-6 columns'>
+      <p style='font-size: 1.6rem'>
+        DAWN GARCIA <br>
+        Director, John S. Knight Journalism Fellowships at Stanford
+      </p>
+    <p style='font-size: 1.2rem'>
+      Now, more than ever before, journalism is in an era of chaos and opportunity. My goal for this new course — Exploring Computational Journalism — is to advance the understanding of the challenges facing journalism today and the importance of journalism in a democracy. I’m eager for smart Stanford students from a range of disciplines — journalism, computer science, business, engineering and more — to explore those challenges together. The lessons and learning that comes out of this course will live on and inform the future of journalism, and in particular, the John S. Knight Journalism Fellowships here at Stanford. The JSK Fellowships is launching a new framework revolving around teamwork on the five areas articulated in this course. Come help us test out these ideas!
+    </p>
+    <div class='three spacing'></div>
+    </div>
+
+
+
+<div class='medium-6 large-6 columns'>
+      <p class='centered-text'>
+        <img alt="" src="images/hamilton.png"/>
+      </p> 
+      <center>
+        <a class='button small' href='https://comm.stanford.edu/faculty-hamilton/' target='_blank'><center>Bio</center></a>
+      </center>
+      <center>
+        <a class='button small' href='http://cjlab.stanford.edu/democracys-detectives-jay-hamilton/' target='_blank'><center>Recommended Reading</center></a>
+      </center> 
+            <div class='four spacing'></div>
+          </div>
+          <div class='medium-6 large-6 columns'>
+      <p style='font-size: 1.6rem'>
+        JAY HAMILTON <br>
+        Hearst Professor of Communication
+      </p>
+    <p style='font-size: 1.2rem'>
+      I believe that the evolution of computational journalism (CJ) can improve the economic prospects for public affairs journalism, particularly investigative reporting. On the supply side, CJ can lower the costs of discovering stories through better use of data and algorithms. On the demand side, CJ can make it possible to tell stories in more personalized and engaging ways. This can create product differentiation, so that a reader may seek out and be willing to pay for content form a particular outlet that is distinctive and highly valued. My hope is that Comm 281/CS 206 will produce work that helps identify specific ways that advances in computation can help journalists discover and tell stories in ways that are financially sustainable and that hold institutions accountable.
+    </p>
+    <div class='four spacing'></div>
+    </div>
+
+  </div>
+        </div>
+      </div>
+  </div>
+
+
+
+
+
+<div class='full parallax' style='background-image: url(images/desk.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='alt mod modSectionHeader'>
+  <div class='special-title centered-text'>
+    <h2 style='color: #fff;'>
+      Interdisciplinary Collaboration
+    </h2>
+  </div>
+</div>
+      <div class='two spacing'></div>
+      <center>
+        <div class='medium-4 large-4 columns'>
+        <a href="http://brown.stanford.edu" target="_blank"><img alt="The Brown Institute for Media Innovation" src="images/logo_brown.png" /></a>
+        </div>
+        <div class='medium-4 large-4 columns'>
+        <a href="http://cjlab.stanford.edu" target="_blank"><img alt="Stanford Computational Journalism Lab" src="images/logo_cjlab.png" /></a>
+        </div>
+        <div class='medium-4 large-4 columns'>
+        <a href="http://jsk.stanford.edu" target="_blank"><img alt="John S. Knight Journalism Fellowships at Stanford" src="images/logo_jsk.png" /></a>
+        </div>
+      <div class='two spacing'></div>   
+      </center>
+      </div>
+  </div>
+        <div class='four spacing'></div>
+
+
+
+<div class='full no-padding' style='background: #8c1515; color: #fff'>
+  <div class='four spacing'></div>
+  <div class='mod modCallToAction'>
+    <div class='row'>
+      <div class='medium-12 large-12 columns'>
+      <div class='alt mod modSectionHeader'>
+  <div class='special-title centered-text'>
+    <h2 style='color: #fff;'>
+      Questions?
+    </h2>
+  </div>
+</div>
+      <br>
+        <center>
+          <p style='font-size: 1.0rem'>Contact Professor Jay Hamilton:</p>
+          <a class='button boxed' href='mailto:jayth@stanford.edu?Subject=COMM 281/CS206 inquiry' target='_blank'><center>Email</center></a>
+        </center>
+      <div class='two spacing'></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='full no-padding' style='background: #4D4F53; color: #fff'>
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p>©2016/2017 Stanford University.</p>
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>
+    </div>
+
+    <script src="http://cjlab.stanford.edu/exploring-computational-journalism//javascripts/jquery.countTo.js" type="text/javascript"></script>
+<script src="http://cjlab.stanford.edu/exploring-computational-journalism//javascripts/jquery.appear.js" type="text/javascript"></script>
+<script src="http://cjlab.stanford.edu/exploring-computational-journalism//javascripts/jquery.validate.js" type="text/javascript"></script>
+<script src="http://cjlab.stanford.edu/exploring-computational-journalism//javascripts/jquery.sequence-min.js" type="text/javascript"></script>
+<script src="http://cjlab.stanford.edu/exploring-computational-journalism//javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="http://cjlab.stanford.edu/exploring-computational-journalism//javascripts/app.js" type="text/javascript"></script>
+
+  </body>
+
+</html>
