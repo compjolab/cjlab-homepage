@@ -1,0 +1,17 @@
+# Site settings
+title: 2016 Computation + Journalism Symposium
+email: journalism@commu.stanford.edu
+description: Join us for a two-day conference exploring the interface between journalism and computing.
+baseurl: "http://cjlab.stanford.edu/exploring-computational-journalism/" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: stanfordjourn
+github_username: 
+
+# Build settings
+markdown: kramdown
+
+paginate: 4
+paginate_path: "blog/page:num"
+
+gems:
+  - jekyll-paginate
