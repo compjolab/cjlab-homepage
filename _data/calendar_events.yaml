@@ -117,39 +117,50 @@
 #  description: |
 #    A hands-on, interactive introduction to SQL, the language for querying structured data.
 
-- title: Hands-on Intro to Data Cleaning with OpenRefine
-  date_start: 2016-10-11
-  more_info_url: http://events.stanford.edu/events/620/62093/
-  description: |
-    A hands-on workshop on OpenRefine to learn about many of this tool's great features, including: sorting, faceting, cell transformations, handling multi-valued cells, clustering and splitting data into multiple cells.
+#- title: Hands-on Intro to Data Cleaning with OpenRefine
+#  date_start: 2016-10-11
+#  more_info_url: http://events.stanford.edu/events/620/62093/
+#  description: |
+#    A hands-on workshop on OpenRefine to learn about many of this tool's great features, including: sorting, faceting, cell transformations, handling multi-valued cells, clustering and splitting data into multiple cells.
 
-- title: Gear Up for Social Science Data Extravaganza
-  date_start: 2016-10-21
-  more_info_url: http://events.stanford.edu/events/628/62817/
-  description: |
-    Discover social science data resources and research services.
+#- title: Gear Up for Social Science Data Extravaganza
+#  date_start: 2016-10-21
+#  more_info_url: http://events.stanford.edu/events/628/62817/
+#  description: |
+#    Discover social science data resources and research services.
 
-- title: Stanford Journalism Program October Open House
-  date_start: 2016-10-24
-  more_info_url: http://journalism.stanford.edu/admissions/applications/
-  description: |
-    Visit the Stanford Journalism Program on campus for a day of attending journalism classes, meeting faculty, talking to current students and exploring the Stanford campus. RSVP required.
+#- title: Stanford Journalism Program October Open House
+#  date_start: 2016-10-24
+#  more_info_url: http://journalism.stanford.edu/admissions/applications/
+#  description: |
+#    Visit the Stanford Journalism Program on campus for a day of attending journalism classes, meeting faculty, talking to current students and exploring the Stanford campus. RSVP required.
 
-- title: Mapping and Spatial Analysis with R - Part 1
-  date_start: 2016-11-07
-  more_info_url: http://events.stanford.edu/events/626/62609/
-  description: |
-    A hands-on introductory workshop to R as tool to visualize and analyze spatial data.
+#- title: Mapping and Spatial Analysis with R - Part 1
+#  date_start: 2016-11-07
+#  more_info_url: http://events.stanford.edu/events/626/62609/
+#  description: |
+#    A hands-on introductory workshop to R as tool to visualize and analyze spatial data.
 
-- title: Stanford Journalism Program November Open House
-  date_start: 2016-11-14
-  more_info_url: http://journalism.stanford.edu/admissions/applications/
-  description: |
-    Visit the Stanford Journalism Program on campus for a day of attending journalism classes, meeting faculty, talking to current students and exploring the Stanford campus. RSVP required.
+#- title: Stanford Journalism Program November Open House
+#  date_start: 2016-11-14
+#  more_info_url: http://journalism.stanford.edu/admissions/applications/
+#  description: |
+#    Visit the Stanford Journalism Program on campus for a day of attending journalism classes, meeting faculty, talking to current students and exploring the Stanford campus. RSVP required.
 
-- title: Mapping and Spatial Analysis with R - Part 2
-  date_start: 2016-11-14
-  more_info_url: http://events.stanford.edu/events/626/62613/
-  description: |
-    A hands-on introductory workshop to R as tool to visualize and analyze spatial data.
+#- title: Mapping and Spatial Analysis with R - Part 2
+#  date_start: 2016-11-14
+#  more_info_url: http://events.stanford.edu/events/626/62613/
+#  description: |
+#    A hands-on introductory workshop to R as tool to visualize and analyze spatial data.
 
+- title: 2017 Investigative Reporters & Editors Conference (IRE 2017)
+  date_start: 2017-06-22
+  more_info_url: http://ire.org/conferences/ire2017/
+  description: |
+    Reboot your skills, recharge your watchdog batteries and reconnect with the world’s largest network of investigative journalists during this year’s gathering in Phoenix.
+
+- title: 2017 Computation + Journalism Symposium
+  date_start: 2017-10-13
+  more_info_url: http://cj2017.northwestern.edu/
+  description: |
+    Explore the interface between journalism and computing, at this year's C+J Symposium at Northwestern University in Evanston, Illinois.
