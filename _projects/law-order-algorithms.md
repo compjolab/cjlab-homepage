@@ -1,7 +1,7 @@
 ---
-title: Law, Order and Algorithms
+title: Stanford Open Policing Project
 description: |
-  The Law, Order & Algorithms project at Stanford is continuing to collect, clean and analyze more than 100 million records of police interactions data, including traffic stops across American highways.
+  The Stanford Open Policing Project (formerly known as Law, Order & Algorithms project) is continuing to collect, clean and analyze more than 100 million records of police interactions data, including traffic stops across American highways.
 image_url: /files/images/photos/laworderalgorithms.jpg
 ---
 

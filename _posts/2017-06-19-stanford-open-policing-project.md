@@ -6,7 +6,7 @@ description: |
 via: Stanford News Service
 via_url: http://news.stanford.edu/2017/06/19/database-reveals-disparities-officers-treatment-minority-motorists/
 ---
-JUNE 19, 2017 <a href="http://news.stanford.edu/2017/06/19/database-reveals-disparities-officers-treatment-minority-motorists/" target="_blank">(Republished via Stanford News Service/Tom Abate, Stanford Engineering)</a> - Analyzing what may be the largest trove of traffic stop data ever assembled, Stanford researchers found that black and Hispanic drivers were more likely than white drivers to be cited, searched and arrested after being stopped.
+Analyzing what may be the largest trove of traffic stop data ever assembled, Stanford researchers found that black and Hispanic drivers were more likely than white drivers to be cited, searched and arrested after being stopped.
 
 The researchers noted that such disparities alone are not necessarily indicative of racial bias. However, by looking at the rate at which officers discover contraband on searched drivers, they find evidence that minorities are held to a double standard and searched on the basis of less evidence.
 
