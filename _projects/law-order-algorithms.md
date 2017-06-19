@@ -12,9 +12,9 @@ We expect to be releasing data early in 2017 along with primers on the best prac
 
 In June 2017, the project released what may be the largest trove of traffic stop data ever assembled at [openpolicing.stanford.edu](https://openpolicing.stanford.edu/). Our nationwide analysis found that black and Hispanic drivers were more likely than white drivers to be cited, searched and arrested after being stopped.
 
-**Learn more: [Via Stanford News Service](http://news.stanford.edu/2017/06/19/database-reveals-disparities-officers-treatment-minority-motorists/)**
+**Learn more: [Via Stanford News Service, June 2017](http://news.stanford.edu/2017/06/19/database-reveals-disparities-officers-treatment-minority-motorists/)**
 
-**Learn more: [Via Stanford News Service](http://news.stanford.edu/2016/02/10/law-order-algorithm-021016/)**
+**Learn more: [Via Stanford News Service, Feb. 2016](http://news.stanford.edu/2016/02/10/law-order-algorithm-021016/)**
 
 **Learn more: [Via Knight News Challenge](https://www.newschallenge.org/challenge/data/entries/law-order-algorithms-making-sense-of-100-million-highway-patrol-stops)**
 
