@@ -8,7 +8,6 @@ image_url: /files/images/photos/laworderalgorithms.jpg
 The Stanford Open Policing Project (formerly known as Law, Order & Algorithms project) has been busy continuing to collect, clean and analyze more than 100 million records of police interactions data. In particular, we have focused on collecting state patrol stop and search data. We also are beginning to collect city-level data where possible.
 
 In August 2016, Cheryl Phillips was a faculty member for "Covering Deadly Force," a Poynter-McCormick Foundation workshop for journalists in Chicago. The journalists learned more about our Stanford project and how they could make use of the police interaction data for stories down the road as well as take advantage of tea academic firepower Stanford is bringing to the effort.
-We expect to be releasing data early in 2017 along with primers on the best practices for analyzing such data and finding patterns within the data that will yield important stories.
 
 In June 2017, the project released what may be the largest trove of traffic stop data ever assembled at [openpolicing.stanford.edu](https://openpolicing.stanford.edu/). Our nationwide analysis found that black and Hispanic drivers were more likely than white drivers to be cited, searched and arrested after being stopped.
 
