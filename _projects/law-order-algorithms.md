@@ -11,6 +11,8 @@ In August 2016, Cheryl Phillips was a faculty member for "Covering Deadly Force,
 
 In June 2017, the project released what may be the largest trove of traffic stop data ever assembled at [openpolicing.stanford.edu](https://openpolicing.stanford.edu/). Our nationwide analysis found that black and Hispanic drivers were more likely than white drivers to be cited, searched and arrested after being stopped.
 
+<iframe width="853" height="480" src="https://www.youtube.com/embed/iwOWcuFjNfw?rel=0" frameborder="0" allowfullscreen></iframe>
+
 **Learn more: [Via Stanford News Service, June 2017](http://news.stanford.edu/2017/06/19/database-reveals-disparities-officers-treatment-minority-motorists/)**
 
 **Learn more: [Via Stanford News Service, Feb. 2016](http://news.stanford.edu/2016/02/10/law-order-algorithm-021016/)**
