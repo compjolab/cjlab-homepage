@@ -153,6 +153,12 @@
 #  description: |
 #    A hands-on introductory workshop to R as tool to visualize and analyze spatial data.
 
+- title: 2018 Investigative Reporters & Editors Conference (IRE 2018)
+  date_start: 2018-06-24
+  more_info_url: https://ire.org/conferences/ire-2018/
+  description: |
+    IRE 2018 is in Orlando, Fla., and the keynote speaker is  60 Minutes correspondent Bill Whitaker.
+
 - title: 2017 Investigative Reporters & Editors Conference (IRE 2017)
   date_start: 2017-06-22
   more_info_url: http://ire.org/conferences/ire2017/
