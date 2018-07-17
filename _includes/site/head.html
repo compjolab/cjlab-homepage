@@ -9,10 +9,10 @@
   {% include social/twitter-card.html %}
   {% include social/twitter-widget-js.html %}
 
-  <link rel="shortcut icon" href="{%asset_path favicon.ico %}" type="image/x-icon" />
-<!--   <link rel="stylesheet" href="{{ "/assets/stylesheets/main.css" | prepend: site.baseurl }}">
- -->
-{{ 'main' | stylesheet }}
+  <link rel="shortcut icon" href="{% asset favicon.ico @path%}" type="image/x-icon" />
+  <link rel="stylesheet" href="{% asset main.css @path %}">
+  <script src="{% asset main.js @path %}"></script>
+
 {{ 'main' | javascript }}
 
   {% include social/google-analytics.html service_id="UA-68150677-1" %}

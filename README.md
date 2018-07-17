@@ -30,7 +30,7 @@ In the shell, check your version:
 ruby -v
 ~~~
 
-A version of `2.0` or higher should be fine.
+A version of `2.3` or higher should be fine.
 
 
 ### 2. Install the Jekyll gem
@@ -39,4 +39,15 @@ A version of `2.0` or higher should be fine.
 gem install jekyll
 ~~~
 
+### 3. Install JDK 8.x
+
+Unfortunately, the s3-website gem only works with JDK 8. It may be easiest to install **jenv** and run v8 for this project only:
+
+https://github.com/laurilehmijoki/s3_website/issues/298#issuecomment-372244500
+
+You can also download Java 8 SDK here:
+
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+At some point, might be easier to write a script that just rsyncs with the bucket.
 

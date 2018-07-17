@@ -38,7 +38,7 @@ defaults:
     values:
       layout: "page"
 
-gems:
+plugins:
   - octopress-autoprefixer
   - s3_website
   - jekyll-assets
